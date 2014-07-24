@@ -44,5 +44,3 @@ var dougnut2 = new Chart(document.getElementById("weeklyGoal2").getContext("2d")
 
    
 ///////tab refresh
-
-
