@@ -1,0 +1,174 @@
+
+
+
+@import "settings";
+@import "foundation";
+
+
+
+
+
+div#listitem{
+  background: #fff;
+ border-radius: 4px 4px 4px 4px;
+width:95%;
+margin-bottom: 7px;
+
+
+
+
+
+
+
+ img{
+padding-top: 20px;
+ }
+}
+
+div#title{
+  h5{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+h6{
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+p{
+  font-size: 14px;
+}
+}
+
+
+div#percent{
+
+padding-left: 50px;
+
+
+h4{
+  font-size: 57px;
+}
+
+h5{
+  font-size: 15px;
+  min-width: 150px;
+ 
+}
+
+}
+
+div#goal{
+  text-align: right;
+  padding-top: 10px;
+h6{
+  font-size: 14px;
+}
+
+
+
+}
+
+div#results{
+  padding-bottom: 20px;
+
+h6{
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+h4{
+  font-size: 26px;
+  text-align: center;
+  padding-left: 50px;
+  margin-top: -5px;
+}
+
+select{
+  width:140px;
+  height: 27px;
+  font-size: 14px;
+ padding: 5px;
+}
+
+  label{
+  color:#000000;
+  font-size: 15px;
+  padding-left:22px;
+    padding-right:5px;
+}
+
+}
+
+
+
+///////////////////////////smal
+@media only screen and (max-width: 640px) {
+
+div#title{
+ 
+    padding-left: 20px;
+
+}
+
+
+
+
+
+div#goal{
+
+  padding-top: 30px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+////////////////////////medium sizes
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+
+div#title{
+
+ padding-left: 15px;
+
+}
+
+div#percent{
+  margin-top: -5px;
+  margin-left: -40px;
+text-align: center;
+
+
+
+h4{
+  font-size: 48px;
+
+}
+
+h5{
+min-width: 70px;
+ 
+ 
+}
+}
+
+
+
+
+}
+
+
+
+

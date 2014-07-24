@@ -1,0 +1,410 @@
+
+
+
+@import "settings";
+@import "foundation";
+
+
+div#logo{
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+
+h2{
+  font-size: 20px;
+   font-weight: normal;
+  text-align: right;
+  padding-top: 10px;
+}
+}
+
+
+.button-group {
+text-align: center;
+padding-left: 40px;
+
+  li a {
+      border: 0;
+      background: #fff;
+      font-size: 17px;
+      color: #000000;
+
+     
+               }
+
+:hover {
+ font-color: #000000;
+}
+}
+
+
+
+
+
+div#signup{
+    background-image: url('../images/streethome.png');
+     background-size: cover;
+}
+
+div#signup {
+  padding-bottom: 30px;
+
+  h1, h2{
+  font-size: 48px;
+  font-family:Open Sans, sans-serif;
+  color:#ffffff;
+  text-shadow: 3px 3px 3px #000000;
+  padding-top: 20px;
+}
+
+label{
+text-shadow: 3px 3px 3px #000000;
+margin-top: -10px;
+
+
+}
+
+ h3 {
+  font-size: 29px;
+  font-family:Open Sans, sans-serif;
+  color:#ffffff;
+  text-shadow: 3px 3px 3px #000000;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+
+}
+
+div#form1{
+  label{
+    padding-right:30px;
+
+    }
+  }
+
+
+
+
+#create h4{
+  font-size: 29px;
+   vertical-align: middle;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-style: italic; 
+}
+
+:-ms-input-placeholder {  
+   font-style: italic;  
+}
+
+#create p{
+  display: inline-block;
+  font-family: Times;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2em;
+}
+
+
+div#create{
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+ div#create .button {
+  width: 300px;
+  font-size: 26px;
+  color:#fff;
+  border-radius: 4px;
+   line-height: 58px;
+box-shadow: 0 5px #404040;
+margin-top: 30px;
+}
+
+ div#create .button:hover {
+  background-color: #1a6868;
+}
+
+ div#create .button:focus {
+  background-color: #1a6868;
+}
+
+
+
+
+
+div#create .woman{
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+
+div#footer_1 {
+    background: #ebe5b0;
+   min-height: 200px;
+    h3{
+      padding-top: 40px;
+      text-align: center;
+    }
+
+    h4{
+      text-align: center;
+    }
+
+    h5{
+  padding-top: 54px;
+  text-align: center;
+}
+  }
+
+div#footer_2 {
+    background: #90e4cb;
+   min-height: 124px;
+  }
+
+
+   #footer_2 {
+    h3{
+
+  font-family: Pacifico;
+  font-size: 36px;
+   text-align: center;
+  margin-top: 44px;
+  }
+h5{
+  padding-top: 40px;
+  font-size: 14px;
+  text-align: right;
+  
+  }
+}
+
+
+
+
+///////////////////////////smal
+@media only screen and (max-width: 640px) {
+
+div#logo{
+ 
+  h2{
+    text-align: center;
+  }
+}
+
+
+div#signup{
+  h1, h2{
+    margin-bottom: -50px;
+  } 
+
+
+  h3{
+    padding-top: 90px;
+      padding-bottom: 40px;
+     
+  }
+}
+
+div#form1{
+
+  label{
+      text-align: center;
+      padding-left: 30px;
+  }
+  
+}
+
+  div#form2 {
+
+  label{
+    text-align: center;
+  }
+
+ 
+}
+
+
+
+
+.button-group {
+padding-left: 0px;
+}
+
+ div#create{
+  padding-top: 20px;
+ 
+
+ .button {
+width:100%;
+line-height: 1.2em;
+padding-top: 5px;
+}
+
+img{
+  padding-top: 0px;
+}
+}
+
+
+ div#footer_1 {
+ 
+    h3{
+      font-size: 33px;
+      padding-top: 0px;
+     
+    }
+    h5{
+  padding-top: 10px;
+  font-size: 20px;
+ 
+}
+  }
+
+  div#footer2{
+    h5{
+      text-align: center;
+    }
+  }
+
+
+}
+
+
+////////////////////////medium sizes
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+.button-group {
+padding-left: 0px;
+}
+
+
+div#signup{
+ h1, h2{
+    margin-bottom: -50px;
+  } 
+
+  h3{
+    padding-top: 90px;
+    padding-bottom: 40px;  
+  }
+
+}
+
+
+div#form1{
+  text-align: center;
+  label{
+    padding-right:10%;
+min-width:300px;
+  line-height: 1.1em;
+  padding-top: 10px;
+    }
+    input{
+      width:80%;
+    }
+  }
+
+
+div#form2{
+  label{
+    padding-right:10%;
+  min-width:300px;
+  padding-top: 10px;
+
+    }
+    select{
+      width:86%;
+      margin-left: -15px;
+    }
+  }
+
+
+
+ div#create{
+   padding-top: 30px;
+  padding-bottom: 20px;
+
+
+img{
+  padding-top: 20px;
+}
+
+}
+
+ div#footer_1 {
+ 
+    h3{
+      padding-top: 10px;
+     
+    }
+    h5{
+  padding-top: 20px;
+ 
+}
+  }
+
+}
+
+
+
+
+////////my custom size
+
+@media only screen and (min-width: 640px) and (max-width: 699px) {
+
+
+.custom-row-class {
+  @include grid-row();
+  .custom-column-class {
+    @include grid-column(12);
+  }
+}
+
+div#form1{
+
+  label{
+      text-align: right;
+padding-right: 40px;
+    
+  }
+  
+}
+
+  div#form2 {
+
+  label{
+    text-align: right;
+  
+    min-width: 250px;
+   
+  }
+  select{
+    width:90%;
+     padding-left: 20px;
+    }
+
+ 
+}
+
+
+
+
+   
+
+}

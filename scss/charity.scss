@@ -1,0 +1,388 @@
+
+@import "settings";
+@import "foundation";
+
+
+
+div#content{
+  padding-top: 40px;
+}
+
+div#charity{
+  background-color: #fff8ba;
+  min-height: 900px;
+}
+
+.overlay-container {
+  position: relative;
+  padding-right: 20px; /* <-- Set as the reference for the positioned overlay */
+}
+
+.overlay-container .overlay {
+  position: absolute; /* <-- Remove the overlay from normal flow         */
+  top: 0;          /* <-- Keep the overlay at the bottom of the box   */
+  left: 0;            /* <-- Set left and right properties to 0          */
+  right: 0;  
+          /*     In order to expand the overlay horizontally */
+
+  padding: 0.4rem;
+ 
+}
+
+
+#content h1 {
+  font-size: 36px;
+}
+
+
+
+.social{
+  height: 48px;
+  width: 48px;
+  margin-right: 1.9px;
+
+}
+
+div#socialicons{
+  text-align: center;
+  margin-top: 20px;
+
+.button {
+background: none;
+}
+
+h6 {
+margin-top: -10px;
+}
+
+}
+
+
+
+
+
+div#comments{
+  padding-top: 80px;
+
+.tabs a{
+  min-width: 198px;
+  text-align: center;
+border-radius: 4px 4px 0 0;
+box-shadow:9px 0px 0px 0px #000000;
+overflow: hidden;
+
+}
+
+.tabs .tab-title.active{
+  z-index: 100;
+}
+
+
+ .tabs a::before{
+ z-index: 3;
+}
+
+ .tabs a::after{
+ z-index: -1;
+}
+
+ .tabs-content{
+background-color: #fff;
+border-radius: 4px 4px 0 0;
+min-width: 609px;
+min-height: 883px;
+padding-top: 50px;
+box-shadow:9px 0px 0px 0px #000000;
+}
+
+}
+
+ 
+
+
+
+
+
+ div#donors img{
+  padding-right: 5px;
+padding-left: 40px;
+margin-top: -33px;
+}
+  
+
+ div#donors p{
+  padding-left: 40px;
+  font-weight: bold;
+  
+  }
+
+div#comment_tab p {
+    padding-left: 40px;
+
+  }
+
+  div#commenter p{
+    text-align: right;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+
+div#amount p{
+ text-align: right;
+ padding-right: 40px;
+ font-weight: bold;
+ margin-bottom:85px;
+}
+
+
+
+
+div#weekly {
+  h3 {
+  font-size: 22px;
+  text-shadow: none;
+  text-align: right;
+
+}
+}
+
+div#chart{
+  text-align: right;
+  background: none;
+  margin-top: -20px;
+
+h4 {
+  font-size: 67px;
+  text-shadow: none;
+  text-align:right;
+  font-color:#000000;
+}
+
+
+}
+
+
+ div#content-right {
+text-align: right;
+
+ .button {
+  width: 300px;
+  font-size: 30px;
+  color:#fff;
+  border-radius: 4px;
+   line-height: 58px;
+box-shadow: 0 5px #404040;
+ font-style: normal;
+}
+
+.button:hover {
+  background-color: #1a6868;
+}
+
+.button:focus {
+  background-color: #1a6868;
+}
+
+h6{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+}
+
+
+
+
+
+
+/* line 87, ../scss/charity.scss */
+div#favorite{
+
+ .button:hover {
+  background-color: #1a6868;
+}
+
+ .button:focus {
+  background-color: #1a6868;
+}
+}
+
+
+div#test .button {
+
+border-radius:4px;
+background: #39c1c1;
+width:225px;
+
+
+}
+
+
+
+.btn-txt {
+  margin-right: 20px;
+  margin-left: 10px;
+vertical-align: middle;
+  font-style: normal;
+}
+
+div#text{
+     font-size: 21px;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 7px;
+
+}
+
+
+
+/*//////////////////////////small size//////////*/
+@media only screen and (max-width: 640px) {
+
+
+#content-right{
+text-align: center;
+  
+
+
+  h6{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+}
+
+
+
+
+
+}
+
+
+
+  /*///////////////////////medium sizes//////////*/
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+
+
+
+
+
+.overlay-container {
+width: 93%;
+height: 93%;
+  }
+
+div#pic2{
+  text-align: center;
+    img{
+      max-height: 249px;
+    }
+
+}
+
+div#socialicons{
+ 
+}
+
+
+
+#chart h4 {
+  
+  text-align:left;
+
+}
+
+#chart h3 {
+
+  text-align: left;
+ 
+}
+
+div#chart{
+  text-align: left;
+
+}
+
+#content-right{
+
+img{
+
+}
+
+  h6{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+}
+
+ div#content-right .button {
+  width: 300px;
+  font-size: 30px;
+  color:#fff;
+  border-radius: 4px;
+   line-height: 58px;
+box-shadow: 0 5px #404040;
+ font-style: normal;
+
+}
+
+
+ div#content-right .button:hover {
+  background-color: #1a6868;
+}
+
+ div#content-right .button:focus {
+  background-color: #1a6868;
+}
+
+
+/* line 87, ../scss/charity.scss */
+div#favorite .button:hover {
+  background-color: #1a6868;
+}
+
+/* line 91, ../scss/charity.scss */
+div#favorite .button:focus {
+  background-color: #1a6868;
+}
+
+
+
+div#test .button {
+
+border-radius:4px;
+background: #39c1c1;
+width:225px;
+
+
+}
+
+
+
+.btn-txt {
+  margin-right: 20px;
+  margin-left: 10px;
+vertical-align: middle;
+  font-style: normal;
+}
+
+div#text{
+     font-size: 21px;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 7px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
