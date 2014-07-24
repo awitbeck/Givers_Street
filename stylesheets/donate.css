@@ -1,0 +1,76 @@
+/* line 4, ../scss/donate.scss */
+form {
+  padding-top: 40px;
+}
+/* line 7, ../scss/donate.scss */
+form label {
+  font-size: 15px;
+  color: #000000;
+}
+
+/* line 15, ../scss/donate.scss */
+div#identity {
+  padding-bottom: 20px;
+}
+
+/* line 21, ../scss/donate.scss */
+div#other input {
+  margin-left: -8px;
+}
+
+/* line 31, ../scss/donate.scss */
+div#inputbox input {
+  margin-left: -120px;
+  margin-top: -10px;
+  min-width: 167px;
+}
+
+/* line 42, ../scss/donate.scss */
+textarea {
+  min-height: 125px;
+}
+
+/* line 50, ../scss/donate.scss */
+div#submit {
+  padding-left: 8px;
+}
+/* line 54, ../scss/donate.scss */
+div#submit .button {
+  width: 224px;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 58px;
+  box-shadow: 0 5px #404040;
+  font-style: normal;
+}
+/* line 66, ../scss/donate.scss */
+div#submit .button:hover {
+  background-color: #1a6868;
+}
+/* line 70, ../scss/donate.scss */
+div#submit .button:focus {
+  background-color: #1a6868;
+}
+
+/* line 76, ../scss/donate.scss */
+div#left-column {
+  text-align: right;
+  padding-top: 20px;
+}
+/* line 80, ../scss/donate.scss */
+div#left-column h5 {
+  padding-top: 5px;
+  font-size: 14px;
+}
+/* line 86, ../scss/donate.scss */
+div#left-column h6 {
+  font-size: 22px;
+  margin-top: -15px;
+}
+/* line 91, ../scss/donate.scss */
+div#left-column h4 {
+  padding-top: 10px;
+  font-size: 56px;
+  margin-bottom: -10px;
+}

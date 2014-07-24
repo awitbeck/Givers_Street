@@ -1,0 +1,553 @@
+
+
+
+div#charity{
+  background-color: #fff8ba;
+  min-height: 900px;
+}
+
+
+div#content{
+  padding-top: 40px;
+}
+
+
+
+
+div#all_tabs{
+  padding-top: 80px;
+}
+
+
+div#all_tabs .tabs a{
+  min-width: 198px;
+  text-align: center;
+border-radius: 4px 4px 0 0;
+box-shadow:9px 0px 0px 0px #000000;
+ position: relative;
+
+    }
+  
+ .tab-title.active{
+      z-index: 100;
+      position: relative;
+    }
+
+   .title2{
+      z-index: 3;
+      position: relative;
+    }
+
+   .title3{
+      z-index: 1;
+      position: relative;
+    }
+
+
+
+
+
+
+div#all_tabs .tabs-content{
+background-color: #fff;
+border-radius: 4px 4px 0 0;
+max-width: 952px;
+min-height: 883px;
+padding-top: 50px;
+box-shadow:9px 0px 0px 0px #000000;
+}
+
+
+
+
+#content h1 {
+  font-size: 36px;
+}
+
+
+
+#panel2-1{
+
+#top_section{
+
+h5{
+  font-size: 16px;
+  padding-left: 40px;
+}
+
+  h6{
+    margin-left: -10px;
+    font-size: 14px;
+   text-align: left;
+  }
+  img{
+    padding-right: 20px;
+  }
+}
+}
+
+#change{
+  text-align: right;
+  padding-right: 40px;
+}
+
+#messages h5{ 
+    padding-left: 45px;
+  
+}
+
+
+div#mailbox {
+  margin-left: 0px;
+  padding-right: 40px;
+
+ #table-wrapper {
+      height:444px;
+      overflow:auto;
+      margin-left: 30px;  
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+border-top: 1px solid black;
+                  }
+  
+td{
+    text-align: center;
+    border-left: 0px none;
+    border-right: 0px none;
+    border-top: 0px none;
+  }
+
+
+  table {
+    max-height: 200px;
+    border-collapse: collapse;
+    width:100%;
+     
+}     
+       
+}
+
+
+
+div#main {
+  padding-left: 40px;
+
+}
+
+
+
+
+
+
+
+div#favorites h1{
+  font-size: 16px;
+  padding-left: 40px;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+div#favorite{
+overflow: hidden;
+background:#f8f2bf;
+max-height: 110px;
+max-width: 872px;
+border-radius: 4px 4px 4px 4px;
+margin:10px auto;
+
+img{
+  padding-top: 15px;
+}
+
+
+#percent {
+margin-left: -40px;
+  h4{
+  font-size: 47px;
+}
+h5{
+  font-size: 13px;
+}
+}
+
+
+div#title{
+ min-width: 278px;
+  margin-left: -30px;
+
+  p{
+    font-size: 11px;
+   }
+
+  h5{
+    font-size: 16px;
+   
+  }
+   h6{
+    font-size: 18px;
+  
+  }
+  
+}
+
+
+div#goal{
+  margin-top:2px;
+   text-align: center;
+   padding-left: 90px;
+   padding-right: 0px;
+  
+}
+
+canvas{
+    margin-top: -5px;
+}
+
+div#option{
+  margin-left: 0px;
+
+
+}
+
+
+label {
+    font-size: 17px;
+ color:#000000;
+  cursor: pointer;
+  display: block;
+ 
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.label-align input[type="checkbox"]{
+  margin-top:6px;
+} 
+
+.label-align span{
+  margin: 0 0 20px 20px;
+  display: block;
+}
+
+.left{
+  float:left;
+}
+
+
+
+.button {
+    width: 89px;
+  height: 23px;
+  font-size: 16px;
+  color:#fff;
+  border-radius: 4px;
+box-shadow: 0 2px #404040;
+}
+
+
+
+div#donate{
+  padding-left: 15px;
+
+}
+
+}
+
+/**end of settings for panels on first tab*/
+
+
+
+
+
+
+/******************second tab***********/
+
+
+div#donatetotal{
+  text-align: center;
+ 
+  h1{
+    font-size: 20px;
+  } 
+
+  h3{
+    font-size: 38px;
+  }
+
+  h4{
+    font-size: 20px;
+    font-style: italic;
+  }
+
+}
+
+
+
+div#tabledonate {
+  padding-top: 40px;
+
+  h6{
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+  }
+
+
+table {
+  background-color: #fff;
+ border-width:0px;
+  padding-left: 35px;
+      }
+
+    
+
+ td{
+   background-color: #fff;
+   border-color:#fff;
+  font-size: 11px;
+  padding-right:5px;
+  padding-bottom: 20px;
+  }
+  
+  .button{
+    background-color: #ebe5b0;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 16px;
+    width: 46px;
+    height: 16px;
+     border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+  }
+ 
+}
+
+
+
+
+
+div#share {
+padding-top: 100px;
+text-align: center;
+
+
+
+
+
+
+h6{
+  padding-bottom: 20px;
+
+}
+}
+
+
+div#mydonations1{
+  padding-top: 40px;
+
+ h1{
+  font-size: 16px;
+  text-align: right;
+  
+  padding-bottom: 5px;
+}
+
+h6{
+   font-size: 11px;
+  text-align: right;
+  padding-right: 60px;
+   margin-top: -5px;
+    margin-bottom: 5px;
+  
+}
+
+}
+
+div#mydonations2 {
+    @extend #mydonations1;
+ h6{
+  padding-right: 40px;
+ }
+
+}
+
+div#mydonations3 {
+@extend #mydonations2;
+
+}
+
+
+div#tablecharity{
+  @extend #tabledonate;
+
+  .button{
+    width: 81px;   
+  }
+
+  h5{
+    font-size: 16px;
+    padding-top: 20px;
+   margin-left: -20px;
+  }
+ 
+}
+
+
+
+
+
+
+
+div#charitycomments{
+  padding-top: 40px;
+  margin-left: -50px;
+
+    h5{
+    font-size: 18px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+  }
+
+
+  h6{
+    font-size: 16px;
+    font-style: italic;
+    text-align: left;
+  }
+
+  p{
+    font-size: 13px;
+    font-style: italic;
+  }
+.approve{
+  background-color: #59ab35;
+   border-radius: 4px;
+   width: 70px;
+   height: 20px;
+   font-size: 13px;
+   color:#fff;
+   box-shadow: 0 3px #404040;
+}
+
+.approve:hover {
+  background-color: #366821;
+}
+
+.approve:focus {
+  background-color: #75df47;
+}
+
+
+.deny{
+  @extend .approve;
+  background-color: #c0392b;
+  margin-left: -10px;
+}
+.deny:hover {
+  background-color: #691e16;
+}
+
+.deny:focus {
+  background-color: #ed4331;
+}
+
+
+
+
+
+}
+
+
+
+ div#left-column .button {
+  width: 300px;
+  font-size: 30px;
+  color:#fff;
+  border-radius: 4px;
+   line-height: 58px;
+box-shadow: 0 5px #404040;
+ font-style: normal;
+
+}
+
+
+ div#left-column .button:hover {
+  background-color: #1a6868;
+}
+
+ div#left-column .button:focus {
+  background-color: #1a6868;
+}
+
+
+
+
+
+
+/****************small size**********************/
+
+@media only screen and (max-width: 640px) {
+  }
+
+
+
+
+
+
+
+  /*///////////////////////medium sizes//////////*/
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+
+#donatetotal{
+  padding-bottom: 20px;
+}
+
+div#tabledonate {
+  padding-left: 0px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 20px;
+
+
+
+
+table {
+  background-color: #fff;
+ border-width:0px;
+      }
+
+    
+
+ td{
+   background-color: #fff;
+   border-color:#fff;
+  font-size: 11px;
+  padding-right:5px;
+  padding-bottom: 20px;
+  }
+  
+ 
+ 
+}
+
+
+div#share {
+padding-top: 40px;
+
+h6{
+ margin-bottom: -20px;
+
+}
+}
+
+}
+

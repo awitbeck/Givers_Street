@@ -1,0 +1,154 @@
+/* line 2, ../scss/style.scss */
+#logo {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* line 7, ../scss/style.scss */
+#logo h2 {
+  font-size: 20px;
+  font-family: Open Sans, sans-serif;
+  font-weight: normal;
+  color: #000000;
+  text-shadow: 0px 0px 0px #000000;
+  text-align: right;
+}
+
+/* line 16, ../scss/style.scss */
+nav {
+  text-align: center;
+  display: block;
+}
+
+/* line 22, ../scss/style.scss */
+nav .button {
+  border: 0;
+  background: #fff;
+  font-size: 17px;
+  color: #000000;
+  text-align: center;
+  width: 240px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: inline-block;
+}
+
+/* line 38, ../scss/style.scss */
+nav .button:hover {
+  background: #fff;
+}
+
+/* line 42, ../scss/style.scss */
+div#signup {
+  background-image: url("../images/streethome.png");
+  min-height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+/* line 49, ../scss/style.scss */
+#signup h1, h2 {
+  font-size: 48px;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px #000000;
+}
+
+/* line 57, ../scss/style.scss */
+#signup h3 {
+  font-size: 29px;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px #000000;
+  text-align: center;
+  padding-top: 60px;
+}
+
+/* line 66, ../scss/style.scss */
+#create h4 {
+  font-size: 29px;
+  vertical-align: middle;
+}
+
+/* line 71, ../scss/style.scss */
+#create p {
+  display: inline-block;
+  font-family: Times;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2em;
+}
+
+/* line 81, ../scss/style.scss */
+div#create {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+/* line 86, ../scss/style.scss */
+.button {
+  width: 300px;
+  font-size: 26px;
+  border-radius: 4px;
+  line-height: 58px;
+  -moz-box-shadow: 0 5px #404040;
+  -webkit-box-shadow: 0 5px #404040;
+  box-shadow: 0 5px #404040;
+  margin-top: 30px;
+}
+
+/* line 97, ../scss/style.scss */
+div#create .woman {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* line 105, ../scss/style.scss */
+div#footer_1 {
+  background: #ebe5b0;
+  min-height: 200px;
+}
+
+/* line 110, ../scss/style.scss */
+div#left_footer {
+  margin-bottom: 44px;
+  margin-top: 44px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 118, ../scss/style.scss */
+#footer_1 h5 {
+  margin-bottom: 54px;
+  margin-top: 54px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 127, ../scss/style.scss */
+div#footer_2 {
+  background: #90e4cb;
+  min-height: 124px;
+}
+
+/* line 133, ../scss/style.scss */
+#footer_2 h3 {
+  font-family: Pacifico;
+  font-size: 36px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 44px;
+}
+
+/* line 142, ../scss/style.scss */
+#footer_2 h5 {
+  padding-top: 40px;
+  font-size: 14px;
+  text-align: right;
+}

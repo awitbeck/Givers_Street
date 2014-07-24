@@ -1,0 +1,38 @@
+/* line 1, ../scss/about.scss */
+div#girls {
+  background-image: url("../images/girls.png");
+  background-size: cover;
+}
+
+/* line 7, ../scss/about.scss */
+div#about {
+  min-height: 900px;
+  background-color: #fff8ba;
+}
+/* line 10, ../scss/about.scss */
+div#about h2 {
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+/* line 14, ../scss/about.scss */
+div#about p {
+  font-size: 19px;
+}
+
+/* line 19, ../scss/about.scss */
+div#about2 {
+  padding-top: 40px;
+}
+/* line 22, ../scss/about.scss */
+div#about2 h5 {
+  padding-top: 20px;
+}
+/* line 26, ../scss/about.scss */
+div#about2 img {
+  padding-top: 40px;
+}
+
+/* line 33, ../scss/about.scss */
+div#about3 h5 {
+  padding-top: 20px;
+}

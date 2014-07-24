@@ -1,0 +1,87 @@
+/* line 1, ../scss/acct_main.scss */
+div#charity {
+  background-color: #fff8ba;
+  min-height: 900px;
+}
+
+/* line 7, ../scss/acct_main.scss */
+div#content {
+  padding-top: 40px;
+}
+
+/* line 11, ../scss/acct_main.scss */
+#content h1 {
+  font-size: 36px;
+}
+
+/* line 19, ../scss/acct_main.scss */
+div#comments {
+  padding-top: 80px;
+}
+
+/* line 24, ../scss/acct_main.scss */
+div#comments .tabs a {
+  min-width: 198px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 9px 0px 0px 0px #000000;
+  overflow: hidden;
+}
+
+/* line 33, ../scss/acct_main.scss */
+.tabs .tab-title.active {
+  z-index: 100;
+}
+
+/* line 38, ../scss/acct_main.scss */
+div#comments .tabs a::before {
+  z-index: 3;
+}
+
+/* line 42, ../scss/acct_main.scss */
+div#comments .tabs a::after {
+  z-index: -1;
+}
+
+/* line 47, ../scss/acct_main.scss */
+div#comments .tabs-content {
+  background-color: #fff;
+  border-radius: 4px 4px 0 0;
+  min-width: 609px;
+  min-height: 883px;
+  padding-top: 50px;
+  box-shadow: 9px 0px 0px 0px #000000;
+}
+
+/* line 57, ../scss/acct_main.scss */
+div#donors img {
+  padding-right: 5px;
+  padding-left: 40px;
+  margin-top: -33px;
+}
+
+/* line 64, ../scss/acct_main.scss */
+div#donors p {
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+/* line 70, ../scss/acct_main.scss */
+div#comment_tab p {
+  padding-left: 40px;
+}
+
+/* line 75, ../scss/acct_main.scss */
+div#commenter p {
+  text-align: right;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+/* line 81, ../scss/acct_main.scss */
+div#amount p {
+  text-align: right;
+  padding-right: 40px;
+  font-weight: bold;
+  margin-bottom: 85px;
+}
