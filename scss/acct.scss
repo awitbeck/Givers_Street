@@ -8,14 +8,14 @@ div#charity{
 
 
 div#content{
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 
 
 
 div#all_tabs{
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 
@@ -383,7 +383,7 @@ div#tablecharity{
   @extend #tabledonate;
 
   .button{
-    width: 81px;   
+    width: 90px;   
   }
 
   h5{
@@ -400,7 +400,7 @@ div#tablecharity{
 
 div#charitycomments{
   padding-top: 40px;
-  margin-left: -50px;
+  margin-left: -30px;
   text-align: left;
 
     h5{
@@ -455,25 +455,6 @@ div#charitycomments{
 
 
 
- div#left-column .button {
-  width: 300px;
-  font-size: 30px;
-  color:#fff;
-  border-radius: 4px;
-   line-height: 58px;
-box-shadow: 0 5px #404040;
- font-style: normal;
-
-}
-
-
- div#left-column .button:hover {
-  background-color: #1a6868;
-}
-
- div#left-column .button:focus {
-  background-color: #1a6868;
-}
 
 
 
@@ -483,6 +464,106 @@ box-shadow: 0 5px #404040;
 /*////////////////////small size**********************/
 
 @media only screen and (max-width: 640px) {
+
+/********************FIRST TAB*********************/
+
+div#favorite{
+overflow: hidden;
+max-height: 240px;
+width:95%;
+
+
+div#title{
+ min-width: 200px;
+  margin-left: -10px;
+}
+
+
+
+div#goal{
+   text-align: center;
+   padding-left: 120px;
+ margin-top: -8px;   
+ }
+
+.custom_row2{ 
+    min-width: 300px; 
+  }
+
+
+canvas{
+  margin-top: -5px;
+}
+
+div#option{
+  padding-top: 7px;
+  margin-left: -10px;
+}
+
+.custom_row3{ 
+    max-width: 125px; 
+  }
+
+
+
+label {
+  font-size: 17px;
+  color:#000000;
+  cursor: pointer;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.label-align input[type="checkbox"]{
+  margin-top:7px;
+} 
+
+.label-align span{
+  margin: 0 0 40px 20px;
+  display: block;
+}
+
+.left{
+  float:left;
+}
+
+
+
+.button {
+  width: 89px;
+  height: 23px;
+  font-size: 16px;
+  color:#fff;
+  border-radius: 4px;
+  box-shadow: 0 2px #404040;
+}
+
+
+
+}
+
+
+  /********************THIRD TAB*********************/
+
+
+div#tablecharity{
+padding-left: 0px;
+text-align: center;
+
+
+h5{
+  margin-left: 0px;
+}
+
+}
+div#charitycomments{
+  margin-left: 20px;
+  p{
+    max-width: 500px;
+  }
+
+}
   }
 
 
@@ -597,6 +678,29 @@ text-align: right;
 }
 
 
+
+}
+
+
+/********************THIRD TAB*********************/
+
+
+div#tablecharity{
+padding-left: 40px;
+  img{
+ margin-left: -10px;
+  }
+
+h5{
+  margin-left: -200px;
+}
+
+}
+div#charitycomments{
+  margin-left: 20px;
+  p{
+    max-width: 500px;
+  }
 
 }
 
