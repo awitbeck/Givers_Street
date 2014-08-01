@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="stylesheets/app.css" />
    
      <script src="bower_components/modernizr/modernizr.js"></script>
+ <link type="text/css" media="screen" rel="stylesheet" href="responsive-tables.css" />
+<script type="text/javascript" src="responsive-tables.js"></script>
+
   </head>
   <body>
 
@@ -54,44 +57,53 @@
         <li class="tab-title title3"><a href="#panel2-3">My Charities</a></li> 
     </ul> 
 
-          <div class="tabs-content"> 
-               <div class="content active" id="panel2-1">
-<div class="row collapse">
-  <div class="large-12 columns" id="top_section">
-           <div class="medium-6 large-6 text-left columns">
-                     <h5>Welcome back Annearchy12345!</h5></div>
-<div class="medium-6 large-6 text-right columns">
-                     <img src="images/acct_girl.png">
+         
 
+ <div class="tabs-content"> 
+        <div class="content active" id="panel2-1">
+  <div id="top_section">
+
+           <div class="small-12 small-only-text-center medium-12 large-6 large-only-text-left columns">
+                     <h5>Welcome back Annearchy12345!</h5></div>
+<div class="small-12 small-only-text-center medium-12 large-6 text-right columns">
+                     <img src="images/acct_girl.png">
             </div>
 
-<div class="large-12 large-text-right columns"  id="change">
+
+
+
+<div class="small-12 small-only-text-center medium-12 large-12 large-only-text-right columns"  id="change">
       <h5>Change my photo</h5>
          </div>
 
-     <div class="large-offset-1 columns" id="messages">
+     <div class="small-12 small-only-text-center large-offset-1 columns" id="messages">
          <h5>My Messages</h5>
      </div>
 
               
                     
-  <div class="large-1 columns">
+  <div class="small-12 small-only-text-center large-1 large-uncentered columns">
   <div id="main">
-                        <h6>New</h6>
-                      
-                        <h6>Inbox(3)</h6>
 
-                        <h6>Sent(4)</h6>
-                        
-                        <h6>Drafts(1)</h6>
-                       <h6>Trash</h6>
+
+     <div class="small-4 medium-2 large-12 columns">
+          <h6>New</h6></div>
+
+          <div class="small-4 medium-2 large-12 columns">             <h6>Inbox(3)</h6></div>
+
+ <div class="small-4 medium-2 large-12 columns">
+                        <h6>Sent(4)</h6></div>
+
+          <div class="small-6 medium-2 large-12 columns">         <h6>Drafts(1)</h6></div>
+
+           <div class="small-6 medium-4 large-12 columns">
+                       <h6>&nbsp;&nbsp;&nbsp;&nbsp;Trash</h6>
                 </div>
+
 </div>
-
-
-  <div class="large-11 columns"  id="mailbox">
-
-      <div id="table-wrapper">
+</div>
+  <div class="small-12 large-11 columns"  id="mailbox">
+  <div id="table-wrapper">
     <table border="1" > 
  
      <tbody> <tr> <td width="50"> <label><input type="checkbox"></td> <td width="100">Anon12345</td> <td width="500">Thanks for your donation!</td> <td width="100">May 15</td> </tr>  
@@ -107,22 +119,21 @@
               <tr> <td> <label><input type="checkbox"></td> <td>Anon12345</td> <td>Thanks for your donation!</td> <td>May 15</td> </tr>
                <tr> <td> <label><input type="checkbox"></td> <td>Anon12345</td> <td>Thanks for your donation!</td> <td>May 15</td> </tr>
                 <tr> <td> <label><input type="checkbox"></td> <td>Anon12345</td> <td>Thanks for your donation!</td> <td>May 15</td> </tr> </tbody> </table>
-  </div>
-   </div>
- 
+</div>
  </div>
 
-    
-    <div id="favorites">
-      <h1>My Favorites</h1>
-    
-  </div>
+
+
+      
+  <div class="small-12 large-12 columns"  id="favorite_title">
+      <h1>My Favorites</h1></div></div>
+
 
 <!--//////////This is the first favorite in MAIN tab///////////////////!-->   
 
-  
+ <div class="large-12 columns">
   <div id="favorite">
-
+   
             
                      <div class="small-3 medium-2 large-2 columns">
                  <img src="images/guyhospital.png" />
@@ -144,7 +155,7 @@
           </div>
             
        
-         <div class="small-6 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
            <canvas id="weeklyGoal" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
@@ -153,9 +164,9 @@
 
 
 
-          <div class="small-6 medium-6 large-2 columns custom_row3">
+          <div class="small-5 medium-6 large-2 columns custom_row3">
               <div id="option">
-                <div class="small-6 medium-12 large-12 columns">
+                <div class="small-12 medium-12 large-12 columns">
 
  <label class="label-align">
 <input id="checkbox1" type="checkbox" class="left"> 
@@ -165,7 +176,7 @@
 
                          <br>
                      <div id="donate">
-               <div class="small-6 medium-12 large-12 columns">
+               <div class="small-12 medium-12 large-12 columns">
                       <a href="#" class="button">DONATE</a>
                     <!--FIVE end divs--> 
                   </div>
@@ -182,14 +193,14 @@
 
   
     
-  <div id="favorite">
+ <div id="favorite">
             
-                     <div class="small-6 medium-2 large-2 columns">
+                     <div class="small-3 medium-2 large-2 columns">
                  <img src="images/guyhospital.png" />
       </div>
 
 
-        <div class="small-6 medium-7 large-3 columns" id="title">
+        <div class="small-9 medium-7 large-3 columns" id="title">
 
         <h5>John Doe,Toronto ON </h5>
           <h6>Medical Expenses</h6>
@@ -197,14 +208,14 @@
        </div>
 
 
-        <div class="small-6 medium-3 large-1 columns custom_row1" id="percent">
+        <div class="hide-for-small medium-3 large-1 columns custom_row1" id="percent">
             <h4>70%</h4>
 
           <h5>of goal reached</h5> 
           </div>
             
        
-         <div class="small-6 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
            <canvas id="weeklyGoal" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
@@ -213,9 +224,9 @@
 
 
 
-          <div class="small-12 medium-6 large-2 columns custom_row3">
+          <div class="small-5 medium-6 large-2 columns custom_row3">
               <div id="option">
-                <div class="small-6 medium-12 large-12 columns">
+                <div class="small-12 medium-12 large-12 columns">
 
  <label class="label-align">
 <input id="checkbox1" type="checkbox" class="left"> 
@@ -225,7 +236,7 @@
 
                          <br>
                      <div id="donate">
-               <div class="small-6 medium-12 large-12 columns">
+               <div class="small-12 medium-12 large-12 columns">
                       <a href="#" class="button">DONATE</a>
                     <!--FIVE end divs--> 
                   </div>
@@ -234,23 +245,18 @@
         </div>
  </div>
 
+
 <!--//////////This is the third favorite in MAIN tab///////////////////!-->   
-
-
-
-
-   
-  
-  
-    
+ 
   <div id="favorite">
+   
             
-                     <div class="small-6 medium-2 large-2 columns">
+                     <div class="small-3 medium-2 large-2 columns">
                  <img src="images/guyhospital.png" />
       </div>
 
 
-        <div class="small-6 medium-7 large-3 columns" id="title">
+        <div class="small-9 medium-7 large-3 columns" id="title">
 
         <h5>John Doe,Toronto ON </h5>
           <h6>Medical Expenses</h6>
@@ -258,14 +264,14 @@
        </div>
 
 
-        <div class="small-6 medium-3 large-1 columns custom_row1" id="percent">
+        <div class="hide-for-small medium-3 large-1 columns custom_row1" id="percent">
             <h4>70%</h4>
 
           <h5>of goal reached</h5> 
           </div>
             
        
-         <div class="small-6 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
            <canvas id="weeklyGoal" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
@@ -274,9 +280,9 @@
 
 
 
-          <div class="small-12 medium-6 large-2 columns custom_row3">
+          <div class="small-5 medium-6 large-2 columns custom_row3">
               <div id="option">
-                <div class="small-6 medium-12 large-12 columns">
+                <div class="small-12 medium-12 large-12 columns">
 
  <label class="label-align">
 <input id="checkbox1" type="checkbox" class="left"> 
@@ -286,21 +292,23 @@
 
                          <br>
                      <div id="donate">
-               <div class="small-6 medium-12 large-12 columns">
+               <div class="small-12 medium-12 large-12 columns">
                       <a href="#" class="button">DONATE</a>
-
-<!--SEVEN end divs--> 
-
-                    </div>
+                    <!--FIVE end divs--> 
+                  </div>
          </div>
-              </div>      
-     
-          </div>
-
-      </div>
+              </div>
+        </div>
  </div>
-      </div>
- 
+ </div>
+</div>
+
+
+
+
+
+
+
 <!--This is the BEGINNING of the second TAB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->           
 
 
@@ -316,14 +324,14 @@
     <h3><font color="green">
       1,200!</font></h3>
       <h4>Thank you for your genorosity.</h4>
-
 </div>
 
-     
-    <div class="small-12 medium-12 medium-centered large-7 large-uncentered columns" id="tabledonate">
-            <h6>Recent Activity</h6>
-          <table class="medium-10 medium-centered large-12 large-uncentered columns">
+<div class="row">   
+    <div class="small-12 small-only-text-center small-centered medium-12 medium-centered large-7 large-uncentered columns" id="tabledonate">
 
+            <h6>Recent Activity</h6>
+
+          <table class="responsive">
             <tbody>
        <tr>
                 <td>May 18</td>
@@ -371,7 +379,6 @@
             </tbody>
           </table>
 </div>
- 
 
 
     
@@ -385,55 +392,44 @@
 
                  </div>
             </div>
-     
-
-
-
+ 
  
 <!--//////////This is the first favorite in donation tab///////////////////!-->   
 
-
-   
-   <div class="large-12-text-left columns">
-   
-
-
-
+<div class="row">
+  <div class="medium-12 large-12 columns">
+    
     <div id="mydonations1"> 
-      <div class="large-12-text-right columns">
-  <h1>Charities I've donated to</h1>
-
-<h6>You donated $10.00 to this charity on 5/10/14</h6>
-</div>
-</div>
+     <h1>Charities I've donated to</h1>
 
 
+<h3>You donated $10.00 to this charity on 5/10/14</h3>
 
-<div class="large-12 columns">
-     <div id="favorite">
-          
-            
-                     <div class="small-6 medium-2 large-2 columns">
+
+ <div class="small-12 medium-12 large-12 columns">
+  <div id="favorite"> 
+
+         <div class="small-3 medium-2 large-2 columns">
                  <img src="images/guyhospital.png" />
       </div>
 
 
-        <div class="small-6 medium-6 large-5 columns" id="title">
+        <div class="small-9 medium-7 large-3 columns" id="title">
 
         <h5>John Doe,Toronto ON </h5>
           <h6>Medical Expenses</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut adipisicing elit, sed db. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
        </div>
 
 
-        <div class="small-6 medium-2 large-1 columns" id="percent">
+        <div class="hide-for-small medium-3 large-1 columns custom_row1" id="percent">
             <h4>70%</h4>
 
           <h5>of goal reached</h5> 
           </div>
             
        
-         <div class="small-6 medium-2 large-2 columns" id="goal">
+         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
            <canvas id="weeklyGoal" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
@@ -442,9 +438,9 @@
 
 
 
-          <div class="small-12 large-2 columns">
+          <div class="small-5 medium-6 large-2 columns custom_row3">
               <div id="option">
-                <div class="small-6 large-12 columns">
+                <div class="small-12 medium-12 large-12 columns">
 
  <label class="label-align">
 <input id="checkbox1" type="checkbox" class="left"> 
@@ -454,129 +450,51 @@
 
                          <br>
                      <div id="donate">
-               <div class="small-6 large-12 columns">
-                      <a href="#" class="button">DONATE</a>
-                    <!--FIVE end divs--> 
-                  </div>
-         </div>
- 
-         </div>
-         </div>
- </div>
- </div>
- 
-
-
- 
-<!--//////////This is the second favorite in donation tab///////////////////!-->   
-
- 
-     <div id="mydonations2">     
-<div class="large-12-text-right columns">
-<h6>You donated $10.00 to this charity on 5/10/14</h6>
-</div>
-</div>
-
-
-
-<div class="large-12 columns">
-     <div id="favorite">
-          
-            
-                     <div class="small-6 medium-2 large-2 columns">
-                 <img src="images/guyhospital.png" />
-      </div>
-
-
-        <div class="small-6 medium-6 large-5 columns" id="title">
-
-        <h5>John Doe,Toronto ON </h5>
-          <h6>Medical Expenses</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut adipisicing elit, sed db. </p>
-       </div>
-
-
-        <div class="small-6 medium-2 large-1 columns" id="percent">
-            <h4>70%</h4>
-
-          <h5>of goal reached</h5> 
-          </div>
-            
-       
-         <div class="small-6 medium-2 large-2 columns" id="goal">
-                 <h6>Goal $5,000</h6>
-           <canvas id="weeklyGoal" height="57" width="57" ></canvas>
-        <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
-
-           </div>
-
-
-
-          <div class="small-12 large-2 columns">
-              <div id="option">
-                <div class="small-6 large-12 columns">
-
- <label class="label-align">
-<input id="checkbox1" type="checkbox" class="left"> 
-<span>Remove</span>
-</label></div>
-                
-
-                         <br>
-                     <div id="donate">
-               <div class="small-6 large-12 columns">
+               <div class="small-12 medium-12 large-12 columns">
                       <a href="#" class="button">DONATE</a>
                     <!--SIX end divs--> 
                   </div>
          </div>
- 
-         </div>
-         </div>
+              </div>
+        </div>
  </div>
+</div>
  </div>
- 
 
- 
-<!--//////////This is the third favorite in dontaion tab///////////////////!-->   
+<!--//////////This is the second favorite in donation tab///////////////////!-->   
 
-
-
-
-
-    <div id="mydonations3"> 
-  
-<div class="large-12-text-right columns">
-<h6>You donated $10.00 to this charity on 5/10/14</h6>
-</div>
-</div>
+<div class="medium-12 large-12 columns">
+ <div id="mydonations2"> 
 
 
 
-<div class="large-12 columns">
-     <div id="favorite">
-          
-            
-                     <div class="small-6 medium-2 large-2 columns">
+<h3>You donated $10.00 to this charity on 5/10/14</h3>
+
+
+
+  <div id="favorite"> 
+
+         <div class="small-3 medium-2 large-2 columns">
                  <img src="images/guyhospital.png" />
       </div>
 
 
-        <div class="small-6 medium-6 large-5 columns" id="title">
+        <div class="small-9 medium-7 large-3 columns" id="title">
 
         <h5>John Doe,Toronto ON </h5>
           <h6>Medical Expenses</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut adipisicing elit, sed db. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
        </div>
 
 
-        <div class="small-6 medium-2 large-1 columns" id="percent">
+        <div class="hide-for-small medium-3 large-1 columns custom_row1" id="percent">
             <h4>70%</h4>
 
           <h5>of goal reached</h5> 
           </div>
             
        
-         <div class="small-6 medium-2 large-2 columns" id="goal">
+         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
            <canvas id="weeklyGoal" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
@@ -585,9 +503,9 @@
 
 
 
-          <div class="small-12 large-2 columns">
+          <div class="small-5 medium-6 large-2 columns custom_row3">
               <div id="option">
-                <div class="small-6 large-12 columns">
+                <div class="small-12 medium-12 large-12 columns">
 
  <label class="label-align">
 <input id="checkbox1" type="checkbox" class="left"> 
@@ -597,23 +515,91 @@
 
                          <br>
                      <div id="donate">
-               <div class="small-6 large-12 columns">
+               <div class="small-12 medium-12 large-12 columns">
                       <a href="#" class="button">DONATE</a>
-                    <!--FIVE end divs--> 
+                    <!--SIX end divs--> 
                   </div>
          </div>
+              </div>
+        </div>
+ </div>
+
+         </div>
+ </div>
+
+
  
+<!--//////////This is the third favoricte in dontaion tab///////////////////!-->   
+
+<div class="medium-12 large-12 columns">
+ <div id="mydonations3"> 
+
+
+
+<h3>You donated $10.00 to this charity on 5/10/14</h3>
+
+
+
+  <div id="favorite"> 
+
+         <div class="small-3 medium-2 large-2 columns">
+                 <img src="images/guyhospital.png" />
+      </div>
+
+
+        <div class="small-9 medium-7 large-3 columns" id="title">
+
+        <h5>John Doe,Toronto ON </h5>
+          <h6>Medical Expenses</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+       </div>
+
+
+        <div class="hide-for-small medium-3 large-1 columns custom_row1" id="percent">
+            <h4>70%</h4>
+
+          <h5>of goal reached</h5> 
+          </div>
+            
+       
+         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
+                 <h6>Goal $5,000</h6>
+           <canvas id="weeklyGoal" height="57" width="57" ></canvas>
+        <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
+
+           </div>
+
+
+
+          <div class="small-5 medium-6 large-2 columns custom_row3">
+              <div id="option">
+                <div class="small-12 medium-12 large-12 columns">
+
+ <label class="label-align">
+<input id="checkbox1" type="checkbox" class="left"> 
+<span>Remove</span>
+</label></div>
+                
+
+                         <br>
+                     <div id="donate">
+               <div class="small-12 medium-12 large-12 columns">
+                      <a href="#" class="button">DONATE</a>
+                    <!--SIX end divs--> 
+                  </div>
          </div>
-         </div>
- </div>
- </div>
- </div>
+              </div>
+        </div>
  </div>
 
-  </div>
+ </div>
 
-
-
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!--This is the end of the second panel!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->           
 
 
@@ -638,23 +624,20 @@
   
 
         
-    <div class="small-12 medium-12 medium-centered large-7 large-uncentered columns" id="tablecharity">   
+    <div class="small-12 medium-6 medium-centered large-7 large-uncentered columns" id="tablecharity">   
      
-      <div class="small-12 small-centered medium-4 medium-uncentered large-2 large-uncentered columns">
-        <img src="images/pic_sarah.png" width="41" height="41"></div>
+      <div class="small-12 small-centered medium-4 medium-uncentered large-2 large-uncentered columns img_row">
+        <img src="images/pic_sarah.png" ></div>
 
-         <div class="small-12 small-centered medium-8 medium-uncentered large-10 medium-uncentered  columns">
-          <h5><u><i>Fund for Sarah Gallagher </u> <font color="blue">&nbsp;&nbsp;&nbsp;Update</font></i></h5>
+         <div class="small-12 small-centered medium-8 medium-uncentered large-9 medium-uncentered columns">
+          <h5><u><i>Fund for Sarah Gallagher </u> <font color="blue">&nbsp;&nbsp;&nbsp;Update</font></i></h5></div>
         </div>
-      
 
-  
-
-     <table class="small-12 medium-10 medium-centered large-12 large-uncentered columns">
- 
+<div class="small-12 small-only-text-center small-centered medium-12 medium-centered large-7 large-uncentered columns" id="tablecharity2"> 
+    <table class="responsive">
      <tbody>
     <tr>
-        <td> <input type="checkbox"></td>
+        <td> <input type="checkbox" ></td></div>
         <td> May 18</td>
         <td>2:45pm</td>
         <td>John M donated $20.00</td> 
@@ -709,11 +692,9 @@
   </div>
  
 
-
-   
-
+ 
     
-    <div class="medium-12 large-5 columns ">
+    <div class="medium-12 large-5 columns">
       <div id="charitycomments">
       <h5>You have 6 new comments that need approval</h5>
               <h6>Fund for Sarah Gallagher</h6>
@@ -747,26 +728,19 @@
             <li><a href="" class="button deny">DENY</a></li>
           </ul>
 
+</div>
+
+ </div>  
+
               
 
 
-    
-              
-   
- 
- 
-
-
-
-
- 
-
-  
-    
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/Chart.js"></script>
     <script src="js/app.js"></script>
+
+
      
     
   </body>

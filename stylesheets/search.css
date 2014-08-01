@@ -5472,7 +5472,7 @@ div.switch.round label {
 table {
   background: #f8f2bf;
   margin-bottom: 0;
-  border: solid 1px black;
+  border: none 0px black;
 }
 /* line 63, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table caption {

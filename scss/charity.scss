@@ -89,7 +89,7 @@ overflow: hidden;
  .tabs-content{
 background-color: #fff;
 border-radius: 4px 4px 0 0;
-min-width: 609px;
+max-width: 609px;
 min-height: 883px;
 padding-top: 50px;
 box-shadow:9px 0px 0px 0px #000000;
@@ -142,7 +142,10 @@ div#weekly {
   font-size: 22px;
   text-shadow: none;
   text-align: right;
+}
 
+span{
+padding-right: 50px;
 }
 }
 
@@ -157,6 +160,11 @@ h4 {
   text-align:right;
   font-color:#000000;
 }
+canvas{
+  width:145px;
+  height:145px;
+}
+
 
 
 }
@@ -166,7 +174,7 @@ h4 {
 text-align: right;
 
  .button {
-  width: 300px;
+  width: 275px;
   font-size: 30px;
   color:#fff;
   border-radius: 4px;
@@ -188,6 +196,11 @@ h6{
   padding-bottom: 10px;
 }
 
+
+div#donatebutton{
+  padding-right: 30px;
+}
+
 }
 
 
@@ -195,7 +208,7 @@ h6{
 
 
 
-/* line 87, ../scss/charity.scss */
+/* FAVORITE BUTTON*/
 div#favorite{
 
  .button:hover {
@@ -209,7 +222,6 @@ div#favorite{
 
 
 div#test .button {
-
 border-radius:4px;
 background: #39c1c1;
 width:225px;
@@ -217,21 +229,16 @@ width:225px;
 
 }
 
-
-
-.btn-txt {
-  margin-right: 20px;
-  margin-left: 10px;
-vertical-align: middle;
-  font-style: normal;
+.btn-img {
+vertical-align: middle; 
 }
 
 div#text{
      font-size: 21px;
-  text-align: center;
   line-height: 22px;
   margin-top: 7px;
-
+  text-align: center;
+padding-right: 20px;
 }
 
 
@@ -239,16 +246,87 @@ div#text{
 /*//////////////////////////small size//////////*/
 @media only screen and (max-width: 640px) {
 
+div#weekly {
+  h3 {
+  font-size: 18px;
+  text-align: center;
+  min-width: 100px;
+}
 
-#content-right{
-text-align: center;
-  
+span{
+padding-right: 0px;
+}
+}
+
+div#chart{
+  text-align: center;
+  margin-top: -20px;
+h4 {
+  font-size: 40px;
+  text-align:center;
+}
+canvas {
+width: 100% !important;
+max-width: 100px;
+height:100% !important;
+
+}
 
 
-  h6{
-  padding-top: 10px;
+}
+
+
+ div#content-right {
+
+
+ .button {
+  width: 100%;
+  font-size: 22px;
+   line-height: 38px;
+}
+
+
+h6{
+  text-align:center;
+  min-width:100px;
+  font-size: 18px;
+  padding-top: 0px;
   padding-bottom: 10px;
 }
+
+
+div#donatebutton{
+  padding-right: 30px;
+}
+
+}
+
+
+
+
+
+
+/* FAVORITE BUTTON*/
+
+
+
+div#test .button {
+width:100%;
+
+}
+
+.btn-img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div#text{
+  width: 100%;
+  font-size: 21px;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 4px;
+  margin-bottom: 4px; 
 }
 
 
@@ -265,9 +343,6 @@ text-align: center;
 
 
 
-
-
-
 .overlay-container {
 width: 93%;
 height: 93%;
@@ -278,100 +353,88 @@ div#pic2{
     img{
       max-height: 249px;
     }
-
-}
-
-div#socialicons{
- 
 }
 
 
 
-#chart h4 {
-  
-  text-align:left;
+ div#content-right {
+text-align: right;
 
-}
-
-#chart h3 {
-
-  text-align: left;
- 
-}
-
-div#chart{
-  text-align: left;
-
-}
-
-#content-right{
-
-img{
-
-}
-
-  h6{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-}
-
- div#content-right .button {
-  width: 300px;
+ .button {
+ width:100%;
   font-size: 30px;
   color:#fff;
   border-radius: 4px;
    line-height: 58px;
 box-shadow: 0 5px #404040;
- font-style: normal;
-
+ 
 }
 
-
- div#content-right .button:hover {
+.button:hover {
   background-color: #1a6868;
 }
 
- div#content-right .button:focus {
+.button:focus {
   background-color: #1a6868;
 }
 
+h6{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-/* line 87, ../scss/charity.scss */
-div#favorite .button:hover {
+
+div#donatebutton{
+  padding-right: 0px;
+}
+
+}
+
+div#week {
+  h3 {
+  font-size: 22px;
+  text-align: right;
+}
+span{
+padding-right: 50px;
+}
+}
+
+
+/* FAVORITE BUTTON*/
+div#favorite{
+ .button:hover {
   background-color: #1a6868;
 }
 
-/* line 91, ../scss/charity.scss */
-div#favorite .button:focus {
+ .button:focus {
   background-color: #1a6868;
 }
-
+}
 
 
 div#test .button {
-
 border-radius:4px;
 background: #39c1c1;
-width:225px;
 
 
 }
 
-
-
-.btn-txt {
-  margin-right: 20px;
-  margin-left: 10px;
+.btn-img {
 vertical-align: middle;
-  font-style: normal;
+
+  margin-top: -10px;
 }
 
 div#text{
-     font-size: 21px;
+  font-size: 21px;
   text-align: center;
   line-height: 22px;
-  margin-top: 7px;
+  margin-top: 4px;
+  margin-bottom: 4px; 
+}
+
+
 
 }
 
@@ -384,5 +447,3 @@ div#text{
 
 
 
-
-}
