@@ -1,45 +1,78 @@
-<!doctype html>
-<html class="no-js" lang="en">
+  <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-   
-     <script src="bower_components/modernizr/modernizr.js"></script>
+     <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="scss/_settings.scss">
+   <script src="bower_components/modernizr/modernizr.js"></script>
+   <script src="js/app.js"></script>
   </head>
   <body>
 
- <div class="small-2 medium-2 large-2 columns">
-    <img src="images/guyhospital.png" style="float:left;" align="center" width="117" height="101"/></div>
-    <div class="small-6 medium-6 large-5 columns" id="title">
 
-    <h2>John Doe,Toronto ON </h2>
-      <h3>Medical Expenses</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut adipisicing elit, sed db. </p>
+  <ul class="button-group">
+<li><a href="#" data-dropdown="drop1" data-options="is_hover:true" class="button dropdown">Dropdown Button</a></li>
+<li><a href="#" class="button">Dropdown Button</a></li>
+<li><a href="#" class="button">Dropdown Button</a></li>
+  <li><a href="#" class="button">Dropdown Button</a></li>
+</ul>
+
+
+<ul id="drop1" data-dropdown-content class="f-dropdown">
+  <li><a href="#">This is a link</a></li>
+  <li><a href="#">This is another</a></li>
+  <li><a href="#">Yet another</a></li>
+</ul>
+
+   
+
+              
+                      <div class="small-9 small-centered custom-row-class-centered  medium-6 medium-uncentered large-6 columns">
+                            <select > 
+<option selected="selected"> 
+    Select Category
+    </option> 
+    <option value="search.html"> 
+    Animals
+    </option> 
+      <option value="search.html"> 
+    Children
+    </option> 
+       <option value="search.html"> 
+    Humanitarian
+    </option> 
+      <option value="search.html"> 
+    Medical
+    </option> 
+      <option value="search.html"> 
+    Memorial
+    </option> 
+</select> 
+
+                    </div>
+           
+            </div>
+         </div>
    </div>
-    <div class="hide-for-small medium-1 large-2 columns">
-        <h4>70%</h4>
-
-      <h5>of goal reached</h5> 
-      </div>
 
 
-     <div class="small-4 medium-3 large-3 columns" id="goal">
 
 
-   <h6>Goal $5,000</h6>
 
-<canvas id="weeklyGoal" height="57" width="57" ></canvas>
-    <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
-  </div>
-  
-    
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+
+
+
+
+
+ 
+
+
+
+   <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/Chart.js"></script>
+   
     <script src="js/app.js"></script>
-     
-    
   </body>
 </html>

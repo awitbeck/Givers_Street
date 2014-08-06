@@ -1,5 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="en">
+  <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,50 +11,25 @@
   <body>
 
 
-  
-  <div id="logo" class="row">
-       <div class="small-12 medium-10 large-6 columns">
-          <h1><a href="#"><img src="images/logo.png" /></a></h1>
-      </div>
-           <div class="small-12 medium-2 large-6 columns"><h2>Login</h2>
-      </div> 
-</div>
-         
-    
-<div class="row">
-<ul class="button-group">
-  <div class=" small-12 small-text-center medium-3 large-3 columns"> 
-<li><a href="#" data-dropdown="drop1" data-options="is_hover:true" class="button dropdown buttondropdown">Choose a Charity</a></li></div>
-<div class=" small-12 small-text-center medium-3 large-3 columns">
-<li><a href="acct.html" class="button">My Account</a></li></div>
-<div class=" small-12 small-text-center medium-3 large-3 columns"> 
-<li><a href="charity.html" class="button">Sign Up</a></li></div>
-<div class=" small-12 small-text-center medium-3 large-3 columns"> 
-  <li><a href="about.html" class="button">About</a></li></div>
-</ul>
+  <div class="row">
+     <ul class="button-group">
+      <div class=" small-12 small-text-center medium-3 large-3 columns"> 
+     <li ><a href="charity.html" class="button" data-dropdown="dd1" data-options="is_hover:true">Choose a charity</a></li></div>
+      <div class=" small-12 small-text-center medium-3 large-3 columns">
+       <li><a href="acct.html" class="button">My Account</a></li></div>
+       <div class=" small-12 small-text-center medium-3 large-3 columns">
+         <li><a href="search.html" class="button">Sign Up</a></li></div>
+          <div class=" small-12 small-text-center medium-3 large-3 columns">
+          <li><a href="about.html" class="button">About</a></li></div>
+        </ul>
+    <div id="dd1" class="f-dropdown">       
+       <li><a href="#">This is a link</a></li>
+       <li><a href="#">This is another</a></li>
+       <li><a href="#">Yet another</a></li>
+    </div>
+  </div>
 
-
-<ul id="drop1" data-dropdown-content class="f-dropdown">
-
-              <ul class="inline-list">
-                <li><a href="search.html">Animals</a></li>
-
-                <li><a href="search.html">Children</a></li>
-                <li><a href="search.html">Education</a></li>
-
-                <li><a href="search.html">Humanitarian</a></li>
-
-                <li><a href="search.html">Medical</a></li>
-
-                <li><a href="search.html">Memorial</a></li>
-                
-              </ul>
-             
-</ul>
-</div>
-       
-      
-    <div id="signup">
+      <div id="signup">
          <div class="row">
                <div class="large-6 columns">  
                     <h1> Take a walk down our street.</h1>
@@ -94,8 +68,9 @@
                                 <div class="small-12 small-centered  medium-6 custom-row-class-centered medium-uncentered large-6 columns">        
                                    <label label for="right-label" >Search by category</label>
                               </div>
-                                 <div class="small-9 small-centered custom-row-class-centered  medium-6 medium-uncentered large-6 columns">
-                            <select name="category" autocomplete="off" > 
+              
+                      <div class="small-9 small-centered custom-row-class-centered  medium-6 medium-uncentered large-6 columns">
+                            <select name="category" id="right-label" autocomplete="off" > 
 <option selected="selected"> 
     Select Category
     </option> 
@@ -116,7 +91,6 @@
     </option> 
 </select> 
                     </div>
-              
            
             </div>
          </div>
@@ -184,14 +158,10 @@ help from others for your cause.</h5>
    </div>
 </div>
 </div>
-  
-    
- <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+   <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+   
     <script src="js/app.js"></script>
-
-
   </body>
 </html>
-
-

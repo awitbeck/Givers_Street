@@ -2,13 +2,8 @@
 @import "settings";
 @import "foundation";
 
-
-
-div#content{
-  padding-top: 40px;
-}
-
 div#charity{
+  padding-top: 40px;
   background-color: #fff8ba;
   min-height: 900px;
 }
@@ -46,6 +41,7 @@ div#charity{
 div#socialicons{
   text-align: center;
   margin-top: 20px;
+
 
 .button {
 background: none;
@@ -122,6 +118,7 @@ div#comment_tab p {
   }
 
   div#commenter p{
+    padding-right: 40px;
     text-align: right;
     font-weight: bold;
     padding-bottom: 30px;
@@ -246,11 +243,61 @@ padding-right: 20px;
 /*//////////////////////////small size//////////*/
 @media only screen and (max-width: 640px) {
 
+div#content-left{
+  text-align: center;
+margin-right: 0px;
+
+
+.overlay-container {
+  
+  position: relative;
+  padding-right: 0px;
+ /* <-- Set as the reference for the positioned overlay */
+}
+
+.overlay-container .overlay {
+  position: absolute; 
+  /* <-- Remove the overlay from normal flow         */
+  top: 0px;          /* <-- Keep the overlay at the bottom of the box   */
+  left: 0px;            /* <-- Set left and right properties to 0          */
+  right: 0px;            /*     In order to expand the overlay horizontally */
+  padding: 0.4rem;
+  width:50%;
+
+ 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+div#pic2{
+text-align: center;
+ padding-top: 20px;
+ img{
+  width: 373px;
+
+ }
+
+}
+
+
+
+
+
 div#weekly {
   h3 {
   font-size: 18px;
   text-align: center;
   min-width: 100px;
+  padding-bottom: 10px;
 }
 
 span{
@@ -271,7 +318,6 @@ max-width: 100px;
 height:100% !important;
 
 }
-
 
 }
 
@@ -301,8 +347,10 @@ div#donatebutton{
 
 }
 
-
-
+div#womanpic{
+  padding-top: 10px;
+  text-align: center;
+}
 
 
 
@@ -310,8 +358,8 @@ div#donatebutton{
 
 
 
-div#test .button {
-width:100%;
+div#test{
+  padding-top: 10px;
 
 }
 
@@ -321,14 +369,38 @@ width:100%;
 }
 
 div#text{
-  width: 100%;
-  font-size: 21px;
-  text-align: center;
+  width:100%;
+  font-size: 21px; 
   line-height: 22px;
   margin-top: 4px;
   margin-bottom: 4px; 
+  padding-right: 0px;
+ 
+
+  
 }
 
+/*DONATORS TAB SMALL***********/
+
+
+
+ div#donors img{
+padding-left: 25px;
+}
+  
+
+ div#donors p{
+  padding-left: 25px;  
+  }
+
+div#comment_tab p {
+    padding-left: 25px;
+  }
+
+
+div#amount p{
+ padding-right: 25px;
+}
 
 
 

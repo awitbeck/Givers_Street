@@ -19,6 +19,7 @@ h2{
 }
 
 
+
 .button-group {
 text-align: center;
 padding-left: 40px;
@@ -28,13 +29,23 @@ padding-left: 40px;
       background: #fff;
       font-size: 17px;
       color: #000000;
+      
 
      
                }
-
 :hover {
  font-color: #000000;
 }
+}
+
+.f-dropdown{
+  text-align: center;
+
+  li a {
+    border-bottom: 1px solid #acaba7;
+    min-width: 105px;
+  
+    }
 }
 
 
@@ -196,8 +207,23 @@ h5{
 
 
 
-///////////////////////////smal
+/*//////////////////////////small //////*/
 @media only screen and (max-width: 640px) {
+
+
+
+
+.buttondropdown{
+  padding-left: 50px;
+}
+
+.f-dropdown{
+ text-align: center;
+ li a{
+  width:100%;
+ }
+}
+
 
 div#logo{
  
@@ -285,14 +311,9 @@ img{
 }
 
 
-////////////////////////medium sizes
+/*///////////////////////medium sizes*/
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-
-.button-group {
-padding-left: 0px;
-}
-
 
 div#signup{
  h1, h2{
@@ -311,7 +332,7 @@ div#form1{
   text-align: center;
   label{
     padding-right:10%;
-min-width:300px;
+min-width:250px;
   line-height: 1.1em;
   padding-top: 10px;
     }
@@ -323,8 +344,9 @@ min-width:300px;
 
 div#form2{
   label{
-    padding-right:10%;
-  min-width:300px;
+   padding-left:10%;
+       padding-right:10%;
+  min-width:250px;
   padding-top: 10px;
 
     }
@@ -367,7 +389,6 @@ img{
 ////////my custom size
 
 @media only screen and (min-width: 640px) and (max-width: 699px) {
-
 
 .custom-row-class {
   @include grid-row();

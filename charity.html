@@ -5,62 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
-   
      <script src="bower_components/modernizr/modernizr.js"></script>
+     
   </head>
   <body>
 
 
   
   <div id="logo" class="row">
-       <div class="large-4 columns">
+       <div class="small-12 medium-10 large-6 columns">
           <h1><a href="index.html"><img src="images/logo.png" /></a></h1>
       </div>
-           <div class="large-8 columns"><h2>Login</h2>
+           <div class="small-12 medium-2 large-6 columns"><h2>Login</h2>
       </div> 
 </div>
          
 <div class="row">
-              <ul class="button-group">
-            <div class=" small-12 small-text-center medium-3 large-3 columns"> 
-          <li><a href="charity.html" class="button">Choose a charity</a></li></div>
-           <div class=" small-12 small-text-center medium-3 large-3 columns">
-          <li><a href="acct.html" class="button">My Account</a></li></div>
-          <div class=" small-12 small-text-center medium-3 large-3 columns">
-          <li><a href="search.html" class="button">Sign Up</a></li></div>
-          <div class=" small-12 small-text-center medium-3 large-3 columns">
-          <li><a href="about.html" class="button">About</a></li></div>
-        </ul>
-      </div>
-    </div>
+<ul class="button-group">
+  <div class=" small-12 small-text-center medium-3 large-3 columns"> 
+<li><a href="#" data-dropdown="drop1" data-options="is_hover:true" class="button dropdown buttondropdown">Choose a Charity</a></li></div>
+<div class=" small-12 small-text-center medium-3 large-3 columns">
+<li><a href="acct.html" class="button">My Account</a></li></div>
+<div class=" small-12 small-text-center medium-3 large-3 columns"> 
+<li><a href="#" class="button">Sign Up</a></li></div>
+<div class=" small-12 small-text-center medium-3 large-3 columns"> 
+  <li><a href="about.html" class="button">About</a></li></div>
+</ul>
+
+
+<ul id="drop1" data-dropdown-content class="f-dropdown">
+
+              <ul class="inline-list">
+                <li><a href="search.html">Animals</a></li>
+
+                <li><a href="search.html">Children</a></li>
+                <li><a href="search.html">Education</a></li>
+
+                <li><a href="search.html">Humanitarian</a></li>
+
+                <li><a href="search.html">Medical</a></li>
+
+                <li><a href="search.html">Memorial</a></li>
+                
+              </ul>
+             
+</ul>
+</div>
        
       
 <div id="charity">
         <div class="row">
  <div id="content">
      
-         <div class="medium-12 large-8 columns">
+         <div class="small-12 medium-12 large-8 columns">
           <div class="medium-6 large-7 columns">
                        <div id="content-left">
                              <div class="overlay-container">
-                                 <img id="main" src="images/main.png"  height="249" width="373" />
+                                 <img id="main" src="images/main.png" />
                                      <div class="overlay"><img src="images/verify.png" />
                                      </div>
                              </div>
-                        
-                 
     
                      </div>
                              </div>
       
    
-          <div class="medium-6 large-5 columns" >
-            <div class="medium-12 large-12 columns" >
+          <div class="small-12 medium-6 large-5 columns" >
+            <div class="small-12 medium-12 large-12 columns" >
                    <div id="pic2">
                     
                          <a><img src="images/bed.png"/></a>
                </div> </div></div>
-          <div class="medium-12 large-5 columns" id="socialicons" >
+          <div class="small-12 medium-12 large-5 columns" id="socialicons" >
                              <img src="webicons/webicon-tumblr.svg" class="social button"/> 
                                <img src="webicons/webicon-googleplus.svg" class="social button"/> 
                               <img src="webicons/webicon-twitter.svg" class="social button"/> 
@@ -79,9 +95,9 @@
                 
          
 
-              <div id="comments">
- <div class="medium-8 large-12 columns" > 
-              <ul class="tabs" data-tab> 
+<div id="comments">
+ <div class="small-12 medium-8 large-12 columns" > 
+              <ul class="tabs"  data-tab data-options="deep_linking: true scroll_to_content: false"> 
                 <li class="tab-title active"><a href="#panel2-1">Donations</a></li> 
                 <li class="tab-title"><a href="#panel2-2">Comments</a></li> 
               <li class="tab-title"></ul> <div class="tabs-content"> 
@@ -89,49 +105,49 @@
                   
                   <div class="row">
 
-           <div class="small-9 columns" id="donors">
+           <div class="small-6 small-text-left medium-6 large-6 columns" id="donors">
          
                   <p>Some donor</p> 
                 </div>
              
               
-                <div class="small-3 columns" id="amount">
+                <div class="small-6 medium-6 large-6 columns" id="amount">
                   <p>$300</p> 
                 </div>
               </div>
                       <div class="row">
 
-           <div class="small-9 columns" id="donors">
+           <div class="small-6 small-text-left medium-6 large-6 columns" id="donors">
              
                 
                  <img src="images/ned.png" style="float: left;" />
                   <p>Ned </p> 
                </div>                                                                                    
-                <div class="small-3 columns" id="amount">
+                <div class="small-6 small-text-left medium-6 large-6 columns" id="amount">
                   <p>$5</p> 
                 </div>
               </div>
                       <div class="row">
 
-           <div class="small-9 columns" id="donors">
+           <div class="small-6 small-text-left medium-6 large-6 columns" id="donors">
          
                   <p>Anonymous</p> 
                 </div>
              
               
-                <div class="small-3 columns" id="amount">
+                <div class="small-6 small-text-left medium-6 large-6 columns" id="amount">
                   <p>$1,000</p> 
                 </div>
               </div>
                       <div class="row">
 
-           <div class="small-9 columns" id="donors">
+           <div class="small-6 small-text-left medium-6 large-6 columns" id="donors">
          
                   <p>Donor 1</p> 
                 </div>
              
               
-                <div class="small-3 columns" id="amount">
+                <div class="small-6 small-text-left medium-6 large-6 columns"id="amount">
                   <p>$200</p> 
                 </div>
               </div>
@@ -142,50 +158,35 @@
                
 
               
-                <div class="content" id="panel2-2">
+<div class="content" id="panel2-2">
                  <div class="row">
-           <div class="small-9 columns"> 
+           <div class="small-11 medium-11 large-9 columns"> 
             <div id="comment_tab">
             <p><i>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget."</p> 
             
              <div id="commenter">
             <p>-Kevin Clark, St. Paul MN</p></div> 
-             
-             </div>
-               </div>
-          
-
-             <div class="row">
-           <div class="small-9 columns"> 
+     
             <div id="comment_tab">
             <p><i>"Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec"</p> 
             
              <div id="commenter">
             <p>-Somebody who donated</p></div> 
           </div>
-        </div>
-                  <div class="row">
-           <div class="small-9 columns"> 
+
             <div id="comment_tab">
             <p><i>" Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget."</p> 
             
              <div id="commenter">
             <p>-Another donater, Someplace</p></div> 
-             
-             </div>
 
-
-               </div>
+            
                 </div>
           
          </div>
          </div>
+  </div>
          </div>
-
-
-
-
-
                    </div>         
             
             </ul>
@@ -201,7 +202,7 @@
               
                                 <div id="chart">
                                       <h4>70%</h4>
-                                           <canvas id="weeklyGoal" height="145" width="145"></canvas>
+                                           <canvas id="weeklyGoal4" height="145" width="145"></canvas>
                          
 
                 
@@ -251,7 +252,7 @@
             <div class="small-6 hide-for-medium large-12 large-text-right columns">
                                 <div id="chart">
                                       <h4>70%</h4>
-                                           <canvas id="weeklyGoal2" height="145" width="145"></canvas>
+                                           <canvas id="weeklyGoal" height="145" width="145"></canvas>
                                 </div>
             </div>
  <div class="small-6 hide-for-medium large-12 columns" id="weekly">
@@ -261,8 +262,8 @@
     
  </div>
  <div class="small-12 hide-for-medium large-4 columns">
-     <div class="small-6 hide-for-medium large-12 columns">
-        <img src="images/woman.png" style=" height: 110px; width:126px;">
+     <div class="small-6 hide-for-medium large-12 columns" id="womanpic">
+        <img src="images/woman.png">
         <h6>Owner: Kevin's Mom</h6>
      </div>
 <div class="small-6 hide-for-medium large-12 columns">
@@ -281,13 +282,6 @@
 
     </div>
 
- 
-   
- 
- 
- 
-   
- 
 
     
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
