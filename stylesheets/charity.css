@@ -2978,7 +2978,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   font-size: 1rem;
   z-index: 99;
   margin-top: 2px;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown > *:first-child {
@@ -3041,7 +3041,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   z-index: 99;
   margin-top: 0;
   margin-left: 2px;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown.drop-right > *:first-child {
@@ -3094,7 +3094,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   z-index: 99;
   margin-top: 0;
   margin-left: -2px;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown.drop-left > *:first-child {
@@ -3149,7 +3149,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   z-index: 99;
   margin-top: -2px;
   margin-left: 0;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown.drop-top > *:first-child {
@@ -3222,7 +3222,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border: solid 1px #acaba7;
   font-size: 1rem;
   z-index: 99;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown.content > *:first-child {
@@ -3818,8 +3818,8 @@ label.error {
 /* line 53, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list {
   margin: 0 auto 1.0625rem auto;
-  margin-left: -1.375rem;
-  margin-right: 0;
+  margin-left: 0;
+  margin-right: 10;
   padding: 0;
   list-style: none;
   overflow: hidden;
@@ -3828,12 +3828,12 @@ label.error {
 .inline-list > li {
   list-style: none;
   float: left;
-  margin-left: 1.375rem;
-  display: block;
+  margin-left: 1.875rem;
+  display: inline-block;
 }
 /* line 47, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list > li > * {
-  display: block;
+  display: inline-list-display;
 }
 
 /* Foundation Joyride */

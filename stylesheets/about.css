@@ -36,3 +36,21 @@ div#about2 img {
 div#about3 h5 {
   padding-top: 20px;
 }
+
+/*//////////////////////////small //////*/
+@media only screen and (max-width: 640px) {
+  /* line 46, ../scss/about.scss */
+  div#about p {
+    font-size: 16px;
+  }
+
+  /* line 58, ../scss/about.scss */
+  div#about2 {
+    padding-top: 10px;
+  }
+  /* line 65, ../scss/about.scss */
+  div#about2 img {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+}

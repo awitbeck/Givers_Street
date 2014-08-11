@@ -2978,7 +2978,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   font-size: 1rem;
   z-index: 99;
   margin-top: 2px;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown > *:first-child {
@@ -3041,7 +3041,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   z-index: 99;
   margin-top: 0;
   margin-left: 2px;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown.drop-right > *:first-child {
@@ -3094,7 +3094,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   z-index: 99;
   margin-top: 0;
   margin-left: -2px;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown.drop-left > *:first-child {
@@ -3149,7 +3149,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   z-index: 99;
   margin-top: -2px;
   margin-left: 0;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown.drop-top > *:first-child {
@@ -3222,7 +3222,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   border: solid 1px #acaba7;
   font-size: 1rem;
   z-index: 99;
-  max-width: 400px;
+  max-width: 300px;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_dropdown.scss */
 .f-dropdown.content > *:first-child {
@@ -3818,8 +3818,8 @@ label.error {
 /* line 53, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list {
   margin: 0 auto 1.0625rem auto;
-  margin-left: -1.375rem;
-  margin-right: 0;
+  margin-left: 0;
+  margin-right: 10;
   padding: 0;
   list-style: none;
   overflow: hidden;
@@ -3828,12 +3828,12 @@ label.error {
 .inline-list > li {
   list-style: none;
   float: left;
-  margin-left: 1.375rem;
-  display: block;
+  margin-left: 1.875rem;
+  display: inline-block;
 }
 /* line 47, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list > li > * {
-  display: block;
+  display: inline-list-display;
 }
 
 /* Foundation Joyride */
@@ -7991,111 +7991,203 @@ div#listitem {
   border-radius: 4px 4px 4px 4px;
   width: 95%;
   margin-bottom: 7px;
+  transition: background 0.5s linear;
 }
-/* line 23, ../scss/search.scss */
+/* line 19, ../scss/search.scss */
 div#listitem img {
   padding-top: 20px;
 }
 
-/* line 29, ../scss/search.scss */
+/* line 27, ../scss/search.scss */
+div#listitem:hover {
+  background-color: #e4e4e4;
+}
+
+/* line 37, ../scss/search.scss */
 div#title h5 {
   font-size: 17px;
   padding-top: 5px;
 }
-/* line 33, ../scss/search.scss */
+/* line 41, ../scss/search.scss */
 div#title h6 {
   font-size: 20px;
   margin-top: -10px;
 }
-/* line 38, ../scss/search.scss */
+/* line 46, ../scss/search.scss */
 div#title p {
   font-size: 14px;
+  color: #000000;
 }
 
-/* line 44, ../scss/search.scss */
+/* line 53, ../scss/search.scss */
 div#percent {
   padding-left: 50px;
 }
-/* line 49, ../scss/search.scss */
+/* line 58, ../scss/search.scss */
 div#percent h4 {
   font-size: 57px;
 }
-/* line 53, ../scss/search.scss */
+/* line 62, ../scss/search.scss */
 div#percent h5 {
   font-size: 15px;
   min-width: 150px;
 }
 
-/* line 61, ../scss/search.scss */
+/* line 70, ../scss/search.scss */
 div#goal {
   text-align: right;
   padding-top: 10px;
 }
-/* line 64, ../scss/search.scss */
+/* line 73, ../scss/search.scss */
 div#goal h6 {
   font-size: 14px;
 }
 
-/* line 72, ../scss/search.scss */
+/* line 81, ../scss/search.scss */
 div#results {
   padding-bottom: 20px;
 }
-/* line 75, ../scss/search.scss */
+/* line 84, ../scss/search.scss */
 div#results h6 {
+  color: black;
   font-size: 15px;
   text-decoration: underline;
 }
-/* line 80, ../scss/search.scss */
+/* line 91, ../scss/search.scss */
 div#results h4 {
   font-size: 26px;
   text-align: center;
-  padding-left: 50px;
+  padding-left: 60px;
   margin-top: -5px;
 }
-/* line 87, ../scss/search.scss */
+/* line 98, ../scss/search.scss */
 div#results select {
-  width: 140px;
-  height: 27px;
+  min-width: 140px;
+  height: 30px;
   font-size: 14px;
-  padding: 5px;
+  padding-right: 20px;
 }
-/* line 94, ../scss/search.scss */
+/* line 105, ../scss/search.scss */
 div#results label {
   color: #000000;
   font-size: 15px;
-  padding-left: 22px;
-  padding-right: 5px;
+  margin-right: -10px;
+}
+/* line 111, ../scss/search.scss */
+div#results a {
+  color: black;
+}
+
+/* line 117, ../scss/search.scss */
+.custom_column2 {
+  min-width: 200px;
+}
+
+/* line 121, ../scss/search.scss */
+.custom_column {
+  min-width: 260px;
 }
 
 @media only screen and (max-width: 640px) {
-  /* line 108, ../scss/search.scss */
+  /* line 129, ../scss/search.scss */
   div#title {
     padding-left: 20px;
   }
 
-  /* line 118, ../scss/search.scss */
+  /* line 135, ../scss/search.scss */
+  div#percent {
+    margin-top: -30px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  /* line 141, ../scss/search.scss */
+  div#percent h5 {
+    margin-left: -10px;
+  }
+
+  /* line 148, ../scss/search.scss */
   div#goal {
-    padding-top: 30px;
+    padding-top: 0px;
+    padding-left: 30px;
+    text-align: center;
+  }
+
+  /* line 156, ../scss/search.scss */
+  div#results {
+    padding-bottom: 20px;
+  }
+  /* line 159, ../scss/search.scss */
+  div#results h6 {
+    padding-bottom: 20px;
+    min-width: 80px;
+  }
+  /* line 164, ../scss/search.scss */
+  div#results h4 {
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+  /* line 170, ../scss/search.scss */
+  div#results select {
+    min-width: 0px;
+  }
+  /* line 173, ../scss/search.scss */
+  div#results label {
+    padding-left: 10px;
+  }
+
+  /* line 179, ../scss/search.scss */
+  .custom_column2 {
+    min-width: 0px;
+  }
+
+  /* line 183, ../scss/search.scss */
+  .custom_column {
+    min-width: 0px;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 142, ../scss/search.scss */
+  /* line 205, ../scss/search.scss */
   div#title {
     padding-left: 15px;
   }
 
-  /* line 148, ../scss/search.scss */
+  /* line 211, ../scss/search.scss */
   div#percent {
     margin-top: -5px;
     margin-left: -40px;
     text-align: center;
   }
-  /* line 155, ../scss/search.scss */
+  /* line 217, ../scss/search.scss */
   div#percent h4 {
     font-size: 48px;
   }
-  /* line 160, ../scss/search.scss */
+  /* line 222, ../scss/search.scss */
   div#percent h5 {
     min-width: 70px;
+  }
+
+  /* line 230, ../scss/search.scss */
+  div#results h4 {
+    padding-left: 30px;
+  }
+  /* line 235, ../scss/search.scss */
+  div#results select {
+    min-width: 110px;
+    padding-right: 0px;
+  }
+  /* line 240, ../scss/search.scss */
+  div#results label {
+    margin-right: -20px;
+    margin-left: -30px;
+  }
+
+  /* line 247, ../scss/search.scss */
+  .custom_column2 {
+    max-width: 150px;
+  }
+
+  /* line 251, ../scss/search.scss */
+  .custom_column {
+    min-width: 250px;
   }
 }

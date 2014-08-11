@@ -9,32 +9,71 @@ form{
   color:#000000;
    }
 
+    input{
+    max-width:300px;
+  }
+
 }
+
 
 
 div#identity{
   padding-bottom: 20px;
+
+  label{
+    margin-left: -20px;
+    margin-top: -3px;
+  }
+
 }
 
-div#other{
 
+
+div#address{
   input{
+    max-width: 500px;
+  }
+}
 
-margin-left: -8px;
 
+div#state{
+  select{
+   width:180px;
+   margin-top: -30px;
+   }
+label{
+  margin-bottom: -5px;
+}
+
+
+}
+
+
+div#other{
+  input{
+margin-left: -16px;
 }
 }
 
 
 div#inputbox{
 
-  input{
-
-margin-left: -120px;
+input{
+margin-left: -50px;
 margin-top: -10px;
-min-width: 167px;
-
+width: 167px;
 }
+}
+
+
+
+
+
+
+div#cvn{
+  input{
+    width:100px;
+  }
 }
 
 
@@ -49,8 +88,7 @@ textarea{
 
 div#submit{
   padding-left:8px;
-
-
+padding-bottom: 20px;
  .button {
   width: 224px;
   font-size: 30px;
@@ -73,13 +111,14 @@ box-shadow: 0 5px #404040;
 
 }
 
-div#left-column{
+div#right-column{
   text-align: right;
    padding-top: 20px;
 
 h5{
   padding-top: 5px;
   font-size: 14px;
+  padding-bottom: 5px;
  
 }
 
@@ -94,6 +133,136 @@ h4{
   margin-bottom: -10px;
 }
 
+}
 
+
+div#graph{
+h5{
+  margin-right: -15px;
+}
+
+  canvas{
+    margin-right: -15px;
+  } 
+}
+
+
+
+
+
+
+
+
+/*//////////////////////////small //////*/
+@media only screen and (max-width: 640px) {
+
+form{
+   padding-top: 10px;
+ }
+
+
+
+div#identity{
+  label{
+    margin-left: 0px;
+    margin-top: -3px;
+  }
+}
+
+.custom_row3{ 
+   width:320px; 
+  }
+
+
+div#inputbox{
+  input{
+    max-width: 100px;
+  }
+}
+
+
+div#date{
+  margin-left: -10px;
+}
+
+div#month{
+  select{
+    width: 80px;
+  }
+}
+
+div#year{
+  select{
+   width: 120px;
+   margin-left: 10px;
+  }
+}
+.custom_row4{
+  width: 300px;
+   margin-left: -5px;
+}
+
+div#graph{
+  text-align: center;
+}
+
+div#percent{
+ padding-top: 30px;
+ text-align: center;
+}
+
+
+div#submit{
+  text-align: center;
+}
 
 }
+
+
+/*///////////////////////medium sizes*/
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+
+
+
+div#inputbox{
+
+input{
+margin-left: -15px;
+
+}
+}
+
+.custom_row3{ 
+   width:270px; 
+  }
+
+
+
+div#month{
+  select{
+    min-width: 50px;
+  }
+}
+
+
+
+div#year{
+  select{
+    min-width: 80px;
+  }
+}
+
+
+
+
+
+div#percent{
+  h5, h4{
+   text-align: right;
+  }
+}
+
+}
+

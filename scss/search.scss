@@ -9,21 +9,29 @@
 
 
 div#listitem{
-  background: #fff;
- border-radius: 4px 4px 4px 4px;
+
+background: #fff;
+border-radius: 4px 4px 4px 4px;
 width:95%;
 margin-bottom: 7px;
-
-
-
-
-
-
+transition: background 0.5s linear;
 
  img{
 padding-top: 20px;
  }
+
+
 }
+
+
+div#listitem:hover{
+    background-color: #e4e4e4;
+
+}
+
+
+
+
 
 div#title{
   h5{
@@ -37,6 +45,7 @@ h6{
 
 p{
   font-size: 14px;
+  color: #000000;
 }
 }
 
@@ -73,53 +82,107 @@ div#results{
   padding-bottom: 20px;
 
 h6{
+  color: black;
   font-size: 15px;
   text-decoration: underline;
+
 }
 
 h4{
   font-size: 26px;
   text-align: center;
-  padding-left: 50px;
+  padding-left: 60px;
   margin-top: -5px;
 }
 
 select{
-  width:140px;
-  height: 27px;
+  min-width:140px;
+  height: 30px;
   font-size: 14px;
- padding: 5px;
+  padding-right: 20px;
+ 
 }
-
   label{
   color:#000000;
   font-size: 15px;
-  padding-left:22px;
-    padding-right:5px;
+  margin-right: -10px;
+}
+
+a{
+  color: black;
 }
 
 }
 
+.custom_column2{
+  min-width: 200px;
+}
+
+.custom_column{
+  min-width: 260px;
+}
 
 
 ///////////////////////////smal
 @media only screen and (max-width: 640px) {
 
 div#title{
- 
     padding-left: 20px;
-
 }
 
 
+
+div#percent{
+  margin-top: -30px;
+padding-left: 0px;
+text-align: center;
+
+
+h5{
+  margin-left: -10px;
+}
+}
 
 
 
 div#goal{
-
-  padding-top: 30px;
+  padding-top: 0px;
+  padding-left: 30px;
+  text-align: center;
 }
 
+
+
+div#results{
+  padding-bottom: 20px;
+
+h6{
+   padding-bottom: 20px;
+   min-width: 80px;
+}
+
+h4{ 
+  padding-left: 0px;
+  padding-bottom: 20px;
+  
+}
+
+select{
+  min-width:0px;
+}
+label{
+  padding-left: 10px;
+}
+
+}
+
+.custom_column2{
+  min-width: 0px;
+}
+
+.custom_column{
+  min-width: 0px;
+}
 
 
 
@@ -151,7 +214,6 @@ div#percent{
 text-align: center;
 
 
-
 h4{
   font-size: 48px;
 
@@ -159,16 +221,41 @@ h4{
 
 h5{
 min-width: 70px;
+}
+}
+
+div#results{
+
+
+h4{ 
+  padding-left: 30px; 
+
+}
+
+select{
+  min-width:110px;
+  padding-right:0px;
  
- 
 }
-}
-
-
-
-
+  label{
+  margin-right: -20px;
+  margin-left: -30px;
 }
 
+}
 
+.custom_column2{
+  max-width: 150px;
+}
+
+.custom_column{
+  min-width: 250px;
+}
+
+
+
+
+
+}
 
 

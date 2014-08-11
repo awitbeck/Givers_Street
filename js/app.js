@@ -19,7 +19,7 @@ $("#input1").keyup(function(event) {
 });
 
 
-//redirect on main page select
+
 
 
 
@@ -90,8 +90,3 @@ var dougnut6 = new Chart(document.getElementById("weeklyGoal6").getContext("2d")
 ///////main page select refresh
 
 
-document.getElementById("category").onchange = function() {
-        if (this.selectedIndex!==0) {
-            window.location.href = this.value;
-        }        
-    };

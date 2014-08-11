@@ -418,7 +418,7 @@ $header-font-color: #222;
 // $include-html-dropdown-classes: $include-html-classes;
 
 // We use these to controls height and width styles.
- $f-dropdown-max-width: 400px;
+ $f-dropdown-max-width: 300px;
 // $f-dropdown-height: auto;
 // $f-dropdown-max-height: none;
 
@@ -581,10 +581,10 @@ $header-font-color: #222;
 
 // We use this to control the margins and padding of the inline list.
 // $inline-list-top-margin: 0;
-// $inline-list-opposite-margin: 0;
+ $inline-list-opposite-margin: 10;
 // $inline-list-bottom-margin: rem-calc(17);
-// $inline-list-default-float-margin: rem-calc(-22);
-// $inline-list-default-float-list-margin: rem-calc(22);
+ $inline-list-default-float-margin: rem-calc(0);
+ $inline-list-default-float-list-margin: rem-calc(30);
 
 // $inline-list-padding: 0;
 
@@ -592,10 +592,10 @@ $header-font-color: #222;
 // $inline-list-overflow: hidden;
 
 // We use this to control the list items
-// $inline-list-display: block;
+ $inline-list-display: inline-block;
 
 // We use this to control any elments within list items
-// $inline-list-children-display: block;
+ $inline-list-children-display: inline-list-display;
 
 // Joyride
 
