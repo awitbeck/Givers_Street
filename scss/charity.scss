@@ -70,7 +70,7 @@ overflow: hidden;
 }
 
 .tabs .tab-title.active{
-  z-index: 100;
+  z-index: 7;
 }
 
 
@@ -238,6 +238,28 @@ div#text{
 padding-right: 20px;
 }
 
+div#myModal{
+  min-height: 300px;
+  p{
+    text-align: left;
+    margin-bottom: 5px;
+  }
+}
+
+
+div#signupbutton{
+  text-align: center;}
+
+
+div#myModal3{
+ border-radius: 4px;
+  z-index: 100;
+ min-height: 100px;
+ h6{
+  text-align: center;
+}
+
+}
 
 
 /*//////////////////////////small size//////////*/
@@ -267,15 +289,6 @@ margin-right: 0px;
  
 }
 }
-
-
-
-
-
-
-
-
-
 
 
 div#pic2{
@@ -374,11 +387,25 @@ div#text{
   line-height: 22px;
   margin-top: 4px;
   margin-bottom: 4px; 
-  padding-right: 0px;
- 
-
-  
+  padding-right: 0px; 
 }
+
+div#myModal{
+  max-width: 90%;
+  margin-left: 5%;
+  min-height: 450px;
+}
+
+
+
+
+
+div#myModal3{
+  padding-top: 30px;
+max-width: 60%;
+margin-left: 20%;
+}
+
 
 /*DONATORS TAB SMALL***********/
 
@@ -508,6 +535,14 @@ div#text{
 
 
 
+
+
+div#myModal2{
+ border-radius: 4px;
+ text-align: center;
+ z-index: 100;
+ min-height: 100px;
+}
 }
 
 

@@ -31,10 +31,43 @@
 <div class=" small-12 small-text-center medium-3 large-3 columns">
 <li><a href="acct.html" class="button">My Account</a></li></div>
 <div class=" small-12 small-text-center medium-3 large-3 columns"> 
-<li><a href="#" class="button">Sign Up</a></li></div>
+<li><a href="#" data-reveal-id="myModal" class="button">Sign Up</a></li></div>
 <div class=" small-12 small-text-center medium-3 large-3 columns"> 
   <li><a href="about.html" class="button">About</a></li></div>
 </ul>
+
+
+<div id="myModal" class="reveal-modal medium" data-reveal>
+ <div class="row">
+          <div class="small-12 medium-6 large-6 columns">
+         <p>Enter a username</p>
+          <input type="text" value='' autocomplete='off'/> 
+      </div> 
+      <div class="small-12 medium-6 large-6 columns"> 
+        <p>Enter a password</p>
+          <input type="text" value='' autocomplete='off'/> 
+      </div> 
+
+        <div class="small-12 medium-6 large-6 columns"> 
+        <p>Enter your email</p>
+          <input type="text" value='' autocomplete='off'/> 
+      </div> 
+     
+      <div class="small-12 medium-6 large-6 columns" id="socialicons"> 
+        <p>Sign up using the following social networks</p>
+         <img src="webicons/webicon-tumblr.svg" class="social button"/> 
+                               <img src="webicons/webicon-googleplus.svg" class="social button"/> 
+                              <img src="webicons/webicon-twitter.svg" class="social button"/> 
+                              <img src="webicons/webicon-facebook.svg"class="social button"/> 
+           
+      </div>   
+      <div class="small-12 small-centered medium-12 medium-centered large-12 large-centered columns" id="signupbutton">
+       <a href="#!" class="button">SIGN UP</a>
+      </div> 
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+</div>
+
 
 
 <ul id="drop1" data-dropdown-content class="f-dropdown">
@@ -73,10 +106,10 @@
           
               <div id="all_tabs">
     
-    <ul class="tabs" data-tab data-options="deep_linking: true" scroll_to_content:"false">
-        <li class="tab-title title1"><a href="#panel2-1">Tab 1</a></li>
-        <li class="tab-title title2"><a href="#panel2-2">Tab 2</a></li> 
-        <li class="tab-title title3"><a href="#panel2-3">Tab 3</a></li>
+    <ul class="tabs tab-width" data-tab data-options="deep_linking: true" scroll_to_content:"false">
+        <li class="tab-title active title1"><a href="#panel2-1">Main</a></li>
+        <li class="tab-title title2"><a href="#panel2-2">My Donations</a></li> 
+        <li class="tab-title title3"><a href="#panel2-3">My Comments</a></li>
     </ul>          
 
          
@@ -86,7 +119,7 @@
   <div id="top_section">
 
            <div class="small-12 small-only-text-center medium-12 large-6 large-only-text-left columns">
-                     <h5></h5></div>
+                     <h5>Welcome back Annearchy12345!</h5></div>
 <div class="small-12 small-only-text-center medium-12 large-6 text-right columns">
                      <img src="images/acct_girl.png">
             </div>
@@ -119,7 +152,7 @@
           <div class="small-6 medium-2 large-12 columns">         <h6>Drafts(1)</h6></div>
 
            <div class="small-6 medium-4 large-12 columns">
-                       <h6>&nbsp;&nbsp;&nbsp;&nbsp;Trash</h6>
+                       <h6>&nbsp;&nbsp;&nbsp;Trash</h6>
                 </div>
 
 </div>
@@ -141,8 +174,28 @@
               <tr> <td> <label><input type="checkbox"></td> <td>Anon12345</td> <td>Thanks for your donation!</td> <td>May 15</td> </tr>
                <tr> <td> <label><input type="checkbox"></td> <td>Anon12345</td> <td>Thanks for your donation!</td> <td>May 15</td> </tr>
                 <tr> <td> <label><input type="checkbox"></td> <td>Anon12345</td> <td>Thanks for your donation!</td> <td>May 15</td> </tr> </tbody> </table>
+
 </div>
+
  </div>
+
+<div class="small-9 medium-8 large-4 deleterow columns" id="delete">
+                     
+<div class="small-8 medium-8 large-7 columns">
+<h6>Delete checked</h6></div>
+
+
+<div class="small-4 medium-4 large-5 columns">
+<a href="#!" class="button [radius round]">Delete</a>
+
+ </div>
+
+ </div>
+
+
+
+
+
 
 
 
@@ -153,7 +206,7 @@
 
 <!--//////////This is the first favorite in MAIN tab///////////////////!-->   
 
- <div class="large-12 columns">
+ <div class="small-12 large-12 columns">
   <div id="favorite">
    
             
@@ -177,18 +230,18 @@
           </div>
             
        
-         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-5 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
-           <canvas id="weeklyGoal" height="57" width="57" ></canvas>
+           <canvas id="weeklyGoal6" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
 
            </div>
 
 
 
-          <div class="small-5 medium-6 large-2 columns custom_row3">
+          <div class="small-7-centered medium-6 large-2 columns custom_row3">
               <div id="option">
-                <div class="small-12 medium-12 large-12 columns">
+                <div class="small-12-centered medium-12 large-12 columns">
 
  <label class="label-align">
 <input id="checkbox1" type="checkbox" class="left"> 
@@ -199,7 +252,7 @@
                          <br>
                      <div id="donate">
                <div class="small-12 medium-12 large-12 columns">
-                      <a href="#" class="button">DONATE</a>
+                      <a href="charity.html" class="button">DONATE</a>
                     <!--FIVE end divs--> 
                   </div>
          </div>
@@ -215,7 +268,7 @@
 
   
     
- <div id="favorite">
+  <div id="favorite">
             
                      <div class="small-3 medium-2 large-2 columns">
                  <img src="images/guyhospital.png" />
@@ -237,16 +290,16 @@
           </div>
             
        
-         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-5 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
-           <canvas id="weeklyGoal4" height="57" width="57" ></canvas>
+           <canvas id="weeklyGoal" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
 
            </div>
 
 
 
-          <div class="small-5 medium-6 large-2 columns custom_row3">
+          <div class="small-7 medium-6 large-2 columns custom_row3">
               <div id="option">
                 <div class="small-12 medium-12 large-12 columns">
 
@@ -259,17 +312,18 @@
                          <br>
                      <div id="donate">
                <div class="small-12 medium-12 large-12 columns">
-                      <a href="#" class="button">DONATE</a>
+                      <a href="donate.html" class="button">DONATE</a>
                     <!--FIVE end divs--> 
                   </div>
          </div>
               </div>
         </div>
  </div>
-
+ 
 
 <!--//////////This is the third favorite in MAIN tab///////////////////!-->   
  
+  
   <div id="favorite">
    
             
@@ -293,7 +347,7 @@
           </div>
             
        
-         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-5 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
            <canvas id="weeklyGoal2" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
@@ -302,7 +356,7 @@
 
 
 
-          <div class="small-5 medium-6 large-2 columns custom_row3">
+          <div class="small-7 medium-6 large-2 columns custom_row3">
               <div id="option">
                 <div class="small-12 medium-12 large-12 columns">
 
@@ -315,7 +369,7 @@
                          <br>
                      <div id="donate">
                <div class="small-12 medium-12 large-12 columns">
-                      <a href="#" class="button">DONATE</a>
+                      <a href="donate.html" class="button">DONATE</a>
                     <!--FIVE end divs--> 
                   </div>
          </div>
@@ -323,8 +377,8 @@
         </div>
  </div>
  </div>
-</div>
 
+</div>
 
 
 
@@ -344,7 +398,7 @@
     <h1> Since joining Giver's Street</h1>
     <h2> You've donated a total of </h2>
     <h3><font color="green">
-      1,200!</font></h3>
+      $1,200!</font></h3>
       <h4>Thank you for your genorosity.</h4>
 </div>
 
@@ -360,7 +414,7 @@
                 <td>2:45pm</td>
                 <td>You donated $20.00 to</td>
                 <td>Help for Jason's Surgery</td>
-                <td><a href="#" class="button [radius round]">Share!</a></td>
+                <td><a href="#!" class="button [radius round]">Share!</a></td>
                
               </tr>
               <tr>
@@ -368,35 +422,35 @@
                 <td>2:45pm</td>
                 <td>You donated $20.00 to</td>
                 <td>Help for Jason's Surgery</td>
-                <td><a href="#" class="button [radius round]">Share!</a></td>
+                <td><a href="#!" class="button [radius round]">Share!</a></td>
               </tr>
               <tr>
                <td>May 18</td>
                 <td>2:45pm</td>
                 <td>You donated $20.00 to</td>
                 <td>Help for Jason's Surgery</td>
-                <td><a href="#" class="button [radius round]">Share!</a></td>
+                <td><a href="#!" class="button [radius round]">Share!</a></td>
               </tr>
                   <tr>
                <td>May 18</td>
                 <td>2:45pm</td>
                 <td>You donated $20.00 to</td>
                 <td>Help for Jason's Surgery</td>
-                <td><a href="#" class="button [radius round]">Share!</a></td>
+                <td><a href="#!" class="button [radius round]">Share!</a></td>
               </tr>
                   <tr>
                <td>May 18</td>
                 <td>2:45pm</td>
                 <td>You donated $20.00 to</td>
                 <td>Help for Jason's Surgery</td>
-                <td><a href="#" class="button [radius round]">Share!</a></td>
+                <td><a href="#!" class="button [radius round]">Share!</a></td>
               </tr>
                   <tr>
                <td>May 18</td>
                 <td>2:45pm</td>
                 <td>You donated $20.00 to</td>
                 <td>Help for Jason's Surgery</td>
-                <td><a href="#" class="button [radius round]">Share!</a></td>
+                <td><a href="#!" class="button [radius round]">Share!</a></td>
               </tr>
             </tbody>
           </table>
@@ -451,16 +505,16 @@
           </div>
             
        
-         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-5 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
-           <canvas id="weeklyGoal" height="57" width="57" ></canvas>
+           <canvas id="weeklyGoal3" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
 
            </div>
 
 
 
-          <div class="small-5 medium-6 large-2 columns custom_row3">
+          <div class="small-7 medium-6 large-2 columns custom_row3">
               <div id="option">
                 <div class="small-12 medium-12 large-12 columns">
 
@@ -473,7 +527,7 @@
                          <br>
                      <div id="donate">
                <div class="small-12 medium-12 large-12 columns">
-                      <a href="#" class="button">DONATE</a>
+                      <a href="donate.html" class="button">DONATE</a>
                     <!--SIX end divs--> 
                   </div>
          </div>
@@ -516,16 +570,16 @@
           </div>
             
        
-         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-5 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
-           <canvas id="weeklyGoal" height="57" width="57" ></canvas>
+           <canvas id="weeklyGoal4" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
 
            </div>
 
 
 
-          <div class="small-5 medium-6 large-2 columns custom_row3">
+          <div class="small-7 medium-6 large-2 columns custom_row3">
               <div id="option">
                 <div class="small-12 medium-12 large-12 columns">
 
@@ -538,7 +592,7 @@
                          <br>
                      <div id="donate">
                <div class="small-12 medium-12 large-12 columns">
-                      <a href="#" class="button">DONATE</a>
+                      <a href="donate.html" class="button">DONATE</a>
                     <!--SIX end divs--> 
                   </div>
          </div>
@@ -584,16 +638,16 @@
           </div>
             
        
-         <div class="small-7 medium-6 large-3 columns custom_row2" id="goal">
+         <div class="small-5 medium-6 large-3 columns custom_row2" id="goal">
                  <h6>Goal $5,000</h6>
-           <canvas id="weeklyGoal" height="57" width="57" ></canvas>
+           <canvas id="weeklyGoal5" height="57" width="57" ></canvas>
         <h6>Days Left: 5 <i> <font color="red">Ending Soon</i></font></h6>
 
            </div>
 
 
 
-          <div class="small-5 medium-6 large-2 columns custom_row3">
+          <div class="small-7 medium-6 large-2 columns custom_row3">
               <div id="option">
                 <div class="small-12 medium-12 large-12 columns">
 
@@ -606,7 +660,7 @@
                          <br>
                      <div id="donate">
                <div class="small-12 medium-12 large-12 columns">
-                      <a href="#" class="button">DONATE</a>
+                      <a href="donate.html" class="button">DONATE</a>
                     <!--SIX end divs--> 
                   </div>
          </div>
@@ -639,7 +693,7 @@
     <h1> With all your hard work, </h1>
     <h2> You've raised a total of </h2>
     <h3><font color="green">
-      3,200!</font></h3>
+      $3,200!</font></h3>
       <h4>since joining Giver's Street.</h4>
 </div>
 
@@ -655,6 +709,26 @@
           <h5><u><i>Fund for Sarah Gallagher </u> <font color="blue">&nbsp;&nbsp;&nbsp;Update</font></i></h5></div>
         </div>
 
+<div class="row">
+  <div class="small-12 small-centered medium-10 medium-centered large-7 large-uncentered columns result_row" id="results">         
+
+<div class="small-12 small-centered medium-7 medium-uncentered large-7 columns">   
+<img src="images/bar.png" ></div>
+
+<div class="small-12 small-centered medium-5 medium-uncentered large-5 columns">   
+<h5><i>70% of goal reached</i></h5></div>
+
+<div class="small-12 small-centered medium-12 medium-centered large-12 columns">   
+<h3><i>25 days remaining</i></h3></div>
+</div>
+</div>
+
+
+
+
+
+
+
 <div class="small-12 small-only-text-center small-centered medium-12 medium-centered large-7 large-uncentered columns" id="tablecharity2"> 
     <table class="responsive">
      <tbody>
@@ -663,7 +737,7 @@
         <td> May 18</td>
         <td>2:45pm</td>
         <td>John M donated $20.00</td> 
-        <td><a href="#" class="button [radius round]">Send Message</a></td> </tr>
+        <td><a href="#!" class="button [radius round]">Send Message</a></td> </tr>
 
 
       <tr>
@@ -671,7 +745,7 @@
         <td> May 18</td>
         <td>2:45pm</td>
         <td>John M donated $20.00</td> 
-        <td><a href="#" class="button [radius round]">Send Message</a></td> </tr>
+        <td><a href="#!" class="button [radius round]">Send Message</a></td> </tr>
 
 
         <tr>
@@ -679,7 +753,7 @@
         <td> May 18</td>
         <td>2:45pm</td>
         <td>John M donated $20.00</td> 
-        <td><a href="#" class="button [radius round]">Send Message</a></td> </tr>
+        <td><a href="#!" class="button [radius round]">Send Message</a></td> </tr>
 
 
       <tr>
@@ -687,28 +761,28 @@
         <td> May 18</td>
         <td>2:45pm</td>
         <td>John M donated $20.00</td> 
-        <td><a href="#" class="button [radius round]">Send Message</a></td> </tr>
+        <td><a href="#!" class="button [radius round]">Send Message</a></td> </tr>
 
    <tr>
         <td> <input type="checkbox"></td>
         <td> May 18</td>
         <td>2:45pm</td>
         <td>John M donated $20.00</td> 
-        <td><a href="#" class="button [radius round]">Send Message</a></td> </tr>
+        <td><a href="#!" class="button [radius round]">Send Message</a></td> </tr>
 
            <tr>
         <td> <input type="checkbox"></td>
         <td> May 18</td>
         <td>2:45pm</td>
         <td>John M donated $20.00</td> 
-        <td><a href="#" class="button [radius round]">Send Message</a></td> </tr>
+        <td><a href="#!" class="button [radius round]">Send Message</a></td> </tr>
 
             <tr>
         <td> <input type="checkbox"></td>
         <td> May 18</td>
         <td>2:45pm</td>
         <td>John M donated $20.00</td> 
-        <td><a href="#" class="button [radius round]">Send Message</a></td> </tr>
+        <td><a href="#!" class="button [radius round]">Send Message</a></td> </tr>
 
               </tbody> </table>
   </div>
@@ -722,8 +796,8 @@
               <h6>Fund for Sarah Gallagher</h6>
               <p> "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
           <ul class="inline-list">
-            <li><a href="" class="button approve">APPROVE</a></li>
-            <li><a href="" class="button deny">DENY</a></li>
+            <li><a href="#!" class="button approve">APPROVE</a></li>
+            <li><a href="#!" class="button deny">DENY</a></li>
           </ul>
 
 
@@ -731,23 +805,23 @@
               <h6>Fund for Sarah Gallagher</h6>
               <p> "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.</p>
           <ul class="inline-list">
-            <li><a href="" class="button approve">APPROVE</a></li>
-            <li><a href="" class="button deny">DENY</a></li>
+            <li><a href="#!" class="button approve">APPROVE</a></li>
+            <li><a href="#!" class="button deny">DENY</a></li>
           </ul>
 
             
                     <h6>Fund for Sarah Gallagher</h6>
               <p> "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
           <ul class="inline-list">
-            <li><a href="" class="button approve">APPROVE</a></li>
-            <li><a href="" class="button deny">DENY</a></li>
+            <li><a href="#!" class="button approve">APPROVE</a></li>
+            <li><a href="#!" class="button deny">DENY</a></li>
           </ul>
 
                          <h6>Fund for Sarah Gallagher</h6>
               <p> "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
           <ul class="inline-list">
-            <li><a href="" class="button approve">APPROVE</a></li>
-            <li><a href="" class="button deny">DENY</a></li>
+            <li><a href="#!" class="button approve">APPROVE</a></li>
+            <li><a href="#!" class="button deny">DENY</a></li>
           </ul>
 
 </div>

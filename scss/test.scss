@@ -1,0 +1,100 @@
+
+@import "settings";
+@import "foundation";
+
+
+
+
+div#myModal{
+  min-height: 300px;
+  p{
+    text-align: left;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+
+div#socialicons{
+.button{
+  background-color: none;
+}
+p{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+}
+
+div#signupbutton{
+  .button{
+  width: 200px;
+  font-size: 26px;
+  color:#fff;
+  border-radius: 4px;
+   line-height: 58px;
+box-shadow: 0 5px #404040;
+margin-top: 30px;
+  background-color: none;
+}
+
+.button:hover {
+  background-color: #1a6868;
+}
+
+.button:focus {
+  background-color: #1a6868;
+}
+
+}
+
+
+div#myModal{
+  min-height: 300px;
+  p{
+    text-align: left;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+
+div#myModal2{
+ border-radius: 4px;
+ text-align: center;
+ z-index: 100;
+ min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+/*//////////////////////////small //////*/
+@media only screen and (max-width: 640px) {
+
+
+div#myModal{
+  min-width: 90%;
+  margin-left: 5%;
+}
+
+
+
+
+
+div#myModal2.reveal-modal {
+  padding-top: 30px;
+max-width: 60%;
+margin-left: 20%;
+
+}
+
+
+}

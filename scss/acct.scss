@@ -16,7 +16,7 @@ div#content{
 
 
 div#all_tabs{
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 
@@ -33,20 +33,28 @@ box-shadow:9px 0px 0px 0px #000000;
       z-index: 98;
       position: relative;
     }
-    .tab-title1{
+    .tab-title1 {
       z-index: 7;
       position: relative;
     }
 
    .title2{
-      z-index: 4;
+      z-index: 5;
       position: relative;
     }
 
    .title3{
-      z-index: 3;
-      position: relative;
-    }
+      z-index: 0;
+      position: relative;}
+    
+.title1:not(.active){
+    z-index:97;
+  }
+
+
+  .title2:not(.active){
+    z-index: 2;
+  }
 
 
 
@@ -125,6 +133,32 @@ td{
 }
 
 
+div#delete{
+  padding-top: 20px;
+  h6{
+    padding-left: 40px;
+    font-size: 14px;
+  }
+
+   .button{
+    margin-left: -20px;
+    background-color: #ebe5b0;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 20px;
+    width: 46px;
+    height: 25px;
+     border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+  }
+
+
+}
+
+
 div#main {
   padding-left: 30px;
 
@@ -134,7 +168,7 @@ div#main {
 div#favorite_title h1{
   padding-top: 30px;
   font-size: 16px;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-bottom: 5px;
 }
 
@@ -310,7 +344,6 @@ table {
     border-radius: 4px;
     margin-bottom: auto;
     margin-top: auto;
-    
   }
  
 }
@@ -369,7 +402,8 @@ div#mydonations3 {
 *************third tab LARGE*/
 
 div#tablecharity{
-   padding-top: 60px;
+  margin-top: -30px;
+   padding-top: 80px;
   h5{
     font-size: 16px;
     padding-top: 20px;
@@ -385,7 +419,6 @@ img{
 
 div#tablecharity2{
 @extend #tabledonate;
-margin-top: -10px;
  .button{
     width: 80px;   
   }
@@ -395,10 +428,37 @@ margin-top: -10px;
 }
 }
 
+
+div#results{
+margin-bottom: -40px;
+
+  h5{
+    font-size: 15px;
+    padding-left: 5px;
+    
+  }
+  img{
+   padding-left:20px;
+   min-height:16px;
+   min-width: 238px;
+  }
+
+  h3{
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+}
+
+
+.result_row{
+  max-width: 460px;
+}
+
 div#charitycomments{
   margin-left: -40px;
   text-align: left;
-  margin-top: -30px;
+  margin-top: -60px;
   max-width: 350px;
 
     h5{
@@ -457,7 +517,40 @@ margin-left: -30px;
 
 /*////////////////////small size**********************/
 
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 393px) and (max-width: 640px) {
+
+div#all_tabs .tabs a{
+min-width:0px;
+max-height: 50px;
+font-size: 15px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 10px;
+
+  text-align: center;
+border-radius: 4px 4px 0 0;
+box-shadow:9px 0px 0px 0px #000000;
+ position: relative;
+ margin-left: -11px;
+ margin-bottom: -30px;
+    }
+
+div#all_tabs .tabs .title1 a{
+margin-left: 0px;
+
+}
+
+
+.tab-width{
+@include block-grid(3);
+
+}
+
+
+
+
+
+
 
 /********************FIRST TAB*********************/
 #top_section{
@@ -510,12 +603,25 @@ h6{
 
 
 
+
+div#delete{
+  h6{
+    padding-left: 0px;
+  }
+}
+
+.deleterow{
+
+ max-width: 250px;
+}
+
+
+
 /********** favorite panel SMALL (first tab)******************/
 div#favorite_title h1{
   padding-top: 30px;
   padding-left: 0px;
 }
-
 
 div#favorite{
 overflow: auto;
@@ -524,30 +630,36 @@ min-width:100%;
 margin:10px -10px;
 
 div#title{
- max-width: 200px;
+ min-width: 0px;
   margin-left: -10px;
 }
 
 div#goal{
-   padding-left: 0px;
- margin-top: -30px;   
+   text-align: center;
+   padding-left: 20px;
+ margin-top: 0px;   
  }
 
 .custom_row2{ 
     min-width: 0px; 
   }
 
+
 div#option{
+  text-align: center;
   padding-top: 0px;
   margin-left:-20px;
 }
 
 .custom_row3{ 
     min-width: 0px; 
+
   }
 
 }
   /********************SECOND TAB SMALL*********************/
+
+/********** setting for all tabs******************/
 
 
 div#donatetotal{
@@ -603,20 +715,52 @@ div#mydonations3 {
  }
 }
 
+
+
   /********************THIRD TAB SMALL*********************/
 
 
 div#tablecharity{
+   padding-top: 60px;
 padding-left: 0px;
 text-align: center;
 h5{
   margin-left: 0px;
 }
+}
+
+
+div#results{
+  text-align: center;
+margin-bottom: -20px;
+
+  h5{
+    padding-left: 0px;
+    
+  }
+  img{
+    text-align: center;
+   padding-left:0px;
+   max-height:16px;
+   max-width: 238px;
+  }
+
+  h3{
+    padding-left:0px;
+  }
 
 }
+
+
+.result_row{
+  max-width: 640px;
+}
+
+
+
 div#charitycomments{
   margin-left: 20px;
-  padding-top: 30px;
+  padding-top: 70px;
 }
 
 }
@@ -626,6 +770,18 @@ div#charitycomments{
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
+/********** setting for all tabs******************/
+
+div#all_tabs .tabs a{
+  min-width: 0px;
+  text-align: center;
+border-radius: 4px 4px 0 0;
+box-shadow:9px 0px 0px 0px #000000;
+ position: relative;
+
+    }
+
+    /********** setting for all tabs******************/
 
 #donatetotal{
   padding-bottom: 20px;
@@ -638,6 +794,20 @@ h6{
  margin-bottom: -20px;
 }
 }
+
+
+div#delete{
+  h6{
+    padding-left: 20px;
+  }
+}
+
+
+.deleterow{
+ max-width: 255px;
+}
+
+
 
 
 /********** favorite panel, main tab MEDIUM******************/
@@ -752,6 +922,7 @@ div#mydonations3 {
 /********************THIRD TAB MEDIUM*********************/
 
 div#tablecharity{
+  padding-top: 30px;
 min-width: 600px;
   h5{
     padding-bottom:20px;
@@ -766,12 +937,310 @@ min-width: 42px;
 }
 }
 
+div#tablecharity2{
+  margin-top: -20px;
+}
+
+
+
+
+div#results{
+margin-bottom: -10px;
+
+  img{
+   padding-left:0px;
+   min-height:16px;
+   min-width: 250px;
+  }
+
+  h3{
+   text-align: center;
+    padding-left: 0px;
+    margin-top: 30px;  
+  }
+
+}
+
+.result_row{
+  max-width: 470px;
+}
+
+
+
+
+
 
 div#charitycomments{
   margin-left: 20px;
     max-width: 500px;
-padding-top: 50px;
+padding-top: 70px;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************SECOND SMALL SIZE!!!*********************/
+
+
+
+@media only screen and (max-width: 392px) {
+
+div#all_tabs .tabs a{
+min-width:0px;
+max-height: 50px;
+font-size: 15px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 10px;
+
+  text-align: center;
+border-radius: 4px 4px 0 0;
+box-shadow:9px 0px 0px 0px #000000;
+ position: relative;
+ margin-left: -11px;
+ margin-bottom: -30px;
+    }
+
+div#all_tabs .tabs .title1 a{
+margin-left: 0px;
+min-height: 50px;
+}
+
+
+.tab-width{
+@include block-grid(3);
+
+}
+
+div#delete{
+  h6{
+    padding-left: 0px;
+  }
+}
+
+.deleterow{
+
+ max-width: 250px;
+}
+
+
+
+
+
+
+
+/********************FIRST TAB*********************/
+#top_section{
+  padding-bottom: 30px;
+
+h5{
+ margin-left: -40px;
+}
+  img{
+    margin-right: -25px;
+  }
+}
+
+div#change{
+  padding-right: 0px;
+  margin-left: -10px;
+  text-align: center;
+}
+
+
+div#messages{
+ margin-right: -10px;
+}
+
+
+div#mailbox {
+  margin-left: 0px;
+  padding-right: 5px;
+
+
+ #table-wrapper {
+     margin-left:-10px;  
+                  }
+td{
+  overflow: hidden;
+    line-height: 1em;
+  }   
+
+}
+
+div#main{
+text-align: center;
+ padding-left: 0px;
+
+h6{
+ line-height:1.5em;
+ padding-left: 10px;
+}
+}
+
+
+
+
+
+/********** favorite panel SMALL (first tab)******************/
+div#favorite_title h1{
+  padding-top: 30px;
+  padding-left: 0px;
+}
+
+
+div#favorite{
+overflow: auto;
+min-height: 260px;
+min-width:100%;
+margin:10px -10px;
+
+div#title{
+ min-width: 0px;
+  margin-left: -10px;
+}
+
+
+div#goal{
+   text-align: center;
+   padding-left: 20px;
+ margin-top: 0px;   
+ }
+
+.custom_row2{ 
+    min-width: 0px; 
+  }
+
+
+div#option{
+  text-align: center;
+  padding-top: 0px;
+  margin-left:-20px;
+}
+
+.custom_row3{ 
+    min-width: 0px; 
+
+  }
+
+}
+  /********************SECOND TAB SMALL*********************/
+
+/********** setting for all tabs******************/
+
+
+
+
+
+
+div#donatetotal{
+  padding-top: 0px;
+}
+
+
+div#tabledonate{
+
+h6{
+text-align: center;
+padding-left: 0px;
+}
+  table{
+ padding-left: 0px;
+ display: inline-block;
+}
+}
+
+div#share {
+padding-top: 10px;
+
+h6{
+  padding-bottom: 10px;
+}
+}
+
+div#mydonations1{
+  padding-top: 20px;
+
+ h1{
+   text-align: center;
+  padding-left: 0px; 
+}
+ h3{
+
+  text-align: center;
+  padding-right: 0px;
+ }
+}
+
+div#mydonations2 {
+ h3{
+  text-align: center;
+  padding-right: 0px;
+ }
+}
+
+div#mydonations3 {
+ h3{
+  text-align: center;
+  padding-right: 0px;
+ }
+}
+
+  /********************THIRD TAB SMALL 2nd SMALL size*********************/
+
+
+div#tablecharity{
+   padding-top: 60px;
+padding-left: 0px;
+text-align: center;
+h5{
+  margin-left: 0px;
+}
+}
+
+
+div#results{
+  text-align: center;
+margin-bottom: -20px;
+
+  h5{
+    padding-left: 0px;
+    
+  }
+  img{
+    text-align: center;
+   padding-left:0px;
+   max-height:16px;
+   max-width: 238px;
+  }
+
+  h3{
+    padding-left:0px;
+  }
+
+}
+
+
+.result_row{
+  max-width: 640px;
+}
+
+
+
+div#charitycomments{
+  margin-left: 20px;
+  padding-top: 70px;
+}
+
 }
 
 

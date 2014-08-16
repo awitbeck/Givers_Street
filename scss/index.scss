@@ -44,9 +44,57 @@ padding-left: 40px;
   li a {
     border-bottom: 1px solid #acaba7;
     min-width: 105px;
-  
     }
 }
+
+div#myModal{
+   border-radius: 4px;
+  min-height: 300px;
+  p{
+    text-align: left;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+
+div#socialicons{
+.button{
+  background-color: none;
+}
+p{
+  text-align:center;
+padding-bottom: 10px;
+}
+
+}
+
+div#signupbutton{
+  .button{
+  width: 200px;
+  font-size: 26px;
+  color:#fff;
+  border-radius: 4px;
+   line-height: 58px;
+box-shadow: 0 5px #404040;
+margin-top: 20px;
+  background-color: none;
+}
+
+.button:hover {
+  background-color: #1a6868;
+}
+
+.button:focus {
+  background-color: #1a6868;
+}
+
+}
+
+
+
+
 
 
 
@@ -130,18 +178,13 @@ div#form1{
 
 
 div#create{
+    @extend div#signupbutton;
   padding-top: 100px;
   padding-bottom: 80px;
 }
 
  div#create .button {
   width: 300px;
-  font-size: 26px;
-  color:#fff;
-  border-radius: 4px;
-   line-height: 58px;
-box-shadow: 0 5px #404040;
-margin-top: 30px;
 }
 
  div#create .button:hover {
@@ -245,6 +288,15 @@ div#signup{
      
   }
 }
+
+
+div#myModal{
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+
+
 
 div#form1{
 

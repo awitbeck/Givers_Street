@@ -4919,8 +4919,8 @@ dialog > :last-child, .reveal-modal > :last-child {
 @media only screen and (min-width: 40.063em) {
   /* line 164, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
-    margin-left: -40%;
-    width: 80%;
+    margin-left: -25%;
+    width: 50%;
   }
 }
 @media only screen and (min-width: 40.063em) {
@@ -8025,17 +8025,58 @@ div#logo h2 {
   min-width: 105px;
 }
 
-/* line 55, ../scss/index.scss */
+/* line 50, ../scss/index.scss */
+div#myModal {
+  border-radius: 4px;
+  min-height: 300px;
+}
+/* line 53, ../scss/index.scss */
+div#myModal p {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+/* line 63, ../scss/index.scss */
+div#socialicons .button {
+  background-color: none;
+}
+/* line 66, ../scss/index.scss */
+div#socialicons p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* line 74, ../scss/index.scss */
+div#signupbutton .button, div#create .button {
+  width: 200px;
+  font-size: 26px;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 58px;
+  box-shadow: 0 5px #404040;
+  margin-top: 20px;
+  background-color: none;
+}
+/* line 85, ../scss/index.scss */
+div#signupbutton .button:hover, div#create .button:hover {
+  background-color: #1a6868;
+}
+/* line 89, ../scss/index.scss */
+div#signupbutton .button:focus, div#create .button:focus {
+  background-color: #1a6868;
+}
+
+/* line 103, ../scss/index.scss */
 div#signup {
   background-image: url("../images/streethome.png");
   background-size: cover;
 }
 
-/* line 60, ../scss/index.scss */
+/* line 108, ../scss/index.scss */
 div#signup {
   padding-bottom: 30px;
 }
-/* line 63, ../scss/index.scss */
+/* line 111, ../scss/index.scss */
 div#signup h1, div#signup h2 {
   font-size: 48px;
   font-family: Open Sans, sans-serif;
@@ -8043,12 +8084,12 @@ div#signup h1, div#signup h2 {
   text-shadow: 3px 3px 3px #000000;
   padding-top: 20px;
 }
-/* line 71, ../scss/index.scss */
+/* line 119, ../scss/index.scss */
 div#signup label {
   text-shadow: 3px 3px 3px #000000;
   margin-top: -10px;
 }
-/* line 78, ../scss/index.scss */
+/* line 126, ../scss/index.scss */
 div#signup h3 {
   font-size: 29px;
   font-family: Open Sans, sans-serif;
@@ -8059,40 +8100,40 @@ div#signup h3 {
   padding-bottom: 80px;
 }
 
-/* line 92, ../scss/index.scss */
+/* line 140, ../scss/index.scss */
 div#form1 label {
   padding-right: 30px;
 }
 
-/* line 101, ../scss/index.scss */
+/* line 149, ../scss/index.scss */
 #create h4 {
   font-size: 29px;
   vertical-align: middle;
 }
 
-/* line 106, ../scss/index.scss */
+/* line 154, ../scss/index.scss */
 ::-webkit-input-placeholder {
   font-style: italic;
 }
 
-/* line 110, ../scss/index.scss */
+/* line 158, ../scss/index.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   font-style: italic;
 }
 
-/* line 114, ../scss/index.scss */
+/* line 162, ../scss/index.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   font-style: italic;
 }
 
-/* line 118, ../scss/index.scss */
+/* line 166, ../scss/index.scss */
 :-ms-input-placeholder {
   font-style: italic;
 }
 
-/* line 122, ../scss/index.scss */
+/* line 170, ../scss/index.scss */
 #create p {
   display: inline-block;
   font-family: Times;
@@ -8102,34 +8143,28 @@ div#form1 label {
   line-height: 1.2em;
 }
 
-/* line 132, ../scss/index.scss */
+/* line 180, ../scss/index.scss */
 div#create {
   padding-top: 100px;
   padding-bottom: 80px;
 }
 
-/* line 137, ../scss/index.scss */
+/* line 186, ../scss/index.scss */
 div#create .button {
   width: 300px;
-  font-size: 26px;
-  color: #fff;
-  border-radius: 4px;
-  line-height: 58px;
-  box-shadow: 0 5px #404040;
-  margin-top: 30px;
 }
 
-/* line 147, ../scss/index.scss */
+/* line 190, ../scss/index.scss */
 div#create .button:hover {
   background-color: #1a6868;
 }
 
-/* line 151, ../scss/index.scss */
+/* line 194, ../scss/index.scss */
 div#create .button:focus {
   background-color: #1a6868;
 }
 
-/* line 159, ../scss/index.scss */
+/* line 202, ../scss/index.scss */
 div#create .woman {
   display: block;
   margin-right: auto;
@@ -8137,40 +8172,40 @@ div#create .woman {
   text-align: center;
 }
 
-/* line 167, ../scss/index.scss */
+/* line 210, ../scss/index.scss */
 div#footer_1 {
   background: #ebe5b0;
   min-height: 200px;
 }
-/* line 170, ../scss/index.scss */
+/* line 213, ../scss/index.scss */
 div#footer_1 h3 {
   padding-top: 40px;
   text-align: center;
 }
-/* line 175, ../scss/index.scss */
+/* line 218, ../scss/index.scss */
 div#footer_1 h4 {
   text-align: center;
 }
-/* line 179, ../scss/index.scss */
+/* line 222, ../scss/index.scss */
 div#footer_1 h5 {
   padding-top: 54px;
   text-align: center;
 }
 
-/* line 185, ../scss/index.scss */
+/* line 228, ../scss/index.scss */
 div#footer_2 {
   background: #90e4cb;
   min-height: 124px;
 }
 
-/* line 192, ../scss/index.scss */
+/* line 235, ../scss/index.scss */
 #footer_2 h3 {
   font-family: Pacifico;
   font-size: 36px;
   text-align: center;
   margin-top: 44px;
 }
-/* line 199, ../scss/index.scss */
+/* line 242, ../scss/index.scss */
 #footer_2 h5 {
   padding-top: 40px;
   font-size: 14px;
@@ -8179,145 +8214,151 @@ div#footer_2 {
 
 /*//////////////////////////small //////*/
 @media only screen and (max-width: 640px) {
-  /* line 216, ../scss/index.scss */
+  /* line 259, ../scss/index.scss */
   .buttondropdown {
     padding-left: 50px;
   }
 
-  /* line 220, ../scss/index.scss */
+  /* line 263, ../scss/index.scss */
   .f-dropdown {
     text-align: center;
   }
-  /* line 222, ../scss/index.scss */
+  /* line 265, ../scss/index.scss */
   .f-dropdown li a {
     width: 100%;
   }
 
-  /* line 230, ../scss/index.scss */
+  /* line 273, ../scss/index.scss */
   div#logo h2 {
     text-align: center;
   }
 
-  /* line 237, ../scss/index.scss */
+  /* line 280, ../scss/index.scss */
   div#signup h1, div#signup h2 {
     margin-bottom: -50px;
   }
-  /* line 242, ../scss/index.scss */
+  /* line 285, ../scss/index.scss */
   div#signup h3 {
     padding-top: 90px;
     padding-bottom: 40px;
   }
 
-  /* line 251, ../scss/index.scss */
+  /* line 293, ../scss/index.scss */
+  div#myModal {
+    max-width: 90%;
+    margin-left: 5%;
+  }
+
+  /* line 303, ../scss/index.scss */
   div#form1 label {
     text-align: center;
     padding-left: 30px;
   }
 
-  /* line 260, ../scss/index.scss */
+  /* line 312, ../scss/index.scss */
   div#form2 label {
     text-align: center;
   }
 
-  /* line 270, ../scss/index.scss */
+  /* line 322, ../scss/index.scss */
   .button-group {
     padding-left: 0px;
   }
 
-  /* line 274, ../scss/index.scss */
+  /* line 326, ../scss/index.scss */
   div#create {
     padding-top: 20px;
   }
-  /* line 278, ../scss/index.scss */
+  /* line 330, ../scss/index.scss */
   div#create .button {
     width: 100%;
     line-height: 1.2em;
     padding-top: 5px;
   }
-  /* line 284, ../scss/index.scss */
+  /* line 336, ../scss/index.scss */
   div#create img {
     padding-top: 0px;
   }
 
-  /* line 292, ../scss/index.scss */
+  /* line 344, ../scss/index.scss */
   div#footer_1 h3 {
     font-size: 33px;
     padding-top: 0px;
   }
-  /* line 297, ../scss/index.scss */
+  /* line 349, ../scss/index.scss */
   div#footer_1 h5 {
     padding-top: 10px;
     font-size: 20px;
   }
 
-  /* line 305, ../scss/index.scss */
+  /* line 357, ../scss/index.scss */
   div#footer2 h5 {
     text-align: center;
   }
 }
 /*///////////////////////medium sizes*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 319, ../scss/index.scss */
+  /* line 371, ../scss/index.scss */
   div#signup h1, div#signup h2 {
     margin-bottom: -50px;
   }
-  /* line 323, ../scss/index.scss */
+  /* line 375, ../scss/index.scss */
   div#signup h3 {
     padding-top: 90px;
     padding-bottom: 40px;
   }
 
-  /* line 331, ../scss/index.scss */
+  /* line 383, ../scss/index.scss */
   div#form1 {
     text-align: center;
   }
-  /* line 333, ../scss/index.scss */
+  /* line 385, ../scss/index.scss */
   div#form1 label {
     padding-right: 10%;
     min-width: 250px;
     line-height: 1.1em;
     padding-top: 10px;
   }
-  /* line 339, ../scss/index.scss */
+  /* line 391, ../scss/index.scss */
   div#form1 input {
     width: 80%;
   }
 
-  /* line 346, ../scss/index.scss */
+  /* line 398, ../scss/index.scss */
   div#form2 label {
     padding-left: 10%;
     padding-right: 10%;
     min-width: 250px;
     padding-top: 10px;
   }
-  /* line 353, ../scss/index.scss */
+  /* line 405, ../scss/index.scss */
   div#form2 select {
     width: 86%;
     margin-left: -15px;
   }
 
-  /* line 361, ../scss/index.scss */
+  /* line 413, ../scss/index.scss */
   div#create {
     padding-top: 30px;
     padding-bottom: 20px;
   }
-  /* line 366, ../scss/index.scss */
+  /* line 418, ../scss/index.scss */
   div#create img {
     padding-top: 20px;
   }
 
-  /* line 374, ../scss/index.scss */
+  /* line 426, ../scss/index.scss */
   div#footer_1 h3 {
     padding-top: 10px;
   }
-  /* line 378, ../scss/index.scss */
+  /* line 430, ../scss/index.scss */
   div#footer_1 h5 {
     padding-top: 20px;
   }
 }
 /*///////my custom size/////////////////*/
 @media only screen and (min-width: 640px) and (max-width: 699px) {
-  /* line 393, ../scss/index.scss */
+  /* line 445, ../scss/index.scss */
   .custom-row-class {
     width: 100%;
     margin-left: auto;
@@ -8335,7 +8376,7 @@ div#footer_2 {
   .custom-row-class:after {
     clear: both;
   }
-  /* line 395, ../scss/index.scss */
+  /* line 447, ../scss/index.scss */
   .custom-row-class .custom-column-class {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -8343,18 +8384,18 @@ div#footer_2 {
     float: left;
   }
 
-  /* line 402, ../scss/index.scss */
+  /* line 454, ../scss/index.scss */
   div#form1 label {
     text-align: right;
     padding-right: 40px;
   }
 
-  /* line 412, ../scss/index.scss */
+  /* line 464, ../scss/index.scss */
   div#form2 label {
     text-align: right;
     min-width: 250px;
   }
-  /* line 418, ../scss/index.scss */
+  /* line 470, ../scss/index.scss */
   div#form2 select {
     width: 90%;
     padding-left: 20px;

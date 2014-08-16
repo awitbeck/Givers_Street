@@ -4919,8 +4919,8 @@ dialog > :last-child, .reveal-modal > :last-child {
 @media only screen and (min-width: 40.063em) {
   /* line 164, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
-    margin-left: -40%;
-    width: 80%;
+    margin-left: -25%;
+    width: 50%;
   }
 }
 @media only screen and (min-width: 40.063em) {
@@ -8045,7 +8045,7 @@ div#goal h6 {
 
 /* line 81, ../scss/search.scss */
 div#results {
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 /* line 84, ../scss/search.scss */
 div#results h6 {
@@ -8088,105 +8088,111 @@ div#results a {
   min-width: 260px;
 }
 
+/*//////////////////////////smal///////*/
 @media only screen and (max-width: 640px) {
   /* line 129, ../scss/search.scss */
   div#title {
     padding-left: 20px;
   }
 
-  /* line 135, ../scss/search.scss */
+  /* line 134, ../scss/search.scss */
   div#percent {
     margin-top: -30px;
     padding-left: 0px;
     text-align: center;
   }
-  /* line 141, ../scss/search.scss */
+  /* line 140, ../scss/search.scss */
   div#percent h5 {
     margin-left: -10px;
   }
 
-  /* line 148, ../scss/search.scss */
+  /* line 147, ../scss/search.scss */
   div#goal {
     padding-top: 0px;
     padding-left: 30px;
     text-align: center;
   }
 
-  /* line 156, ../scss/search.scss */
+  /* line 155, ../scss/search.scss */
   div#results {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
-  /* line 159, ../scss/search.scss */
+  /* line 158, ../scss/search.scss */
   div#results h6 {
     padding-bottom: 20px;
     min-width: 80px;
   }
-  /* line 164, ../scss/search.scss */
+  /* line 163, ../scss/search.scss */
   div#results h4 {
     padding-left: 0px;
     padding-bottom: 20px;
   }
-  /* line 170, ../scss/search.scss */
+  /* line 169, ../scss/search.scss */
   div#results select {
     min-width: 0px;
   }
-  /* line 173, ../scss/search.scss */
+  /* line 172, ../scss/search.scss */
   div#results label {
     padding-left: 10px;
   }
 
-  /* line 179, ../scss/search.scss */
+  /* line 178, ../scss/search.scss */
   .custom_column2 {
     min-width: 0px;
   }
 
-  /* line 183, ../scss/search.scss */
+  /* line 182, ../scss/search.scss */
   .custom_column {
     min-width: 0px;
   }
 }
+/*///////////////////////medium sizes///////*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 205, ../scss/search.scss */
+  /* line 204, ../scss/search.scss */
   div#title {
     padding-left: 15px;
   }
 
-  /* line 211, ../scss/search.scss */
+  /* line 210, ../scss/search.scss */
   div#percent {
     margin-top: -5px;
     margin-left: -40px;
     text-align: center;
   }
-  /* line 217, ../scss/search.scss */
+  /* line 216, ../scss/search.scss */
   div#percent h4 {
     font-size: 48px;
   }
-  /* line 222, ../scss/search.scss */
+  /* line 221, ../scss/search.scss */
   div#percent h5 {
     min-width: 70px;
   }
 
-  /* line 230, ../scss/search.scss */
+  /* line 226, ../scss/search.scss */
+  div#results {
+    padding-bottom: 20px;
+  }
+  /* line 229, ../scss/search.scss */
   div#results h4 {
     padding-left: 30px;
   }
-  /* line 235, ../scss/search.scss */
+  /* line 234, ../scss/search.scss */
   div#results select {
     min-width: 110px;
     padding-right: 0px;
   }
-  /* line 240, ../scss/search.scss */
+  /* line 239, ../scss/search.scss */
   div#results label {
     margin-right: -20px;
     margin-left: -30px;
   }
 
-  /* line 247, ../scss/search.scss */
+  /* line 246, ../scss/search.scss */
   .custom_column2 {
     max-width: 150px;
   }
 
-  /* line 251, ../scss/search.scss */
+  /* line 250, ../scss/search.scss */
   .custom_column {
     min-width: 250px;
   }
