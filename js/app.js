@@ -87,4 +87,3 @@ var dougnut6 = new Chart(document.getElementById("weeklyGoal6").getContext("2d")
 
 
 ///////main page select refresh
-

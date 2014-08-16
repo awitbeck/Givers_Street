@@ -1,122 +1,169 @@
-  <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-     <link rel="stylesheet" href="stylesheets/app.css" />
-    <link rel="stylesheet" href="scss/_settings.scss">
-   <script src="bower_components/modernizr/modernizr.js"></script>
-   <script src="js/app.js"></script>
-  </head>
-  <body>
-
-
-
-
-
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Foundation</title>
+<link rel="stylesheet" href="stylesheets/app.css" />
+<script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+<div id="logo" class="row">
+<div class="small-12 medium-10 large-6 columns">
+<h1><a href="index.html"><img src="images/logo.png" /></a></h1>
+</div>
+<div class="small-12 medium-2 large-6 columns"><h2>Login</h2>
+</div>
+</div>
 <div class="row">
 <ul class="button-group">
-  <div class=" small-12 small-text-center medium-3 large-3 columns"> 
+<div class=" small-12 small-text-center medium-3 large-3 columns">
 <li><a href="#" data-dropdown="drop1" data-options="is_hover:true" class="button dropdown buttondropdown">Choose a Charity</a></li></div>
 <div class=" small-12 small-text-center medium-3 large-3 columns">
 <li><a href="acct.html" class="button">My Account</a></li></div>
-<div class=" small-12 small-text-center medium-3 large-3 columns"> 
-<li><a href="#" data-reveal-id="myModal" class="button">Sign Up</a></li></div>
-<div class=" small-12 small-text-center medium-3 large-3 columns"> 
-  <li><a href="about.html" class="button">About</a></li></div>
+<div class=" small-12 small-text-center medium-3 large-3 columns">
+<li><a href="#" class="button">Sign Up</a></li></div>
+<div class=" small-12 small-text-center medium-3 large-3 columns">
+<li><a href="about.html" class="button">About</a></li></div>
 </ul>
-
-
-<div id="myModal" class="reveal-modal medium" data-reveal>
- <div class="row">
-          <div class="small-12 medium-6 large-6 columns">
-         <p>Enter a username</p>
-          <input type="text" value='' autocomplete='off'/> 
-      </div> 
-      <div class="small-12 medium-6 large-6 columns"> 
-        <p>Enter a password</p>
-          <input type="text" value='' autocomplete='off'/> 
-      </div> 
-
-        <div class="small-12 medium-6 large-6 columns"> 
-        <p>Enter your email</p>
-          <input type="text" value='' autocomplete='off'/> 
-      </div> 
-     
-      <div class="small-12 medium-6 large-6 columns" id="socialicons"> 
-        <p>Sign up using the following social networks</p>
-         <img src="webicons/webicon-tumblr.svg" class="social button"/> 
-                               <img src="webicons/webicon-googleplus.svg" class="social button"/> 
-                              <img src="webicons/webicon-twitter.svg" class="social button"/> 
-                              <img src="webicons/webicon-facebook.svg"class="social button"/> 
-           
-      </div>   
-      <div class="small-12 small-centered medium-12 medium-centered large-12 large-centered columns" id="signupbutton">
-       <a href="#!" class="button">SIGN UP</a>
-      </div> 
-  <a class="close-reveal-modal">&#215;</a>
-</div>
-</div>
-
-
-
 <ul id="drop1" data-dropdown-content class="f-dropdown">
-
-              <ul class="inline-list">
-                <li><a href="search.html">Animals</a></li>
-
-                <li><a href="search.html">Children</a></li>
-                <li><a href="search.html">Education</a></li>
-
-                <li><a href="search.html">Humanitarian</a></li>
-
-                <li><a href="search.html">Medical</a></li>
-
-                <li><a href="search.html">Memorial</a></li>
-                
-              </ul>
-             
+<ul class="inline-list">
+<li><a href="search.html">Animals</a></li>
+<li><a href="search.html">Children</a></li>
+<li><a href="search.html">Education</a></li>
+<li><a href="search.html">Humanitarian</a></li>
+<li><a href="search.html">Medical</a></li>
+<li><a href="search.html">Memorial</a></li>
+</ul>
 </ul>
 </div>
+<div id="charity">
+<div id="content">
+<form>
+<div class="row">
+<div class="large-9 columns">
+<label>Please fill out the following information to make your donation.<br>
+<i>*Indicates required field</i></label>
+<br>
+<div class="row">
+<div class="large-5 columns">
+<label>*First name
+<input type="text" placeholder="large-4.columns" />
+</label>
+</div>
+<div class="large-5 columns">
+<label>*Last name
+<input type="text" placeholder="large-4.columns" />
+</label>
+</div>
+<div class="large-10 columns" id="identity">
+<input type="radio" id="pokemonRed"><label for="pokemonRed"><i>Please keep my identity anonymous when displaying donation</i></label>
+</div>
+<div class="large-10 columns">
+<label>*Street Address
+<input type="text" placeholder="large-4.columns" />
+</label> </div>
+<div class="large-5 columns">
+<label>*City
+<input type="text" placeholder="large-4.columns" />
+</label> </div>
+<div class="large-5 columns">
+<label>*State
+<input type="text" placeholder="large-4.columns" />
+</label> </div>
+<div class="large-5 columns">
+<label>*Zip Code
+<input type="text" placeholder="large-4.columns" />
+</label> </div>
+<div class="large-5 columns">
+<label>*Country
+<input type="text" placeholder="large-4.columns" />
+</label><br> </div>
+<div class="large-9 columns">
+<label>*Please choose your donation amount</label><br>
+<input type="radio" name="pokemon" value="Red" id="pokemonRed">
+<label for="pokemonRed">$5</label><br>
+<input type="radio" name="pokemon" value="Red" id="pokemonRed">
+<label for="pokemonRed">$10</label><br>
+<input type="radio" name="pokemon" value="Red" id="pokemonRed">
+<label for="pokemonRed">$25</label><br>
+<input type="radio" name="pokemon" value="Red" id="pokemonRed">
+<label for="pokemonRed">$50</label><br>
+<input type="radio" name="pokemon" value="Red" id="pokemonRed">
+<label for="pokemonRed">$75</label><br>
+<input type="radio" name="pokemon" value="Red" id="pokemonRed">
+<label for="pokemonRed">$100</label><br>
+<div="row collapse">
+<div class="large-7 columns" id="other">
+<input type="radio" name="pokemon" value="Red" id="pokemonRed">
+<label for="pokemonRed">Other Amount $</label> </div>
+<div class="large-5 columns" id="inputbox">
+<input type="text" placeholder="Inline Text Input"><br></div>
+</div>
+<div class="large-4 columns">
+<label>*Card Type
+<input type="text" placeholder="large-4.columns" />
+</label> </div>
+<div class="large-6 columns">
+<label>*Name on Card
+<input type="text" placeholder="large-4.columns" />
+</label> <br></div>
+<div class="large-5 columns">
+<label>*Card number
+<input type="text" placeholder="large-4.columns" />
+</label> </div>
+<div class="large-4 columns">
+<div="row collapse" id="date">
+<label> &nbsp *Expiration Date</label>
+<div class="large-4 columns">
+<input type="text" placeholder="large-4.columns"/></div>
+<div class="large-8 columns">
+<input type="text" placeholder="large-4.columns"/></div>
+</div>
+<div class="large-2 columns">
+<label>*CVN
+<input type="text" placeholder="large-4.columns" />
+</label> <br></div>
+<div class="large-12 columns">
+<label>*Pay with (Paypal)</label> <br><br>
+</div>
+<div class="large-12 columns">
+<label>Leave a comment with your donation (optional)
+<textarea placeholder="small-12.columns"></textarea>
+</label>
+</div>
+<div class="large-12 columns" id="submit">
+<a href="donate.html" class="button">SUBMIT</a>
+</div>
+</form>
 </div>
 </div>
-
-
-
-
-<div id="test">
-        <a href="#" data-reveal-id="myModal2">
-            <div class="button">
-                  <div class="btn-"><img src="images/heart.png" />
-                      <div id="text" style="float:right">
-                           Favorite this<br> Charity</div>
-                    
-    </div>
-    </div>
-    </div></a> 
-
-<div id="myModal2" class="reveal-modal tiny" data-reveal>
-  <h6>Favorited!</h6>
-  <a class="close-reveal-modal">&#215;</a>
+<div id="left-column">
+<div class="large-3 columns">
+<div id="chart">
+<img src="images/donate_img.png" style=" height: 110px; width:126px;">
+<h5>John Doe,Toronto ON </h5>
+<h6>Medical Expenses</h6>
+<h5>Goal: $5,000 </h5>
+<canvas id="weeklyGoal" height="78" width="78"></canvas>
+<h5>Days Left: 5 <i> <font color="red"> Ending soon </i></font></h5>
+</chart>
+<h4>70%</h4>
+<h5>of goal reached</h5>
 </div>
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-   <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-   
-    <script src="js/app.js"></script>
-  </body>
+</div>
+</div>
+</div>
+<div class="reveal-modal" id="mapModal">
+<h4>Where We Are</h4>
+<p><img src="http://placehold.it/800x600"/></p>
+<a href="#" class="close-reveal-modal">×</a>
+</div>
+</div>
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/Chart.js"></script>
+<script src="js/app.js"></script>
+</body>
 </html>
