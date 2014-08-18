@@ -9,16 +9,13 @@ div#logo{
   padding-top: 20px;
   padding-bottom: 40px;
 
-
-h2{
-  font-size: 20px;
+  h2{
+   font-size: 20px;
    font-weight: normal;
-  text-align: right;
-  padding-top: 10px;
+   text-align: right;
+   padding-top: 10px;
+  }
 }
-}
-
-
 
 .button-group {
 text-align: center;
@@ -29,13 +26,10 @@ padding-left: 40px;
       background: #fff;
       font-size: 17px;
       color: #000000;
-      
-
-     
-               }
-:hover {
+     }
+  :hover {
  font-color: #000000;
-}
+   }
 }
 
 .f-dropdown{
@@ -49,7 +43,7 @@ padding-left: 40px;
 
 div#myModal{
    border-radius: 4px;
-  min-height: 300px;
+   min-height: 300px;
   p{
     text-align: left;
     margin-bottom: 5px;
@@ -57,17 +51,14 @@ div#myModal{
 }
 
 
-
-
 div#socialicons{
-.button{
-  background-color: none;
-}
-p{
-  text-align:center;
-padding-bottom: 10px;
-}
-
+  .button{
+    background-color: none;
+   }
+  p{
+    text-align:center;
+    padding-bottom: 10px;
+  }
 }
 
 div#signupbutton{
@@ -76,9 +67,9 @@ div#signupbutton{
   font-size: 26px;
   color:#fff;
   border-radius: 4px;
-   line-height: 58px;
-box-shadow: 0 5px #404040;
-margin-top: 20px;
+  line-height: 58px;
+  box-shadow: 0 5px #404040;
+  margin-top: 20px;
   background-color: none;
 }
 
@@ -89,20 +80,11 @@ margin-top: 20px;
 .button:focus {
   background-color: #1a6868;
 }
-
 }
-
-
-
-
-
-
-
-
 
 div#signup{
     background-image: url('../images/streethome.png');
-     background-size: cover;
+    background-size: cover;
 }
 
 div#signup {
@@ -114,16 +96,14 @@ div#signup {
   color:#ffffff;
   text-shadow: 3px 3px 3px #000000;
   padding-top: 20px;
-}
+  }
 
-label{
-text-shadow: 3px 3px 3px #000000;
-margin-top: -10px;
+  label{
+  text-shadow: 3px 3px 3px #000000;
+  margin-top: -10px;
+  }
 
-
-}
-
- h3 {
+  h3 {
   font-size: 29px;
   font-family:Open Sans, sans-serif;
   color:#ffffff;
@@ -132,23 +112,18 @@ margin-top: -10px;
   padding-top: 100px;
   padding-bottom: 80px;
 }
-
-
 }
 
 div#form1{
   label{
     padding-right:30px;
-
     }
-  }
-
-
+}
 
 
 #create h4{
   font-size: 29px;
-   vertical-align: middle;
+  vertical-align: middle;
 }
 
 ::-webkit-input-placeholder {
@@ -179,25 +154,21 @@ div#form1{
 
 div#create{
     @extend div#signupbutton;
-  padding-top: 100px;
-  padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
- div#create .button {
+div#create .button {
   width: 300px;
 }
 
- div#create .button:hover {
+div#create .button:hover {
   background-color: #1a6868;
 }
 
- div#create .button:focus {
+div#create .button:focus {
   background-color: #1a6868;
 }
-
-
-
-
 
 div#create .woman{
   display:block;
@@ -206,10 +177,9 @@ div#create .woman{
   text-align: center;
 }
 
-
 div#footer_1 {
-    background: #ebe5b0;
-   min-height: 200px;
+  background: #ebe5b0;
+  min-height: 200px;
     h3{
       padding-top: 40px;
       text-align: center;
@@ -220,41 +190,32 @@ div#footer_1 {
     }
 
     h5{
-  padding-top: 54px;
-  text-align: center;
+      padding-top: 54px;
+      text-align: center;
+    }
 }
-  }
 
 div#footer_2 {
-    background: #90e4cb;
+   background: #90e4cb;
    min-height: 124px;
-  }
-
-
-   #footer_2 {
-    h3{
-
-  font-family: Pacifico;
-  font-size: 36px;
-   text-align: center;
-  margin-top: 44px;
-  }
-h5{
-  padding-top: 40px;
-  font-size: 14px;
-  text-align: right;
-  
-  }
 }
 
-
-
+ #footer_2 {
+    h3{
+    font-family: Pacifico;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 44px;
+    }
+   h5{
+    padding-top: 40px;
+    font-size: 14px;
+    text-align: right; 
+    }
+}
 
 /*//////////////////////////small //////*/
 @media only screen and (max-width: 640px) {
-
-
-
 
 .buttondropdown{
   padding-left: 50px;
@@ -267,75 +228,58 @@ h5{
  }
 }
 
-
 div#logo{
- 
   h2{
     text-align: center;
   }
 }
-
 
 div#signup{
   h1, h2{
     margin-bottom: -50px;
   } 
 
-
   h3{
     padding-top: 90px;
-      padding-bottom: 40px;
-     
+      padding-bottom: 40px;    
   }
 }
-
 
 div#myModal{
   max-width: 90%;
   margin-left: 5%;
 }
 
-
-
-
 div#form1{
-
   label{
       text-align: center;
       padding-left: 30px;
-  }
-  
+  } 
 }
 
-  div#form2 {
-
+div#form2 {
   label{
     text-align: center;
   }
-
- 
 }
-
-
 
 
 .button-group {
 padding-left: 0px;
 }
 
- div#create{
+div#create{
   padding-top: 20px;
  
-
  .button {
-width:100%;
-line-height: 1.2em;
-padding-top: 5px;
-}
+    width:100%;
+    line-height: 1.2em;
+    padding-top: 5px;
+   }
 
-img{
-  padding-top: 0px;
-}
+  img{
+    padding-top: 0px;
+   }
 }
 
 
@@ -344,22 +288,18 @@ img{
     h3{
       font-size: 33px;
       padding-top: 0px;
-     
     }
     h5{
-  padding-top: 10px;
-  font-size: 20px;
- 
+     padding-top: 10px;
+     font-size: 20px; 
+    }
 }
-  }
 
-  div#footer2{
+div#footer2{
     h5{
       text-align: center;
     }
-  }
-
-
+}
 }
 
 
@@ -376,7 +316,6 @@ div#signup{
     padding-top: 90px;
     padding-bottom: 40px;  
   }
-
 }
 
 
@@ -384,54 +323,45 @@ div#form1{
   text-align: center;
   label{
     padding-right:10%;
-min-width:250px;
-  line-height: 1.1em;
-  padding-top: 10px;
+    min-width:250px;
+    line-height: 1.1em;
+    padding-top: 10px;
     }
-    input{
+ input{
       width:80%;
     }
-  }
+}
 
 
 div#form2{
   label{
-   padding-left:10%;
-       padding-right:10%;
-  min-width:250px;
-  padding-top: 10px;
-
-    }
+     padding-left:10%;
+     padding-right:10%;
+     min-width:250px;
+     padding-top: 10px;
+     }
     select{
       width:86%;
       margin-left: -15px;
     }
-  }
+}
 
-
-
- div#create{
+div#create{
    padding-top: 30px;
-  padding-bottom: 20px;
-
-
-img{
-  padding-top: 20px;
+   padding-bottom: 20px;
+   img{
+      padding-top: 20px;
+  }
 }
 
-}
-
- div#footer_1 {
- 
+div#footer_1 {
     h3{
-      padding-top: 10px;
-     
+      padding-top: 10px; 
     }
     h5{
   padding-top: 20px;
- 
+     }
 }
-  }
 
 }
 
@@ -450,34 +380,20 @@ img{
 }
 
 div#form1{
-
-  label{
-      text-align: right;
-padding-right: 40px;
-    
-  }
-  
-}
-
-  div#form2 {
-
   label{
     text-align: right;
-  
+    padding-right: 40px; 
+  }  
+}
+
+div#form2 {
+   label{
+    text-align: right;
     min-width: 250px;
-   
   }
   select{
     width:90%;
-     padding-left: 20px;
-    }
-
- 
-}
-
-
-
-
-   
-
+    padding-left: 20px;
+  }
+}  
 }

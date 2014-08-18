@@ -12,59 +12,59 @@ form input {
   max-width: 300px;
 }
 
-/* line 20, ../scss/donate.scss */
+/* line 17, ../scss/donate.scss */
 div#identity {
   padding-bottom: 20px;
 }
-/* line 23, ../scss/donate.scss */
+/* line 20, ../scss/donate.scss */
 div#identity label {
   margin-left: -20px;
   margin-top: -3px;
 }
 
-/* line 33, ../scss/donate.scss */
+/* line 27, ../scss/donate.scss */
 div#address input {
   max-width: 500px;
 }
 
-/* line 40, ../scss/donate.scss */
+/* line 33, ../scss/donate.scss */
 div#state select {
   width: 180px;
   margin-top: -30px;
 }
-/* line 44, ../scss/donate.scss */
+/* line 37, ../scss/donate.scss */
 div#state label {
   margin-bottom: -5px;
 }
 
-/* line 53, ../scss/donate.scss */
+/* line 43, ../scss/donate.scss */
 div#other input {
   margin-left: -16px;
 }
 
-/* line 61, ../scss/donate.scss */
+/* line 50, ../scss/donate.scss */
 div#inputbox input {
   margin-left: -50px;
   margin-top: -10px;
   width: 167px;
 }
 
-/* line 74, ../scss/donate.scss */
+/* line 58, ../scss/donate.scss */
 div#cvn input {
   width: 100px;
 }
 
-/* line 81, ../scss/donate.scss */
+/* line 63, ../scss/donate.scss */
 textarea {
   min-height: 125px;
 }
 
-/* line 89, ../scss/donate.scss */
+/* line 67, ../scss/donate.scss */
 div#submit {
   padding-left: 8px;
   padding-bottom: 20px;
 }
-/* line 92, ../scss/donate.scss */
+/* line 71, ../scss/donate.scss */
 div#submit .button {
   width: 224px;
   font-size: 30px;
@@ -74,131 +74,131 @@ div#submit .button {
   box-shadow: 0 5px #404040;
   font-style: normal;
 }
-/* line 104, ../scss/donate.scss */
+/* line 81, ../scss/donate.scss */
 div#submit .button:hover {
   background-color: #1a6868;
 }
-/* line 108, ../scss/donate.scss */
+/* line 85, ../scss/donate.scss */
 div#submit .button:focus {
   background-color: #1a6868;
 }
 
-/* line 114, ../scss/donate.scss */
+/* line 90, ../scss/donate.scss */
 div#right-column {
   text-align: right;
   padding-top: 20px;
 }
-/* line 118, ../scss/donate.scss */
+/* line 94, ../scss/donate.scss */
 div#right-column h5 {
   padding-top: 5px;
   font-size: 14px;
   padding-bottom: 5px;
 }
-/* line 125, ../scss/donate.scss */
+/* line 100, ../scss/donate.scss */
 div#right-column h6 {
   font-size: 22px;
   margin-top: -15px;
 }
-/* line 130, ../scss/donate.scss */
+/* line 105, ../scss/donate.scss */
 div#right-column h4 {
   padding-top: 10px;
   font-size: 56px;
   margin-bottom: -10px;
 }
 
-/* line 140, ../scss/donate.scss */
+/* line 114, ../scss/donate.scss */
 div#graph h5 {
   margin-right: -15px;
 }
-/* line 144, ../scss/donate.scss */
+/* line 117, ../scss/donate.scss */
 div#graph canvas {
   margin-right: -15px;
 }
 
 /*//////////////////////////small //////*/
 @media only screen and (max-width: 640px) {
-  /* line 159, ../scss/donate.scss */
+  /* line 126, ../scss/donate.scss */
   form {
     padding-top: 10px;
   }
 
-  /* line 166, ../scss/donate.scss */
+  /* line 131, ../scss/donate.scss */
   div#identity label {
     margin-left: 0px;
     margin-top: -3px;
   }
 
-  /* line 172, ../scss/donate.scss */
+  /* line 137, ../scss/donate.scss */
   .custom_row3 {
     width: 320px;
   }
 
-  /* line 178, ../scss/donate.scss */
+  /* line 142, ../scss/donate.scss */
   div#inputbox input {
     max-width: 100px;
   }
 
-  /* line 184, ../scss/donate.scss */
+  /* line 147, ../scss/donate.scss */
   div#date {
     margin-left: -10px;
   }
 
-  /* line 189, ../scss/donate.scss */
+  /* line 152, ../scss/donate.scss */
   div#month select {
     width: 80px;
   }
 
-  /* line 195, ../scss/donate.scss */
+  /* line 158, ../scss/donate.scss */
   div#year select {
     width: 120px;
     margin-left: 10px;
   }
 
-  /* line 200, ../scss/donate.scss */
+  /* line 164, ../scss/donate.scss */
   .custom_row4 {
     width: 300px;
     margin-left: -5px;
   }
 
-  /* line 205, ../scss/donate.scss */
+  /* line 169, ../scss/donate.scss */
   div#graph {
     text-align: center;
   }
 
-  /* line 209, ../scss/donate.scss */
+  /* line 173, ../scss/donate.scss */
   div#percent {
     padding-top: 30px;
     text-align: center;
   }
 
-  /* line 215, ../scss/donate.scss */
+  /* line 178, ../scss/donate.scss */
   div#submit {
     text-align: center;
   }
 }
 /*///////////////////////medium sizes*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 231, ../scss/donate.scss */
+  /* line 191, ../scss/donate.scss */
   div#inputbox input {
     margin-left: -15px;
   }
 
-  /* line 237, ../scss/donate.scss */
+  /* line 196, ../scss/donate.scss */
   .custom_row3 {
     width: 270px;
   }
 
-  /* line 244, ../scss/donate.scss */
+  /* line 201, ../scss/donate.scss */
   div#month select {
     min-width: 50px;
   }
 
-  /* line 252, ../scss/donate.scss */
+  /* line 207, ../scss/donate.scss */
   div#year select {
     min-width: 80px;
   }
 
-  /* line 262, ../scss/donate.scss */
+  /* line 213, ../scss/donate.scss */
   div#percent h5, div#percent h4 {
     text-align: right;
   }

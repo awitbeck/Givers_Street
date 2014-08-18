@@ -7,55 +7,48 @@ div#charity{
   min-height: 900px;
 }
 
-
 div#content{
   padding-top: 20px;
 }
-
-
-
 
 div#all_tabs{
   padding-top: 10px;
 }
 
-
 div#all_tabs .tabs a{
   min-width: 198px;
   text-align: center;
-border-radius: 4px 4px 0 0;
-box-shadow:9px 0px 0px 0px #000000;
- position: relative;
-
-    }
+  border-radius: 4px 4px 0 0;
+  box-shadow:9px 0px 0px 0px #000000;
+  position: relative;
+}
   
- .tab-title.active{
-      z-index: 98;
-      position: relative;
-    }
-    .tab-title1 {
-      z-index: 7;
-      position: relative;
-    }
+.tab-title.active{
+   z-index: 98;
+   position: relative;
+}
+.tab-title1 {
+  z-index: 7;
+  position: relative;
+}
 
-   .title2{
-      z-index: 5;
-      position: relative;
-    }
+.title2{
+  z-index: 5;
+  position: relative;
+}
 
-   .title3{
-      z-index: 0;
-      position: relative;}
+.title3{
+  z-index: 0;
+  position: relative;
+}
     
 .title1:not(.active){
     z-index:97;
-  }
+}
 
-
-  .title2:not(.active){
+.title2:not(.active){
     z-index: 2;
-  }
-
+}
 
 
 div#all_tabs .tabs-content{
@@ -67,14 +60,9 @@ padding-top: 50px;
 box-shadow:9px 0px 0px 0px #000000;
 }
 
-
-
-
 #content h1 {
   font-size: 36px;
 }
-
-
 
 #panel2-1{
 
@@ -86,12 +74,12 @@ h5{
   padding-left: 40px;
 }
 
-  h6{
-    margin-left: -10px;
-    font-size: 14px;
-   text-align: left;
-  }
-  img{
+h6{
+  margin-left: -10px;
+  font-size: 14px;
+  text-align: left;
+}
+img{
     padding-right: 25px;
   }
 }
@@ -108,28 +96,26 @@ div#mailbox {
   padding-right: 40px;
 
  #table-wrapper {
-      height:444px;
-      overflow:auto;
-      margin-left: 30px;  
-      border-bottom: 1px solid black;
-      border-right: 1px solid black;
-border-top: 1px solid black;
-border-left: 1px solid black;
-                  }
+  height:444px;
+  overflow:auto;
+  margin-left: 30px;  
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
   
 td{
-    text-align: center;
-    border-left: 0px none;
-    border-right: 0px none;
-    border-top: 0px none;
-  }
+  text-align: center;
+  border-left: 0px none;
+  border-right: 0px none;
+  border-top: 0px none;
+}
 
-
-  table {
-    border-collapse: collapse;
-    width:100%;    
-}     
-       
+table {
+  border-collapse: collapse;
+  width:100%;    
+}           
 }
 
 
@@ -148,22 +134,16 @@ div#delete{
     line-height: 20px;
     width: 46px;
     height: 25px;
-     border: 1px solid black;
+    border: 1px solid black;
     border-radius: 4px;
     margin-bottom: auto;
-    margin-top: auto;
-    
+    margin-top: auto; 
   }
-
-
 }
-
 
 div#main {
   padding-left: 30px;
-
 }
-
 
 div#favorite_title h1{
   padding-top: 30px;
@@ -177,31 +157,30 @@ div#favorite_title h1{
 /********** favorite panel, main tab LARGE (normal)******************/
 
 div#favorite{
-overflow: hidden;
-background:#f8f2bf;
-max-height: 110px;
-max-width: 872px;
-border-radius: 4px 4px 4px 4px;
-margin:10px auto;
+  overflow: hidden;
+  background:#f8f2bf;
+  max-height: 110px;
+  max-width: 872px;
+  border-radius: 4px 4px 4px 4px;
+  margin:10px auto;
 
-img{
-  padding-top: 15px;
-}
+  img{
+    padding-top: 15px;
+   }
 
-
-#percent {
-margin-left: -40px;
+  #percent {
+     margin-left: -40px;
   h4{
-  font-size: 47px;
-}
-h5{
-  font-size: 13px;
-}
+     font-size: 47px;
+  }
+  h5{
+     font-size: 13px;
+  }
 }
 
 
 div#title{
- min-width: 300px;
+  min-width: 300px;
   margin-left: -40px;
 
   p{
@@ -213,24 +192,20 @@ div#title{
     font-size: 16px;   
   }
 
-   h6{
+  h6{
     font-size: 18px;  
   }
-  
 }
-
-
 
 div#goal{
    text-align: center;
    padding-left: 120px;
- margin-top: -8px;   
+   margin-top: -8px;   
  }
 
 .custom_row2{ 
-    min-width: 300px; 
+   min-width: 300px; 
   }
-
 
 canvas{
   margin-top: -5px;
@@ -242,10 +217,8 @@ div#option{
 }
 
 .custom_row3{ 
-    max-width: 125px; 
-  }
-
-
+   max-width: 125px; 
+}
 
 label {
   font-size: 17px;
@@ -269,8 +242,6 @@ label {
   float:left;
 }
 
-
-
 .button {
   width: 89px;
   height: 23px;
@@ -279,7 +250,6 @@ label {
   border-radius: 4px;
   box-shadow: 0 2px #404040;
 }
-
 }
 
 /***************************************************
@@ -305,25 +275,21 @@ div#donatetotal{
     font-size: 20px;
     font-style: italic;
   }
-
 }
-
 
 div#tabledonate {
   padding-top: 40px;
    
-
   h6{
     font-size: 16px;
     padding-bottom: 15px;
     padding-left: 25px;
   }
 
-
-table {
+ table {
   background-color: #fff;
   padding-left: 20px;
-       }
+   }
 
  td{
    background-color: #fff;
@@ -345,7 +311,6 @@ table {
     margin-bottom: auto;
     margin-top: auto;
   }
- 
 }
 
 
@@ -374,8 +339,6 @@ div#mydonations1{
   margin-bottom: -5px;
   padding-right: 40px;
  }
-
-
 }
 
 div#mydonations2 {
@@ -383,7 +346,6 @@ div#mydonations2 {
  h3{
   padding-right: 25px;
  }
-
 }
 
 div#mydonations3 {
@@ -402,19 +364,16 @@ div#mydonations3 {
 *************third tab LARGE*/
 
 div#tablecharity{
-  margin-top: -30px;
+   margin-top: -30px;
    padding-top: 80px;
   h5{
     font-size: 16px;
     padding-top: 20px;
     margin-left: -15px;
   }
-
-
 img{
   padding-left:10px;
 }
- 
 }
 
 div#tablecharity2{
@@ -433,8 +392,8 @@ div#results{
 margin-bottom: -40px;
 
   h5{
-    font-size: 15px;
-    padding-left: 5px;
+   font-size: 15px;
+   padding-left: 5px;
     
   }
   img{
@@ -444,12 +403,10 @@ margin-bottom: -40px;
   }
 
   h3{
-    font-size: 15px;
-    padding-left: 20px;
+   font-size: 15px;
+   padding-left: 20px;
   }
-
 }
-
 
 .result_row{
   max-width: 460px;
@@ -461,7 +418,7 @@ div#charitycomments{
   margin-top: -60px;
   max-width: 350px;
 
-    h5{
+  h5{
     font-size: 18px;
     text-decoration: underline;
     padding-bottom: 20px;
@@ -479,8 +436,8 @@ div#charitycomments{
   }
 
 .approve{
-margin-left: -30px;
-  background-color: #59ab35;
+   margin-left: -30px;
+   background-color: #59ab35;
    border-radius: 4px;
    width: 70px;
    height: 20px;
@@ -496,7 +453,6 @@ margin-left: -30px;
 .approve:focus {
   background-color: #75df47;
 }
-
 
 .deny{
   @extend .approve;
@@ -520,37 +476,27 @@ margin-left: -30px;
 @media only screen and (min-width: 393px) and (max-width: 640px) {
 
 div#all_tabs .tabs a{
-min-width:0px;
-max-height: 50px;
-font-size: 15px;
-padding-left: 5px;
-padding-right: 5px;
-padding-top: 10px;
-
+  min-width:0px;
+  max-height: 50px;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
   text-align: center;
-border-radius: 4px 4px 0 0;
-box-shadow:9px 0px 0px 0px #000000;
- position: relative;
- margin-left: -11px;
- margin-bottom: -30px;
-    }
+  border-radius: 4px 4px 0 0;
+  box-shadow:9px 0px 0px 0px #000000;
+  position: relative;
+  margin-left: -11px;
+  margin-bottom: -30px;
+}
 
 div#all_tabs .tabs .title1 a{
 margin-left: 0px;
-
 }
-
 
 .tab-width{
 @include block-grid(3);
-
 }
-
-
-
-
-
-
 
 /********************FIRST TAB*********************/
 #top_section{
@@ -559,8 +505,9 @@ margin-left: 0px;
 h5{
  margin-left: -40px;
 }
-  img{
-    margin-right: -25px;
+
+img{
+ margin-right: -25px;
   }
 }
 
@@ -570,29 +517,25 @@ div#change{
   text-align: center;
 }
 
-
 div#messages{
  margin-right: -10px;
 }
-
 
 div#mailbox {
   margin-left: 0px;
   padding-right: 5px;
 
-
  #table-wrapper {
      margin-left:-10px;  
-                  }
+    }
 td{
   overflow: hidden;
     line-height: 1em;
   }   
-
 }
 
 div#main{
-text-align: center;
+ text-align: center;
  padding-left: 0px;
 
 h6{
@@ -601,9 +544,6 @@ h6{
 }
 }
 
-
-
-
 div#delete{
   h6{
     padding-left: 0px;
@@ -611,11 +551,8 @@ div#delete{
 }
 
 .deleterow{
-
  max-width: 250px;
 }
-
-
 
 /********** favorite panel SMALL (first tab)******************/
 div#favorite_title h1{
@@ -624,26 +561,25 @@ div#favorite_title h1{
 }
 
 div#favorite{
-overflow: auto;
-min-height: 260px;
-min-width:100%;
-margin:10px -10px;
+  overflow: auto;
+  min-height: 260px;
+  min-width:100%;
+  margin:10px -10px;
 
 div#title{
- min-width: 0px;
+  min-width: 0px;
   margin-left: -10px;
 }
 
 div#goal{
-   text-align: center;
-   padding-left: 20px;
- margin-top: 0px;   
+  text-align: center;
+  padding-left: 20px;
+  margin-top: 0px;   
  }
 
 .custom_row2{ 
-    min-width: 0px; 
+  min-width: 0px; 
   }
-
 
 div#option{
   text-align: center;
@@ -652,35 +588,31 @@ div#option{
 }
 
 .custom_row3{ 
-    min-width: 0px; 
-
+  min-width: 0px; 
   }
-
 }
   /********************SECOND TAB SMALL*********************/
 
 /********** setting for all tabs******************/
-
-
 div#donatetotal{
   padding-top: 0px;
 }
 
-
 div#tabledonate{
 
 h6{
-text-align: center;
-padding-left: 0px;
+  text-align: center;
+  padding-left: 0px;
 }
-  table{
+  
+table{
  padding-left: 0px;
  display: inline-block;
 }
 }
 
 div#share {
-padding-top: 10px;
+  padding-top: 10px;
 
 h6{
   padding-bottom: 10px;
@@ -691,11 +623,10 @@ div#mydonations1{
   padding-top: 20px;
 
  h1{
-   text-align: center;
+  text-align: center;
   padding-left: 0px; 
 }
  h3{
-
   text-align: center;
   padding-right: 0px;
  }
@@ -716,14 +647,13 @@ div#mydonations3 {
 }
 
 
-
   /********************THIRD TAB SMALL*********************/
 
 
 div#tablecharity{
-   padding-top: 60px;
-padding-left: 0px;
-text-align: center;
+  padding-top: 60px;
+  padding-left: 0px;
+  text-align: center;
 h5{
   margin-left: 0px;
 }
@@ -732,37 +662,32 @@ h5{
 
 div#results{
   text-align: center;
-margin-bottom: -20px;
+  margin-bottom: -20px;
 
   h5{
-    padding-left: 0px;
+  padding-left: 0px;
     
   }
   img{
-    text-align: center;
-   padding-left:0px;
-   max-height:16px;
-   max-width: 238px;
+  text-align: center;
+  padding-left:0px;
+  max-height:16px;
+  max-width: 238px;
   }
 
   h3{
     padding-left:0px;
   }
-
 }
-
 
 .result_row{
   max-width: 640px;
 }
 
-
-
 div#charitycomments{
   margin-left: 20px;
   padding-top: 70px;
 }
-
 }
 
 
@@ -775,11 +700,10 @@ div#charitycomments{
 div#all_tabs .tabs a{
   min-width: 0px;
   text-align: center;
-border-radius: 4px 4px 0 0;
-box-shadow:9px 0px 0px 0px #000000;
- position: relative;
-
-    }
+  border-radius: 4px 4px 0 0;
+  box-shadow:9px 0px 0px 0px #000000;
+  position: relative;
+}
 
     /********** setting for all tabs******************/
 
@@ -788,20 +712,18 @@ box-shadow:9px 0px 0px 0px #000000;
 }
 
 div#share {
-padding-top: 40px;
+  padding-top: 40px;
 
 h6{
  margin-bottom: -20px;
 }
 }
 
-
 div#delete{
   h6{
     padding-left: 20px;
   }
 }
-
 
 .deleterow{
  max-width: 255px;
@@ -813,101 +735,86 @@ div#delete{
 /********** favorite panel, main tab MEDIUM******************/
 
 div#favorite{
-max-height: 240px;
-width: 95%;
-
+  max-height: 240px;
+  width: 95%;
 
 #percent {
-text-align: right;
-margin-left: -10px;
+  text-align: right;
+  margin-left: -10px;
  
   h4{
   font-size: 47px;
+ }
+  h5{
+  min-width: 100px;
+ }
 }
-h5{
- min-width: 100px;
-}
-}
-
 
 div#title{
- min-width: 250px;
+  min-width: 250px;
   margin-left: -10px;
 }
-
 
 div#goal{
  padding-left: 80px;
  margin-top: -15px; 
  padding-bottom: 10px;  
- }
+}
 
 .custom_row2{ 
-    min-width: 200px; 
-  }
+ min-width: 200px; 
+}
 
 
 div#option{
-  margin-top: 0px;
-  padding-top: 0px;
-text-align: right;
+ margin-top: 0px;
+ padding-top: 0px;
+ text-align: right;
 }
 
 .custom_row3{ 
-    min-width: 250px; 
-  }
-
-
+ min-width: 250px; 
+}
 
 .label-align input[type="checkbox"]{
-  margin-top:7px;
-  margin-right:5px;
-  margin-left:110px;
-
+ margin-top:7px;
+ margin-right:5px;
+ margin-left:110px;
 } 
 
 .label-align span{
-  margin: 0 0 40px 0px;
- 
+ margin: 0 0 40px 0px;
 }
 
 }
-
 
 /********************SECOND TAB MEDIUM*********************/
 div#tabledonate{
-h6{
-text-align: center;
-}
-
-
+  h6{
+    text-align: center;
+   }
   table{
- margin-right: auto;
- margin-left: auto;
- padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+  }
 }
-}
-
 
 div#mydonations1{
   padding-top: 20px;
 
  h1{
   padding-left: 35px;
- 
 }
  h3{
   padding-right: 30px;
  }
-
-
 }
 
 div#mydonations2 {
  h3{
   padding-right: 15px;
  }
-
 }
 
 div#mydonations3 {
@@ -923,26 +830,23 @@ div#mydonations3 {
 
 div#tablecharity{
   padding-top: 30px;
-min-width: 600px;
-  h5{
+  min-width: 600px;
+ 
+ h5{
     padding-bottom:20px;
-  padding-left: 0px;
-  margin-left: -20px;
-   
-}
+    padding-left: 0px;
+    margin-left: -20px;   
+  }
 
-img{
-padding-left: 105px;
-min-width: 42px;
-}
+ img{
+   padding-left: 105px;
+   min-width: 42px;
+  }
 }
 
 div#tablecharity2{
   margin-top: -20px;
 }
-
-
-
 
 div#results{
 margin-bottom: -10px;
@@ -958,23 +862,18 @@ margin-bottom: -10px;
     padding-left: 0px;
     margin-top: 30px;  
   }
-
 }
 
 .result_row{
   max-width: 470px;
 }
 
-
-
-
-
-
 div#charitycomments{
   margin-left: 20px;
-    max-width: 500px;
-padding-top: 70px;
+  max-width: 500px;
+  padding-top: 70px;
 }
+
 }
 
 

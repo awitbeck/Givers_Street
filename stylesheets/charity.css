@@ -8008,41 +8008,40 @@ div#charity {
   left: 0;
   /* <-- Set left and right properties to 0          */
   right: 0;
-  /*     In order to expand the overlay horizontally */
   padding: 0.4rem;
 }
 
-/* line 28, ../scss/charity.scss */
+/* line 24, ../scss/charity.scss */
 #content h1 {
   font-size: 36px;
 }
 
-/* line 34, ../scss/charity.scss */
+/* line 28, ../scss/charity.scss */
 .social {
   height: 48px;
   width: 48px;
   margin-right: 1.9px;
 }
 
-/* line 41, ../scss/charity.scss */
+/* line 34, ../scss/charity.scss */
 div#socialicons {
   text-align: center;
   margin-top: 20px;
 }
-/* line 46, ../scss/charity.scss */
+/* line 38, ../scss/charity.scss */
 div#socialicons .button {
   background: none;
 }
-/* line 50, ../scss/charity.scss */
+/* line 42, ../scss/charity.scss */
 div#socialicons h6 {
   margin-top: -10px;
 }
 
-/* line 60, ../scss/charity.scss */
+/* line 47, ../scss/charity.scss */
 div#comments {
   padding-top: 80px;
 }
-/* line 63, ../scss/charity.scss */
+/* line 50, ../scss/charity.scss */
 div#comments .tabs a {
   min-width: 198px;
   text-align: center;
@@ -8050,19 +8049,19 @@ div#comments .tabs a {
   box-shadow: 9px 0px 0px 0px #000000;
   overflow: hidden;
 }
-/* line 72, ../scss/charity.scss */
+/* line 58, ../scss/charity.scss */
 div#comments .tabs .tab-title.active {
   z-index: 7;
 }
-/* line 77, ../scss/charity.scss */
+/* line 62, ../scss/charity.scss */
 div#comments .tabs a::before {
   z-index: 3;
 }
-/* line 81, ../scss/charity.scss */
+/* line 66, ../scss/charity.scss */
 div#comments .tabs a::after {
   z-index: -1;
 }
-/* line 85, ../scss/charity.scss */
+/* line 70, ../scss/charity.scss */
 div#comments .tabs-content {
   background-color: #fff;
   border-radius: 4px 4px 0 0;
@@ -8072,25 +8071,25 @@ div#comments .tabs-content {
   box-shadow: 9px 0px 0px 0px #000000;
 }
 
-/* line 102, ../scss/charity.scss */
+/* line 80, ../scss/charity.scss */
 div#donors img {
   padding-right: 5px;
   padding-left: 40px;
   margin-top: -33px;
 }
 
-/* line 109, ../scss/charity.scss */
+/* line 86, ../scss/charity.scss */
 div#donors p {
   padding-left: 40px;
   font-weight: bold;
 }
 
-/* line 115, ../scss/charity.scss */
+/* line 91, ../scss/charity.scss */
 div#comment_tab p {
   padding-left: 40px;
 }
 
-/* line 120, ../scss/charity.scss */
+/* line 95, ../scss/charity.scss */
 div#commenter p {
   padding-right: 40px;
   text-align: right;
@@ -8098,7 +8097,7 @@ div#commenter p {
   padding-bottom: 30px;
 }
 
-/* line 127, ../scss/charity.scss */
+/* line 102, ../scss/charity.scss */
 div#amount p {
   text-align: right;
   padding-right: 40px;
@@ -8106,41 +8105,41 @@ div#amount p {
   margin-bottom: 85px;
 }
 
-/* line 138, ../scss/charity.scss */
+/* line 110, ../scss/charity.scss */
 div#weekly h3 {
   font-size: 22px;
   text-shadow: none;
   text-align: right;
 }
-/* line 144, ../scss/charity.scss */
+/* line 116, ../scss/charity.scss */
 div#weekly span {
   padding-right: 50px;
 }
 
-/* line 149, ../scss/charity.scss */
+/* line 121, ../scss/charity.scss */
 div#chart {
   text-align: right;
   background: none;
   margin-top: -20px;
 }
-/* line 154, ../scss/charity.scss */
+/* line 126, ../scss/charity.scss */
 div#chart h4 {
   font-size: 67px;
   text-shadow: none;
   text-align: right;
   font-color: #000000;
 }
-/* line 160, ../scss/charity.scss */
+/* line 132, ../scss/charity.scss */
 div#chart canvas {
   width: 145px;
   height: 145px;
 }
 
-/* line 170, ../scss/charity.scss */
+/* line 138, ../scss/charity.scss */
 div#content-right {
   text-align: right;
 }
-/* line 173, ../scss/charity.scss */
+/* line 141, ../scss/charity.scss */
 div#content-right .button {
   width: 275px;
   font-size: 30px;
@@ -8150,47 +8149,47 @@ div#content-right .button {
   box-shadow: 0 5px #404040;
   font-style: normal;
 }
-/* line 183, ../scss/charity.scss */
+/* line 151, ../scss/charity.scss */
 div#content-right .button:hover {
   background-color: #1a6868;
 }
-/* line 187, ../scss/charity.scss */
+/* line 155, ../scss/charity.scss */
 div#content-right .button:focus {
   background-color: #1a6868;
 }
-/* line 191, ../scss/charity.scss */
+/* line 159, ../scss/charity.scss */
 div#content-right h6 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 197, ../scss/charity.scss */
+/* line 164, ../scss/charity.scss */
 div#content-right div#donatebutton {
   padding-right: 30px;
 }
 
 /* FAVORITE BUTTON*/
-/* line 211, ../scss/charity.scss */
+/* line 172, ../scss/charity.scss */
 div#favorite .button:hover {
   background-color: #1a6868;
 }
-/* line 215, ../scss/charity.scss */
+/* line 176, ../scss/charity.scss */
 div#favorite .button:focus {
   background-color: #1a6868;
 }
 
-/* line 221, ../scss/charity.scss */
+/* line 182, ../scss/charity.scss */
 div#test .button {
   border-radius: 4px;
   background: #39c1c1;
   width: 225px;
 }
 
-/* line 229, ../scss/charity.scss */
+/* line 188, ../scss/charity.scss */
 .btn-img {
   vertical-align: middle;
 }
 
-/* line 233, ../scss/charity.scss */
+/* line 192, ../scss/charity.scss */
 div#text {
   font-size: 21px;
   line-height: 22px;
@@ -8199,46 +8198,45 @@ div#text {
   padding-right: 20px;
 }
 
-/* line 241, ../scss/charity.scss */
+/* line 200, ../scss/charity.scss */
 div#myModal {
   min-height: 300px;
 }
-/* line 243, ../scss/charity.scss */
+/* line 202, ../scss/charity.scss */
 div#myModal p {
   text-align: left;
   margin-bottom: 5px;
 }
 
-/* line 250, ../scss/charity.scss */
+/* line 208, ../scss/charity.scss */
 div#signupbutton {
   text-align: center;
 }
 
-/* line 254, ../scss/charity.scss */
+/* line 212, ../scss/charity.scss */
 div#myModal3 {
   border-radius: 4px;
   z-index: 100;
   min-height: 100px;
 }
-/* line 258, ../scss/charity.scss */
+/* line 216, ../scss/charity.scss */
 div#myModal3 h6 {
   text-align: center;
 }
 
 /*//////////////////////////small size//////////*/
 @media only screen and (max-width: 640px) {
-  /* line 268, ../scss/charity.scss */
+  /* line 225, ../scss/charity.scss */
   div#content-left {
     text-align: center;
     margin-right: 0px;
   }
-  /* line 273, ../scss/charity.scss */
+  /* line 229, ../scss/charity.scss */
   div#content-left .overlay-container {
     position: relative;
     padding-right: 0px;
-    /* <-- Set as the reference for the positioned overlay */
   }
-  /* line 280, ../scss/charity.scss */
+  /* line 234, ../scss/charity.scss */
   div#content-left .overlay-container .overlay {
     position: absolute;
     /* <-- Remove the overlay from normal flow         */
@@ -8252,52 +8250,52 @@ div#myModal3 h6 {
     width: 50%;
   }
 
-  /* line 294, ../scss/charity.scss */
+  /* line 246, ../scss/charity.scss */
   div#pic2 {
     text-align: center;
     padding-top: 20px;
   }
-  /* line 297, ../scss/charity.scss */
+  /* line 249, ../scss/charity.scss */
   div#pic2 img {
     width: 373px;
   }
 
-  /* line 309, ../scss/charity.scss */
+  /* line 255, ../scss/charity.scss */
   div#weekly h3 {
     font-size: 18px;
     text-align: center;
     min-width: 100px;
     padding-bottom: 10px;
   }
-  /* line 316, ../scss/charity.scss */
+  /* line 262, ../scss/charity.scss */
   div#weekly span {
     padding-right: 0px;
   }
 
-  /* line 321, ../scss/charity.scss */
+  /* line 267, ../scss/charity.scss */
   div#chart {
     text-align: center;
     margin-top: -20px;
   }
-  /* line 324, ../scss/charity.scss */
+  /* line 270, ../scss/charity.scss */
   div#chart h4 {
     font-size: 40px;
     text-align: center;
   }
-  /* line 328, ../scss/charity.scss */
+  /* line 274, ../scss/charity.scss */
   div#chart canvas {
     width: 100% !important;
     max-width: 100px;
     height: 100% !important;
   }
 
-  /* line 341, ../scss/charity.scss */
+  /* line 282, ../scss/charity.scss */
   div#content-right .button {
     width: 100%;
     font-size: 22px;
     line-height: 38px;
   }
-  /* line 348, ../scss/charity.scss */
+  /* line 287, ../scss/charity.scss */
   div#content-right h6 {
     text-align: center;
     min-width: 100px;
@@ -8305,30 +8303,30 @@ div#myModal3 h6 {
     padding-top: 0px;
     padding-bottom: 10px;
   }
-  /* line 357, ../scss/charity.scss */
+  /* line 295, ../scss/charity.scss */
   div#content-right div#donatebutton {
     padding-right: 30px;
   }
 
-  /* line 363, ../scss/charity.scss */
+  /* line 300, ../scss/charity.scss */
   div#womanpic {
     padding-top: 10px;
     text-align: center;
   }
 
   /* FAVORITE BUTTON*/
-  /* line 374, ../scss/charity.scss */
+  /* line 308, ../scss/charity.scss */
   div#test {
     padding-top: 10px;
   }
 
-  /* line 379, ../scss/charity.scss */
+  /* line 312, ../scss/charity.scss */
   .btn-img {
     margin-right: auto;
     margin-left: auto;
   }
 
-  /* line 384, ../scss/charity.scss */
+  /* line 317, ../scss/charity.scss */
   div#text {
     width: 100%;
     font-size: 21px;
@@ -8338,14 +8336,14 @@ div#myModal3 h6 {
     padding-right: 0px;
   }
 
-  /* line 393, ../scss/charity.scss */
+  /* line 326, ../scss/charity.scss */
   div#myModal {
     max-width: 90%;
     margin-left: 5%;
     min-height: 450px;
   }
 
-  /* line 403, ../scss/charity.scss */
+  /* line 332, ../scss/charity.scss */
   div#myModal3 {
     padding-top: 30px;
     max-width: 60%;
@@ -8353,48 +8351,48 @@ div#myModal3 h6 {
   }
 
   /*DONATORS TAB SMALL***********/
-  /* line 414, ../scss/charity.scss */
+  /* line 340, ../scss/charity.scss */
   div#donors img {
     padding-left: 25px;
   }
 
-  /* line 419, ../scss/charity.scss */
+  /* line 344, ../scss/charity.scss */
   div#donors p {
     padding-left: 25px;
   }
 
-  /* line 423, ../scss/charity.scss */
+  /* line 348, ../scss/charity.scss */
   div#comment_tab p {
     padding-left: 25px;
   }
 
-  /* line 428, ../scss/charity.scss */
+  /* line 352, ../scss/charity.scss */
   div#amount p {
     padding-right: 25px;
   }
 }
 /*///////////////////////medium sizes//////////*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 445, ../scss/charity.scss */
+  /* line 363, ../scss/charity.scss */
   .overlay-container {
     width: 93%;
     height: 93%;
   }
 
-  /* line 450, ../scss/charity.scss */
+  /* line 368, ../scss/charity.scss */
   div#pic2 {
     text-align: center;
   }
-  /* line 452, ../scss/charity.scss */
+  /* line 370, ../scss/charity.scss */
   div#pic2 img {
     max-height: 249px;
   }
 
-  /* line 459, ../scss/charity.scss */
+  /* line 375, ../scss/charity.scss */
   div#content-right {
     text-align: right;
   }
-  /* line 462, ../scss/charity.scss */
+  /* line 378, ../scss/charity.scss */
   div#content-right .button {
     width: 100%;
     font-size: 30px;
@@ -8403,57 +8401,57 @@ div#myModal3 h6 {
     line-height: 58px;
     box-shadow: 0 5px #404040;
   }
-  /* line 472, ../scss/charity.scss */
+  /* line 387, ../scss/charity.scss */
   div#content-right .button:hover {
     background-color: #1a6868;
   }
-  /* line 476, ../scss/charity.scss */
+  /* line 391, ../scss/charity.scss */
   div#content-right .button:focus {
     background-color: #1a6868;
   }
-  /* line 480, ../scss/charity.scss */
+  /* line 395, ../scss/charity.scss */
   div#content-right h6 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  /* line 486, ../scss/charity.scss */
+  /* line 401, ../scss/charity.scss */
   div#content-right div#donatebutton {
     padding-right: 0px;
   }
 
-  /* line 493, ../scss/charity.scss */
+  /* line 407, ../scss/charity.scss */
   div#week h3 {
     font-size: 22px;
     text-align: right;
   }
-  /* line 497, ../scss/charity.scss */
+  /* line 411, ../scss/charity.scss */
   div#week span {
     padding-right: 50px;
   }
 
   /* FAVORITE BUTTON*/
-  /* line 505, ../scss/charity.scss */
+  /* line 419, ../scss/charity.scss */
   div#favorite .button:hover {
     background-color: #1a6868;
   }
-  /* line 509, ../scss/charity.scss */
+  /* line 423, ../scss/charity.scss */
   div#favorite .button:focus {
     background-color: #1a6868;
   }
 
-  /* line 515, ../scss/charity.scss */
+  /* line 428, ../scss/charity.scss */
   div#test .button {
     border-radius: 4px;
     background: #39c1c1;
   }
 
-  /* line 522, ../scss/charity.scss */
+  /* line 433, ../scss/charity.scss */
   .btn-img {
     vertical-align: middle;
     margin-top: -10px;
   }
 
-  /* line 528, ../scss/charity.scss */
+  /* line 438, ../scss/charity.scss */
   div#text {
     font-size: 21px;
     text-align: center;
@@ -8462,7 +8460,7 @@ div#myModal3 h6 {
     margin-bottom: 4px;
   }
 
-  /* line 540, ../scss/charity.scss */
+  /* line 446, ../scss/charity.scss */
   div#myModal2 {
     border-radius: 4px;
     text-align: center;

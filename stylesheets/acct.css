@@ -7991,17 +7991,17 @@ div#charity {
   min-height: 900px;
 }
 
-/* line 11, ../scss/acct.scss */
+/* line 10, ../scss/acct.scss */
 div#content {
   padding-top: 20px;
 }
 
-/* line 18, ../scss/acct.scss */
+/* line 14, ../scss/acct.scss */
 div#all_tabs {
   padding-top: 10px;
 }
 
-/* line 23, ../scss/acct.scss */
+/* line 18, ../scss/acct.scss */
 div#all_tabs .tabs a {
   min-width: 198px;
   text-align: center;
@@ -8010,41 +8010,41 @@ div#all_tabs .tabs a {
   position: relative;
 }
 
-/* line 32, ../scss/acct.scss */
+/* line 26, ../scss/acct.scss */
 .tab-title.active {
   z-index: 98;
   position: relative;
 }
 
-/* line 36, ../scss/acct.scss */
+/* line 30, ../scss/acct.scss */
 .tab-title1 {
   z-index: 7;
   position: relative;
 }
 
-/* line 41, ../scss/acct.scss */
+/* line 35, ../scss/acct.scss */
 .title2 {
   z-index: 5;
   position: relative;
 }
 
-/* line 46, ../scss/acct.scss */
+/* line 40, ../scss/acct.scss */
 .title3 {
   z-index: 0;
   position: relative;
 }
 
-/* line 50, ../scss/acct.scss */
+/* line 45, ../scss/acct.scss */
 .title1:not(.active) {
   z-index: 97;
 }
 
-/* line 55, ../scss/acct.scss */
+/* line 49, ../scss/acct.scss */
 .title2:not(.active) {
   z-index: 2;
 }
 
-/* line 61, ../scss/acct.scss */
+/* line 54, ../scss/acct.scss */
 div#all_tabs .tabs-content {
   background-color: #fff;
   border-radius: 4px 4px 0 0;
@@ -8054,43 +8054,43 @@ div#all_tabs .tabs-content {
   box-shadow: 9px 0px 0px 0px #000000;
 }
 
-/* line 73, ../scss/acct.scss */
+/* line 63, ../scss/acct.scss */
 #content h1 {
   font-size: 36px;
 }
 
-/* line 81, ../scss/acct.scss */
+/* line 69, ../scss/acct.scss */
 #panel2-1 #top_section {
   padding-bottom: 30px;
 }
-/* line 84, ../scss/acct.scss */
+/* line 72, ../scss/acct.scss */
 #panel2-1 #top_section h5 {
   font-size: 16px;
   padding-left: 40px;
 }
-/* line 89, ../scss/acct.scss */
+/* line 77, ../scss/acct.scss */
 #panel2-1 #top_section h6 {
   margin-left: -10px;
   font-size: 14px;
   text-align: left;
 }
-/* line 94, ../scss/acct.scss */
+/* line 82, ../scss/acct.scss */
 #panel2-1 #top_section img {
   padding-right: 25px;
 }
 
-/* line 100, ../scss/acct.scss */
+/* line 88, ../scss/acct.scss */
 div#change {
   padding-right: 40px;
   text-align: right;
 }
 
-/* line 106, ../scss/acct.scss */
+/* line 94, ../scss/acct.scss */
 div#mailbox {
   margin-left: 0px;
   padding-right: 40px;
 }
-/* line 110, ../scss/acct.scss */
+/* line 98, ../scss/acct.scss */
 div#mailbox #table-wrapper {
   height: 444px;
   overflow: auto;
@@ -8100,29 +8100,29 @@ div#mailbox #table-wrapper {
   border-top: 1px solid black;
   border-left: 1px solid black;
 }
-/* line 120, ../scss/acct.scss */
+/* line 108, ../scss/acct.scss */
 div#mailbox td {
   text-align: center;
   border-left: 0px none;
   border-right: 0px none;
   border-top: 0px none;
 }
-/* line 128, ../scss/acct.scss */
+/* line 115, ../scss/acct.scss */
 div#mailbox table {
   border-collapse: collapse;
   width: 100%;
 }
 
-/* line 136, ../scss/acct.scss */
+/* line 122, ../scss/acct.scss */
 div#delete {
   padding-top: 20px;
 }
-/* line 138, ../scss/acct.scss */
+/* line 124, ../scss/acct.scss */
 div#delete h6 {
   padding-left: 40px;
   font-size: 14px;
 }
-/* line 143, ../scss/acct.scss */
+/* line 129, ../scss/acct.scss */
 div#delete .button {
   margin-left: -20px;
   background-color: #ebe5b0;
@@ -8137,12 +8137,12 @@ div#delete .button {
   margin-top: auto;
 }
 
-/* line 162, ../scss/acct.scss */
+/* line 144, ../scss/acct.scss */
 div#main {
   padding-left: 30px;
 }
 
-/* line 168, ../scss/acct.scss */
+/* line 148, ../scss/acct.scss */
 div#favorite_title h1 {
   padding-top: 30px;
   font-size: 16px;
@@ -8151,7 +8151,7 @@ div#favorite_title h1 {
 }
 
 /********** favorite panel, main tab LARGE (normal)******************/
-/* line 179, ../scss/acct.scss */
+/* line 159, ../scss/acct.scss */
 div#favorite {
   overflow: hidden;
   background: #f8f2bf;
@@ -8160,64 +8160,64 @@ div#favorite {
   border-radius: 4px 4px 4px 4px;
   margin: 10px auto;
 }
-/* line 187, ../scss/acct.scss */
+/* line 167, ../scss/acct.scss */
 div#favorite img {
   padding-top: 15px;
 }
-/* line 192, ../scss/acct.scss */
+/* line 171, ../scss/acct.scss */
 div#favorite #percent {
   margin-left: -40px;
 }
-/* line 194, ../scss/acct.scss */
+/* line 173, ../scss/acct.scss */
 div#favorite #percent h4 {
   font-size: 47px;
 }
-/* line 197, ../scss/acct.scss */
+/* line 176, ../scss/acct.scss */
 div#favorite #percent h5 {
   font-size: 13px;
 }
-/* line 203, ../scss/acct.scss */
+/* line 182, ../scss/acct.scss */
 div#favorite div#title {
   min-width: 300px;
   margin-left: -40px;
 }
-/* line 207, ../scss/acct.scss */
+/* line 186, ../scss/acct.scss */
 div#favorite div#title p {
   margin-top: -5px;
   font-size: 11px;
 }
-/* line 212, ../scss/acct.scss */
+/* line 191, ../scss/acct.scss */
 div#favorite div#title h5 {
   font-size: 16px;
 }
-/* line 216, ../scss/acct.scss */
+/* line 195, ../scss/acct.scss */
 div#favorite div#title h6 {
   font-size: 18px;
 }
-/* line 224, ../scss/acct.scss */
+/* line 200, ../scss/acct.scss */
 div#favorite div#goal {
   text-align: center;
   padding-left: 120px;
   margin-top: -8px;
 }
-/* line 230, ../scss/acct.scss */
+/* line 206, ../scss/acct.scss */
 div#favorite .custom_row2 {
   min-width: 300px;
 }
-/* line 235, ../scss/acct.scss */
+/* line 210, ../scss/acct.scss */
 div#favorite canvas {
   margin-top: -5px;
 }
-/* line 239, ../scss/acct.scss */
+/* line 214, ../scss/acct.scss */
 div#favorite div#option {
   padding-top: 7px;
   margin-left: -10px;
 }
-/* line 244, ../scss/acct.scss */
+/* line 219, ../scss/acct.scss */
 div#favorite .custom_row3 {
   max-width: 125px;
 }
-/* line 250, ../scss/acct.scss */
+/* line 223, ../scss/acct.scss */
 div#favorite label {
   font-size: 17px;
   color: #000000;
@@ -8226,20 +8226,20 @@ div#favorite label {
   line-height: 1.5;
   margin-bottom: 0;
 }
-/* line 259, ../scss/acct.scss */
+/* line 232, ../scss/acct.scss */
 div#favorite .label-align input[type="checkbox"] {
   margin-top: 7px;
 }
-/* line 263, ../scss/acct.scss */
+/* line 236, ../scss/acct.scss */
 div#favorite .label-align span {
   margin: 0 0 40px 20px;
   display: block;
 }
-/* line 268, ../scss/acct.scss */
+/* line 241, ../scss/acct.scss */
 div#favorite .left {
   float: left;
 }
-/* line 274, ../scss/acct.scss */
+/* line 245, ../scss/acct.scss */
 div#favorite .button {
   width: 89px;
   height: 23px;
@@ -8252,40 +8252,40 @@ div#favorite .button {
 /***************************************************
 *************end of settings for panels on first tab LARGE*/
 /******************second tab LARGE***********/
-/* line 293, ../scss/acct.scss */
+/* line 263, ../scss/acct.scss */
 div#donatetotal {
   text-align: center;
 }
-/* line 296, ../scss/acct.scss */
+/* line 266, ../scss/acct.scss */
 div#donatetotal h1 {
   font-size: 20px;
 }
-/* line 300, ../scss/acct.scss */
+/* line 270, ../scss/acct.scss */
 div#donatetotal h3 {
   font-size: 38px;
 }
-/* line 304, ../scss/acct.scss */
+/* line 274, ../scss/acct.scss */
 div#donatetotal h4 {
   font-size: 20px;
   font-style: italic;
 }
 
-/* line 312, ../scss/acct.scss */
+/* line 280, ../scss/acct.scss */
 div#tabledonate, div#tablecharity2 {
   padding-top: 40px;
 }
-/* line 316, ../scss/acct.scss */
+/* line 283, ../scss/acct.scss */
 div#tabledonate h6, div#tablecharity2 h6 {
   font-size: 16px;
   padding-bottom: 15px;
   padding-left: 25px;
 }
-/* line 323, ../scss/acct.scss */
+/* line 289, ../scss/acct.scss */
 div#tabledonate table, div#tablecharity2 table {
   background-color: #fff;
   padding-left: 20px;
 }
-/* line 328, ../scss/acct.scss */
+/* line 294, ../scss/acct.scss */
 div#tabledonate td, div#tablecharity2 td {
   background-color: #fff;
   border-color: #fff;
@@ -8293,7 +8293,7 @@ div#tabledonate td, div#tablecharity2 td {
   font-size: 11px;
   padding-bottom: 20px;
 }
-/* line 336, ../scss/acct.scss */
+/* line 302, ../scss/acct.scss */
 div#tabledonate .button, div#tablecharity2 .button {
   background-color: #ebe5b0;
   font-size: 11px;
@@ -8307,28 +8307,28 @@ div#tabledonate .button, div#tablecharity2 .button {
   margin-top: auto;
 }
 
-/* line 352, ../scss/acct.scss */
+/* line 317, ../scss/acct.scss */
 div#share {
   padding-top: 100px;
   text-align: center;
 }
-/* line 356, ../scss/acct.scss */
+/* line 321, ../scss/acct.scss */
 div#share h6 {
   padding-bottom: 20px;
 }
 
-/* line 362, ../scss/acct.scss */
+/* line 327, ../scss/acct.scss */
 div#mydonations1, div#mydonations2, div#mydonations3 {
   padding-top: 20px;
 }
-/* line 365, ../scss/acct.scss */
+/* line 330, ../scss/acct.scss */
 div#mydonations1 h1, div#mydonations2 h1, div#mydonations3 h1 {
   padding-left: 40px;
   font-size: 16px;
   padding-bottom: 10px;
   padding-top: 20px;
 }
-/* line 371, ../scss/acct.scss */
+/* line 336, ../scss/acct.scss */
 div#mydonations1 h3, div#mydonations2 h3, div#mydonations3 h3 {
   text-align: right;
   font-size: 11px;
@@ -8336,12 +8336,12 @@ div#mydonations1 h3, div#mydonations2 h3, div#mydonations3 h3 {
   padding-right: 40px;
 }
 
-/* line 383, ../scss/acct.scss */
+/* line 346, ../scss/acct.scss */
 div#mydonations2 h3 {
   padding-right: 25px;
 }
 
-/* line 391, ../scss/acct.scss */
+/* line 353, ../scss/acct.scss */
 div#mydonations3 h3 {
   padding-right: 25px;
 }
@@ -8350,83 +8350,83 @@ div#mydonations3 h3 {
 *************end of settings for panels on second tab LARGE*/
 /***************************************************
 *************third tab LARGE*/
-/* line 404, ../scss/acct.scss */
+/* line 366, ../scss/acct.scss */
 div#tablecharity {
   margin-top: -30px;
   padding-top: 80px;
 }
-/* line 407, ../scss/acct.scss */
+/* line 369, ../scss/acct.scss */
 div#tablecharity h5 {
   font-size: 16px;
   padding-top: 20px;
   margin-left: -15px;
 }
-/* line 414, ../scss/acct.scss */
+/* line 374, ../scss/acct.scss */
 div#tablecharity img {
   padding-left: 10px;
 }
 
-/* line 422, ../scss/acct.scss */
+/* line 381, ../scss/acct.scss */
 div#tablecharity2 .button {
   width: 80px;
 }
-/* line 425, ../scss/acct.scss */
+/* line 384, ../scss/acct.scss */
 div#tablecharity2 input[type="checkbox"] {
   margin-top: 7px;
   margin-bottom: 7px;
 }
 
-/* line 432, ../scss/acct.scss */
+/* line 391, ../scss/acct.scss */
 div#results {
   margin-bottom: -40px;
 }
-/* line 435, ../scss/acct.scss */
+/* line 394, ../scss/acct.scss */
 div#results h5 {
   font-size: 15px;
   padding-left: 5px;
 }
-/* line 440, ../scss/acct.scss */
+/* line 399, ../scss/acct.scss */
 div#results img {
   padding-left: 20px;
   min-height: 16px;
   min-width: 238px;
 }
-/* line 446, ../scss/acct.scss */
+/* line 405, ../scss/acct.scss */
 div#results h3 {
   font-size: 15px;
   padding-left: 20px;
 }
 
-/* line 454, ../scss/acct.scss */
+/* line 411, ../scss/acct.scss */
 .result_row {
   max-width: 460px;
 }
 
-/* line 458, ../scss/acct.scss */
+/* line 415, ../scss/acct.scss */
 div#charitycomments {
   margin-left: -40px;
   text-align: left;
   margin-top: -60px;
   max-width: 350px;
 }
-/* line 464, ../scss/acct.scss */
+/* line 421, ../scss/acct.scss */
 div#charitycomments h5 {
   font-size: 18px;
   text-decoration: underline;
   padding-bottom: 20px;
 }
-/* line 470, ../scss/acct.scss */
+/* line 427, ../scss/acct.scss */
 div#charitycomments h6 {
   font-size: 16px;
   font-style: italic;
   text-align: left;
 }
-/* line 476, ../scss/acct.scss */
+/* line 433, ../scss/acct.scss */
 div#charitycomments p {
   font-size: 13px;
   font-style: italic;
 }
-/* line 481, ../scss/acct.scss */
+/* line 438, ../scss/acct.scss */
 div#charitycomments .approve, div#charitycomments .deny {
   margin-left: -30px;
   background-color: #59ab35;
@@ -8437,31 +8437,31 @@ div#charitycomments .approve, div#charitycomments .deny {
   color: #fff;
   box-shadow: 0 3px #404040;
 }
-/* line 492, ../scss/acct.scss */
+/* line 449, ../scss/acct.scss */
 div#charitycomments .approve:hover, div#charitycomments .deny:hover {
   background-color: #366821;
 }
-/* line 496, ../scss/acct.scss */
+/* line 453, ../scss/acct.scss */
 div#charitycomments .approve:focus, div#charitycomments .deny:focus {
   background-color: #75df47;
 }
-/* line 501, ../scss/acct.scss */
+/* line 457, ../scss/acct.scss */
 div#charitycomments .deny {
   background-color: #c0392b;
   margin-left: -10px;
 }
-/* line 506, ../scss/acct.scss */
+/* line 462, ../scss/acct.scss */
 div#charitycomments .deny:hover {
   background-color: #691e16;
 }
-/* line 510, ../scss/acct.scss */
+/* line 466, ../scss/acct.scss */
 div#charitycomments .deny:focus {
   background-color: #ed4331;
 }
 
 /*////////////////////small size**********************/
 @media only screen and (min-width: 393px) and (max-width: 640px) {
-  /* line 522, ../scss/acct.scss */
+  /* line 478, ../scss/acct.scss */
   div#all_tabs .tabs a {
     min-width: 0px;
     max-height: 50px;
@@ -8477,12 +8477,12 @@ div#charitycomments .deny:focus {
     margin-bottom: -30px;
   }
 
-  /* line 538, ../scss/acct.scss */
+  /* line 493, ../scss/acct.scss */
   div#all_tabs .tabs .title1 a {
     margin-left: 0px;
   }
 
-  /* line 544, ../scss/acct.scss */
+  /* line 497, ../scss/acct.scss */
   .tab-width {
     display: block;
     padding: 0;
@@ -8520,200 +8520,200 @@ div#charitycomments .deny:focus {
   }
 
   /********************FIRST TAB*********************/
-  /* line 556, ../scss/acct.scss */
+  /* line 502, ../scss/acct.scss */
   #top_section {
     padding-bottom: 30px;
   }
-  /* line 559, ../scss/acct.scss */
+  /* line 505, ../scss/acct.scss */
   #top_section h5 {
     margin-left: -40px;
   }
-  /* line 562, ../scss/acct.scss */
+  /* line 509, ../scss/acct.scss */
   #top_section img {
     margin-right: -25px;
   }
 
-  /* line 567, ../scss/acct.scss */
+  /* line 514, ../scss/acct.scss */
   div#change {
     padding-right: 0px;
     margin-left: -10px;
     text-align: center;
   }
 
-  /* line 574, ../scss/acct.scss */
+  /* line 520, ../scss/acct.scss */
   div#messages {
     margin-right: -10px;
   }
 
-  /* line 579, ../scss/acct.scss */
+  /* line 524, ../scss/acct.scss */
   div#mailbox {
     margin-left: 0px;
     padding-right: 5px;
   }
-  /* line 584, ../scss/acct.scss */
+  /* line 528, ../scss/acct.scss */
   div#mailbox #table-wrapper {
     margin-left: -10px;
   }
-  /* line 587, ../scss/acct.scss */
+  /* line 531, ../scss/acct.scss */
   div#mailbox td {
     overflow: hidden;
     line-height: 1em;
   }
 
-  /* line 594, ../scss/acct.scss */
+  /* line 537, ../scss/acct.scss */
   div#main {
     text-align: center;
     padding-left: 0px;
   }
-  /* line 598, ../scss/acct.scss */
+  /* line 541, ../scss/acct.scss */
   div#main h6 {
     line-height: 1.5em;
     padding-left: 10px;
   }
 
-  /* line 608, ../scss/acct.scss */
+  /* line 548, ../scss/acct.scss */
   div#delete h6 {
     padding-left: 0px;
   }
 
-  /* line 613, ../scss/acct.scss */
+  /* line 553, ../scss/acct.scss */
   .deleterow {
     max-width: 250px;
   }
 
   /********** favorite panel SMALL (first tab)******************/
-  /* line 621, ../scss/acct.scss */
+  /* line 558, ../scss/acct.scss */
   div#favorite_title h1 {
     padding-top: 30px;
     padding-left: 0px;
   }
 
-  /* line 626, ../scss/acct.scss */
+  /* line 563, ../scss/acct.scss */
   div#favorite {
     overflow: auto;
     min-height: 260px;
     min-width: 100%;
     margin: 10px -10px;
   }
-  /* line 632, ../scss/acct.scss */
+  /* line 569, ../scss/acct.scss */
   div#favorite div#title {
     min-width: 0px;
     margin-left: -10px;
   }
-  /* line 637, ../scss/acct.scss */
+  /* line 574, ../scss/acct.scss */
   div#favorite div#goal {
     text-align: center;
     padding-left: 20px;
     margin-top: 0px;
   }
-  /* line 643, ../scss/acct.scss */
+  /* line 580, ../scss/acct.scss */
   div#favorite .custom_row2 {
     min-width: 0px;
   }
-  /* line 648, ../scss/acct.scss */
+  /* line 584, ../scss/acct.scss */
   div#favorite div#option {
     text-align: center;
     padding-top: 0px;
     margin-left: -20px;
   }
-  /* line 654, ../scss/acct.scss */
+  /* line 590, ../scss/acct.scss */
   div#favorite .custom_row3 {
     min-width: 0px;
   }
 
   /********************SECOND TAB SMALL*********************/
   /********** setting for all tabs******************/
-  /* line 665, ../scss/acct.scss */
+  /* line 597, ../scss/acct.scss */
   div#donatetotal {
     padding-top: 0px;
   }
 
-  /* line 672, ../scss/acct.scss */
+  /* line 603, ../scss/acct.scss */
   div#tabledonate h6, div#tablecharity2 h6 {
     text-align: center;
     padding-left: 0px;
   }
-  /* line 676, ../scss/acct.scss */
+  /* line 608, ../scss/acct.scss */
   div#tabledonate table, div#tablecharity2 table {
     padding-left: 0px;
     display: inline-block;
   }
 
-  /* line 682, ../scss/acct.scss */
+  /* line 614, ../scss/acct.scss */
   div#share {
     padding-top: 10px;
   }
-  /* line 685, ../scss/acct.scss */
+  /* line 617, ../scss/acct.scss */
   div#share h6 {
     padding-bottom: 10px;
   }
 
-  /* line 690, ../scss/acct.scss */
+  /* line 622, ../scss/acct.scss */
   div#mydonations1, div#mydonations2, div#mydonations3 {
     padding-top: 20px;
   }
-  /* line 693, ../scss/acct.scss */
+  /* line 625, ../scss/acct.scss */
   div#mydonations1 h1, div#mydonations2 h1, div#mydonations3 h1 {
     text-align: center;
     padding-left: 0px;
   }
-  /* line 697, ../scss/acct.scss */
+  /* line 629, ../scss/acct.scss */
   div#mydonations1 h3, div#mydonations2 h3, div#mydonations3 h3 {
     text-align: center;
     padding-right: 0px;
   }
 
-  /* line 705, ../scss/acct.scss */
+  /* line 636, ../scss/acct.scss */
   div#mydonations2 h3 {
     text-align: center;
     padding-right: 0px;
   }
 
-  /* line 712, ../scss/acct.scss */
+  /* line 643, ../scss/acct.scss */
   div#mydonations3 h3 {
     text-align: center;
     padding-right: 0px;
   }
 
   /********************THIRD TAB SMALL*********************/
-  /* line 723, ../scss/acct.scss */
+  /* line 653, ../scss/acct.scss */
   div#tablecharity {
     padding-top: 60px;
     padding-left: 0px;
     text-align: center;
   }
-  /* line 727, ../scss/acct.scss */
+  /* line 657, ../scss/acct.scss */
   div#tablecharity h5 {
     margin-left: 0px;
   }
 
-  /* line 733, ../scss/acct.scss */
+  /* line 663, ../scss/acct.scss */
   div#results {
     text-align: center;
     margin-bottom: -20px;
   }
-  /* line 737, ../scss/acct.scss */
+  /* line 667, ../scss/acct.scss */
   div#results h5 {
     padding-left: 0px;
   }
-  /* line 741, ../scss/acct.scss */
+  /* line 671, ../scss/acct.scss */
   div#results img {
     text-align: center;
     padding-left: 0px;
     max-height: 16px;
     max-width: 238px;
   }
-  /* line 748, ../scss/acct.scss */
+  /* line 678, ../scss/acct.scss */
   div#results h3 {
     padding-left: 0px;
   }
 
-  /* line 755, ../scss/acct.scss */
+  /* line 683, ../scss/acct.scss */
   .result_row {
     max-width: 640px;
   }
 
-  /* line 761, ../scss/acct.scss */
+  /* line 687, ../scss/acct.scss */
   div#charitycomments {
     margin-left: 20px;
     padding-top: 70px;
@@ -8722,7 +8722,7 @@ div#charitycomments .deny:focus {
 /*///////////////////////medium sizes//////////*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /********** setting for all tabs******************/
-  /* line 775, ../scss/acct.scss */
+  /* line 700, ../scss/acct.scss */
   div#all_tabs .tabs a {
     min-width: 0px;
     text-align: center;
@@ -8732,166 +8732,166 @@ div#charitycomments .deny:focus {
   }
 
   /********** setting for all tabs******************/
-  /* line 786, ../scss/acct.scss */
+  /* line 710, ../scss/acct.scss */
   #donatetotal {
     padding-bottom: 20px;
   }
 
-  /* line 790, ../scss/acct.scss */
+  /* line 714, ../scss/acct.scss */
   div#share {
     padding-top: 40px;
   }
-  /* line 793, ../scss/acct.scss */
+  /* line 717, ../scss/acct.scss */
   div#share h6 {
     margin-bottom: -20px;
   }
 
-  /* line 800, ../scss/acct.scss */
+  /* line 723, ../scss/acct.scss */
   div#delete h6 {
     padding-left: 20px;
   }
 
-  /* line 806, ../scss/acct.scss */
+  /* line 728, ../scss/acct.scss */
   .deleterow {
     max-width: 255px;
   }
 
   /********** favorite panel, main tab MEDIUM******************/
-  /* line 815, ../scss/acct.scss */
+  /* line 737, ../scss/acct.scss */
   div#favorite {
     max-height: 240px;
     width: 95%;
   }
-  /* line 820, ../scss/acct.scss */
+  /* line 741, ../scss/acct.scss */
   div#favorite #percent {
     text-align: right;
     margin-left: -10px;
   }
-  /* line 824, ../scss/acct.scss */
+  /* line 745, ../scss/acct.scss */
   div#favorite #percent h4 {
     font-size: 47px;
   }
-  /* line 827, ../scss/acct.scss */
+  /* line 748, ../scss/acct.scss */
   div#favorite #percent h5 {
     min-width: 100px;
   }
-  /* line 833, ../scss/acct.scss */
+  /* line 753, ../scss/acct.scss */
   div#favorite div#title {
     min-width: 250px;
     margin-left: -10px;
   }
-  /* line 839, ../scss/acct.scss */
+  /* line 758, ../scss/acct.scss */
   div#favorite div#goal {
     padding-left: 80px;
     margin-top: -15px;
     padding-bottom: 10px;
   }
-  /* line 845, ../scss/acct.scss */
+  /* line 764, ../scss/acct.scss */
   div#favorite .custom_row2 {
     min-width: 200px;
   }
-  /* line 850, ../scss/acct.scss */
+  /* line 769, ../scss/acct.scss */
   div#favorite div#option {
     margin-top: 0px;
     padding-top: 0px;
     text-align: right;
   }
-  /* line 856, ../scss/acct.scss */
+  /* line 775, ../scss/acct.scss */
   div#favorite .custom_row3 {
     min-width: 250px;
   }
-  /* line 862, ../scss/acct.scss */
+  /* line 779, ../scss/acct.scss */
   div#favorite .label-align input[type="checkbox"] {
     margin-top: 7px;
     margin-right: 5px;
     margin-left: 110px;
   }
-  /* line 869, ../scss/acct.scss */
+  /* line 785, ../scss/acct.scss */
   div#favorite .label-align span {
     margin: 0 0 40px 0px;
   }
 
   /********************SECOND TAB MEDIUM*********************/
-  /* line 879, ../scss/acct.scss */
+  /* line 793, ../scss/acct.scss */
   div#tabledonate h6, div#tablecharity2 h6 {
     text-align: center;
   }
-  /* line 884, ../scss/acct.scss */
+  /* line 796, ../scss/acct.scss */
   div#tabledonate table, div#tablecharity2 table {
     margin-right: auto;
     margin-left: auto;
     padding-left: 0px;
   }
 
-  /* line 892, ../scss/acct.scss */
+  /* line 803, ../scss/acct.scss */
   div#mydonations1, div#mydonations2, div#mydonations3 {
     padding-top: 20px;
   }
-  /* line 895, ../scss/acct.scss */
+  /* line 806, ../scss/acct.scss */
   div#mydonations1 h1, div#mydonations2 h1, div#mydonations3 h1 {
     padding-left: 35px;
   }
-  /* line 899, ../scss/acct.scss */
+  /* line 809, ../scss/acct.scss */
   div#mydonations1 h3, div#mydonations2 h3, div#mydonations3 h3 {
     padding-right: 30px;
   }
 
-  /* line 907, ../scss/acct.scss */
+  /* line 815, ../scss/acct.scss */
   div#mydonations2 h3 {
     padding-right: 15px;
   }
 
-  /* line 914, ../scss/acct.scss */
+  /* line 821, ../scss/acct.scss */
   div#mydonations3 h3 {
     padding-right: 15px;
   }
 
   /********************THIRD TAB MEDIUM*********************/
-  /* line 924, ../scss/acct.scss */
+  /* line 831, ../scss/acct.scss */
   div#tablecharity {
     padding-top: 30px;
     min-width: 600px;
   }
-  /* line 927, ../scss/acct.scss */
+  /* line 835, ../scss/acct.scss */
   div#tablecharity h5 {
     padding-bottom: 20px;
     padding-left: 0px;
     margin-left: -20px;
   }
-  /* line 934, ../scss/acct.scss */
+  /* line 841, ../scss/acct.scss */
   div#tablecharity img {
     padding-left: 105px;
     min-width: 42px;
   }
 
-  /* line 940, ../scss/acct.scss */
+  /* line 847, ../scss/acct.scss */
   div#tablecharity2 {
     margin-top: -20px;
   }
 
-  /* line 947, ../scss/acct.scss */
+  /* line 851, ../scss/acct.scss */
   div#results {
     margin-bottom: -10px;
   }
-  /* line 950, ../scss/acct.scss */
+  /* line 854, ../scss/acct.scss */
   div#results img {
     padding-left: 0px;
     min-height: 16px;
     min-width: 250px;
   }
-  /* line 956, ../scss/acct.scss */
+  /* line 860, ../scss/acct.scss */
   div#results h3 {
     text-align: center;
     padding-left: 0px;
     margin-top: 30px;
   }
 
-  /* line 964, ../scss/acct.scss */
+  /* line 867, ../scss/acct.scss */
   .result_row {
     max-width: 470px;
   }
 
-  /* line 973, ../scss/acct.scss */
+  /* line 871, ../scss/acct.scss */
   div#charitycomments {
     margin-left: 20px;
     max-width: 500px;
@@ -8900,7 +8900,7 @@ div#charitycomments .deny:focus {
 }
 /********************SECOND SMALL SIZE!!!*********************/
 @media only screen and (max-width: 392px) {
-  /* line 997, ../scss/acct.scss */
+  /* line 896, ../scss/acct.scss */
   div#all_tabs .tabs a {
     min-width: 0px;
     max-height: 50px;
@@ -8916,13 +8916,13 @@ div#charitycomments .deny:focus {
     margin-bottom: -30px;
   }
 
-  /* line 1013, ../scss/acct.scss */
+  /* line 912, ../scss/acct.scss */
   div#all_tabs .tabs .title1 a {
     margin-left: 0px;
     min-height: 50px;
   }
 
-  /* line 1019, ../scss/acct.scss */
+  /* line 918, ../scss/acct.scss */
   .tab-width {
     display: block;
     padding: 0;
@@ -8959,201 +8959,201 @@ div#charitycomments .deny:focus {
     clear: both;
   }
 
-  /* line 1025, ../scss/acct.scss */
+  /* line 924, ../scss/acct.scss */
   div#delete h6 {
     padding-left: 0px;
   }
 
-  /* line 1030, ../scss/acct.scss */
+  /* line 929, ../scss/acct.scss */
   .deleterow {
     max-width: 250px;
   }
 
   /********************FIRST TAB*********************/
-  /* line 1042, ../scss/acct.scss */
+  /* line 941, ../scss/acct.scss */
   #top_section {
     padding-bottom: 30px;
   }
-  /* line 1045, ../scss/acct.scss */
+  /* line 944, ../scss/acct.scss */
   #top_section h5 {
     margin-left: -40px;
   }
-  /* line 1048, ../scss/acct.scss */
+  /* line 947, ../scss/acct.scss */
   #top_section img {
     margin-right: -25px;
   }
 
-  /* line 1053, ../scss/acct.scss */
+  /* line 952, ../scss/acct.scss */
   div#change {
     padding-right: 0px;
     margin-left: -10px;
     text-align: center;
   }
 
-  /* line 1060, ../scss/acct.scss */
+  /* line 959, ../scss/acct.scss */
   div#messages {
     margin-right: -10px;
   }
 
-  /* line 1065, ../scss/acct.scss */
+  /* line 964, ../scss/acct.scss */
   div#mailbox {
     margin-left: 0px;
     padding-right: 5px;
   }
-  /* line 1070, ../scss/acct.scss */
+  /* line 969, ../scss/acct.scss */
   div#mailbox #table-wrapper {
     margin-left: -10px;
   }
-  /* line 1073, ../scss/acct.scss */
+  /* line 972, ../scss/acct.scss */
   div#mailbox td {
     overflow: hidden;
     line-height: 1em;
   }
 
-  /* line 1080, ../scss/acct.scss */
+  /* line 979, ../scss/acct.scss */
   div#main {
     text-align: center;
     padding-left: 0px;
   }
-  /* line 1084, ../scss/acct.scss */
+  /* line 983, ../scss/acct.scss */
   div#main h6 {
     line-height: 1.5em;
     padding-left: 10px;
   }
 
   /********** favorite panel SMALL (first tab)******************/
-  /* line 1095, ../scss/acct.scss */
+  /* line 994, ../scss/acct.scss */
   div#favorite_title h1 {
     padding-top: 30px;
     padding-left: 0px;
   }
 
-  /* line 1101, ../scss/acct.scss */
+  /* line 1000, ../scss/acct.scss */
   div#favorite {
     overflow: auto;
     min-height: 260px;
     min-width: 100%;
     margin: 10px -10px;
   }
-  /* line 1107, ../scss/acct.scss */
+  /* line 1006, ../scss/acct.scss */
   div#favorite div#title {
     min-width: 0px;
     margin-left: -10px;
   }
-  /* line 1113, ../scss/acct.scss */
+  /* line 1012, ../scss/acct.scss */
   div#favorite div#goal {
     text-align: center;
     padding-left: 20px;
     margin-top: 0px;
   }
-  /* line 1119, ../scss/acct.scss */
+  /* line 1018, ../scss/acct.scss */
   div#favorite .custom_row2 {
     min-width: 0px;
   }
-  /* line 1124, ../scss/acct.scss */
+  /* line 1023, ../scss/acct.scss */
   div#favorite div#option {
     text-align: center;
     padding-top: 0px;
     margin-left: -20px;
   }
-  /* line 1130, ../scss/acct.scss */
+  /* line 1029, ../scss/acct.scss */
   div#favorite .custom_row3 {
     min-width: 0px;
   }
 
   /********************SECOND TAB SMALL*********************/
   /********** setting for all tabs******************/
-  /* line 1145, ../scss/acct.scss */
+  /* line 1044, ../scss/acct.scss */
   div#donatetotal {
     padding-top: 0px;
   }
 
-  /* line 1152, ../scss/acct.scss */
+  /* line 1051, ../scss/acct.scss */
   div#tabledonate h6, div#tablecharity2 h6 {
     text-align: center;
     padding-left: 0px;
   }
-  /* line 1156, ../scss/acct.scss */
+  /* line 1055, ../scss/acct.scss */
   div#tabledonate table, div#tablecharity2 table {
     padding-left: 0px;
     display: inline-block;
   }
 
-  /* line 1162, ../scss/acct.scss */
+  /* line 1061, ../scss/acct.scss */
   div#share {
     padding-top: 10px;
   }
-  /* line 1165, ../scss/acct.scss */
+  /* line 1064, ../scss/acct.scss */
   div#share h6 {
     padding-bottom: 10px;
   }
 
-  /* line 1170, ../scss/acct.scss */
+  /* line 1069, ../scss/acct.scss */
   div#mydonations1, div#mydonations2, div#mydonations3 {
     padding-top: 20px;
   }
-  /* line 1173, ../scss/acct.scss */
+  /* line 1072, ../scss/acct.scss */
   div#mydonations1 h1, div#mydonations2 h1, div#mydonations3 h1 {
     text-align: center;
     padding-left: 0px;
   }
-  /* line 1177, ../scss/acct.scss */
+  /* line 1076, ../scss/acct.scss */
   div#mydonations1 h3, div#mydonations2 h3, div#mydonations3 h3 {
     text-align: center;
     padding-right: 0px;
   }
 
-  /* line 1185, ../scss/acct.scss */
+  /* line 1084, ../scss/acct.scss */
   div#mydonations2 h3 {
     text-align: center;
     padding-right: 0px;
   }
 
-  /* line 1192, ../scss/acct.scss */
+  /* line 1091, ../scss/acct.scss */
   div#mydonations3 h3 {
     text-align: center;
     padding-right: 0px;
   }
 
   /********************THIRD TAB SMALL 2nd SMALL size*********************/
-  /* line 1201, ../scss/acct.scss */
+  /* line 1100, ../scss/acct.scss */
   div#tablecharity {
     padding-top: 60px;
     padding-left: 0px;
     text-align: center;
   }
-  /* line 1205, ../scss/acct.scss */
+  /* line 1104, ../scss/acct.scss */
   div#tablecharity h5 {
     margin-left: 0px;
   }
 
-  /* line 1211, ../scss/acct.scss */
+  /* line 1110, ../scss/acct.scss */
   div#results {
     text-align: center;
     margin-bottom: -20px;
   }
-  /* line 1215, ../scss/acct.scss */
+  /* line 1114, ../scss/acct.scss */
   div#results h5 {
     padding-left: 0px;
   }
-  /* line 1219, ../scss/acct.scss */
+  /* line 1118, ../scss/acct.scss */
   div#results img {
     text-align: center;
     padding-left: 0px;
     max-height: 16px;
     max-width: 238px;
   }
-  /* line 1226, ../scss/acct.scss */
+  /* line 1125, ../scss/acct.scss */
   div#results h3 {
     padding-left: 0px;
   }
 
-  /* line 1233, ../scss/acct.scss */
+  /* line 1132, ../scss/acct.scss */
   .result_row {
     max-width: 640px;
   }
 
-  /* line 1239, ../scss/acct.scss */
+  /* line 1138, ../scss/acct.scss */
   div#charitycomments {
     margin-left: 20px;
     padding-top: 70px;

@@ -7990,7 +7990,7 @@ div#logo {
   padding-top: 20px;
   padding-bottom: 40px;
 }
-/* line 13, ../scss/index.scss */
+/* line 12, ../scss/index.scss */
 div#logo h2 {
   font-size: 20px;
   font-weight: normal;
@@ -7998,55 +7998,55 @@ div#logo h2 {
   padding-top: 10px;
 }
 
-/* line 23, ../scss/index.scss */
+/* line 20, ../scss/index.scss */
 .button-group {
   text-align: center;
   padding-left: 40px;
 }
-/* line 27, ../scss/index.scss */
+/* line 24, ../scss/index.scss */
 .button-group li a {
   border: 0;
   background: #fff;
   font-size: 17px;
   color: #000000;
 }
-/* line 36, ../scss/index.scss */
+/* line 30, ../scss/index.scss */
 .button-group :hover {
   font-color: #000000;
 }
 
-/* line 41, ../scss/index.scss */
+/* line 35, ../scss/index.scss */
 .f-dropdown {
   text-align: center;
 }
-/* line 44, ../scss/index.scss */
+/* line 38, ../scss/index.scss */
 .f-dropdown li a {
   border-bottom: 1px solid #acaba7;
   min-width: 105px;
 }
 
-/* line 50, ../scss/index.scss */
+/* line 44, ../scss/index.scss */
 div#myModal {
   border-radius: 4px;
   min-height: 300px;
 }
-/* line 53, ../scss/index.scss */
+/* line 47, ../scss/index.scss */
 div#myModal p {
   text-align: left;
   margin-bottom: 5px;
 }
 
-/* line 63, ../scss/index.scss */
+/* line 55, ../scss/index.scss */
 div#socialicons .button {
   background-color: none;
 }
-/* line 66, ../scss/index.scss */
+/* line 58, ../scss/index.scss */
 div#socialicons p {
   text-align: center;
   padding-bottom: 10px;
 }
 
-/* line 74, ../scss/index.scss */
+/* line 65, ../scss/index.scss */
 div#signupbutton .button, div#create .button {
   width: 200px;
   font-size: 26px;
@@ -8057,26 +8057,26 @@ div#signupbutton .button, div#create .button {
   margin-top: 20px;
   background-color: none;
 }
-/* line 85, ../scss/index.scss */
+/* line 76, ../scss/index.scss */
 div#signupbutton .button:hover, div#create .button:hover {
   background-color: #1a6868;
 }
-/* line 89, ../scss/index.scss */
+/* line 80, ../scss/index.scss */
 div#signupbutton .button:focus, div#create .button:focus {
   background-color: #1a6868;
 }
 
-/* line 103, ../scss/index.scss */
+/* line 85, ../scss/index.scss */
 div#signup {
   background-image: url("../images/streethome.png");
   background-size: cover;
 }
 
-/* line 108, ../scss/index.scss */
+/* line 90, ../scss/index.scss */
 div#signup {
   padding-bottom: 30px;
 }
-/* line 111, ../scss/index.scss */
+/* line 93, ../scss/index.scss */
 div#signup h1, div#signup h2 {
   font-size: 48px;
   font-family: Open Sans, sans-serif;
@@ -8084,12 +8084,12 @@ div#signup h1, div#signup h2 {
   text-shadow: 3px 3px 3px #000000;
   padding-top: 20px;
 }
-/* line 119, ../scss/index.scss */
+/* line 101, ../scss/index.scss */
 div#signup label {
   text-shadow: 3px 3px 3px #000000;
   margin-top: -10px;
 }
-/* line 126, ../scss/index.scss */
+/* line 106, ../scss/index.scss */
 div#signup h3 {
   font-size: 29px;
   font-family: Open Sans, sans-serif;
@@ -8100,40 +8100,40 @@ div#signup h3 {
   padding-bottom: 80px;
 }
 
-/* line 140, ../scss/index.scss */
+/* line 118, ../scss/index.scss */
 div#form1 label {
   padding-right: 30px;
 }
 
-/* line 149, ../scss/index.scss */
+/* line 124, ../scss/index.scss */
 #create h4 {
   font-size: 29px;
   vertical-align: middle;
 }
 
-/* line 154, ../scss/index.scss */
+/* line 129, ../scss/index.scss */
 ::-webkit-input-placeholder {
   font-style: italic;
 }
 
-/* line 158, ../scss/index.scss */
+/* line 133, ../scss/index.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   font-style: italic;
 }
 
-/* line 162, ../scss/index.scss */
+/* line 137, ../scss/index.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   font-style: italic;
 }
 
-/* line 166, ../scss/index.scss */
+/* line 141, ../scss/index.scss */
 :-ms-input-placeholder {
   font-style: italic;
 }
 
-/* line 170, ../scss/index.scss */
+/* line 145, ../scss/index.scss */
 #create p {
   display: inline-block;
   font-family: Times;
@@ -8143,28 +8143,28 @@ div#form1 label {
   line-height: 1.2em;
 }
 
-/* line 180, ../scss/index.scss */
+/* line 155, ../scss/index.scss */
 div#create {
   padding-top: 100px;
   padding-bottom: 80px;
 }
 
-/* line 186, ../scss/index.scss */
+/* line 161, ../scss/index.scss */
 div#create .button {
   width: 300px;
 }
 
-/* line 190, ../scss/index.scss */
+/* line 165, ../scss/index.scss */
 div#create .button:hover {
   background-color: #1a6868;
 }
 
-/* line 194, ../scss/index.scss */
+/* line 169, ../scss/index.scss */
 div#create .button:focus {
   background-color: #1a6868;
 }
 
-/* line 202, ../scss/index.scss */
+/* line 173, ../scss/index.scss */
 div#create .woman {
   display: block;
   margin-right: auto;
@@ -8172,40 +8172,40 @@ div#create .woman {
   text-align: center;
 }
 
-/* line 210, ../scss/index.scss */
+/* line 180, ../scss/index.scss */
 div#footer_1 {
   background: #ebe5b0;
   min-height: 200px;
 }
-/* line 213, ../scss/index.scss */
+/* line 183, ../scss/index.scss */
 div#footer_1 h3 {
   padding-top: 40px;
   text-align: center;
 }
-/* line 218, ../scss/index.scss */
+/* line 188, ../scss/index.scss */
 div#footer_1 h4 {
   text-align: center;
 }
-/* line 222, ../scss/index.scss */
+/* line 192, ../scss/index.scss */
 div#footer_1 h5 {
   padding-top: 54px;
   text-align: center;
 }
 
-/* line 228, ../scss/index.scss */
+/* line 198, ../scss/index.scss */
 div#footer_2 {
   background: #90e4cb;
   min-height: 124px;
 }
 
-/* line 235, ../scss/index.scss */
+/* line 204, ../scss/index.scss */
 #footer_2 h3 {
   font-family: Pacifico;
   font-size: 36px;
   text-align: center;
   margin-top: 44px;
 }
-/* line 242, ../scss/index.scss */
+/* line 210, ../scss/index.scss */
 #footer_2 h5 {
   padding-top: 40px;
   font-size: 14px;
@@ -8214,151 +8214,151 @@ div#footer_2 {
 
 /*//////////////////////////small //////*/
 @media only screen and (max-width: 640px) {
-  /* line 259, ../scss/index.scss */
+  /* line 220, ../scss/index.scss */
   .buttondropdown {
     padding-left: 50px;
   }
 
-  /* line 263, ../scss/index.scss */
+  /* line 224, ../scss/index.scss */
   .f-dropdown {
     text-align: center;
   }
-  /* line 265, ../scss/index.scss */
+  /* line 226, ../scss/index.scss */
   .f-dropdown li a {
     width: 100%;
   }
 
-  /* line 273, ../scss/index.scss */
+  /* line 232, ../scss/index.scss */
   div#logo h2 {
     text-align: center;
   }
 
-  /* line 280, ../scss/index.scss */
+  /* line 238, ../scss/index.scss */
   div#signup h1, div#signup h2 {
     margin-bottom: -50px;
   }
-  /* line 285, ../scss/index.scss */
+  /* line 242, ../scss/index.scss */
   div#signup h3 {
     padding-top: 90px;
     padding-bottom: 40px;
   }
 
-  /* line 293, ../scss/index.scss */
+  /* line 248, ../scss/index.scss */
   div#myModal {
     max-width: 90%;
     margin-left: 5%;
   }
 
-  /* line 303, ../scss/index.scss */
+  /* line 254, ../scss/index.scss */
   div#form1 label {
     text-align: center;
     padding-left: 30px;
   }
 
-  /* line 312, ../scss/index.scss */
+  /* line 261, ../scss/index.scss */
   div#form2 label {
     text-align: center;
   }
 
-  /* line 322, ../scss/index.scss */
+  /* line 267, ../scss/index.scss */
   .button-group {
     padding-left: 0px;
   }
 
-  /* line 326, ../scss/index.scss */
+  /* line 271, ../scss/index.scss */
   div#create {
     padding-top: 20px;
   }
-  /* line 330, ../scss/index.scss */
+  /* line 274, ../scss/index.scss */
   div#create .button {
     width: 100%;
     line-height: 1.2em;
     padding-top: 5px;
   }
-  /* line 336, ../scss/index.scss */
+  /* line 280, ../scss/index.scss */
   div#create img {
     padding-top: 0px;
   }
 
-  /* line 344, ../scss/index.scss */
+  /* line 288, ../scss/index.scss */
   div#footer_1 h3 {
     font-size: 33px;
     padding-top: 0px;
   }
-  /* line 349, ../scss/index.scss */
+  /* line 292, ../scss/index.scss */
   div#footer_1 h5 {
     padding-top: 10px;
     font-size: 20px;
   }
 
-  /* line 357, ../scss/index.scss */
+  /* line 299, ../scss/index.scss */
   div#footer2 h5 {
     text-align: center;
   }
 }
 /*///////////////////////medium sizes*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 371, ../scss/index.scss */
+  /* line 311, ../scss/index.scss */
   div#signup h1, div#signup h2 {
     margin-bottom: -50px;
   }
-  /* line 375, ../scss/index.scss */
+  /* line 315, ../scss/index.scss */
   div#signup h3 {
     padding-top: 90px;
     padding-bottom: 40px;
   }
 
-  /* line 383, ../scss/index.scss */
+  /* line 322, ../scss/index.scss */
   div#form1 {
     text-align: center;
   }
-  /* line 385, ../scss/index.scss */
+  /* line 324, ../scss/index.scss */
   div#form1 label {
     padding-right: 10%;
     min-width: 250px;
     line-height: 1.1em;
     padding-top: 10px;
   }
-  /* line 391, ../scss/index.scss */
+  /* line 330, ../scss/index.scss */
   div#form1 input {
     width: 80%;
   }
 
-  /* line 398, ../scss/index.scss */
+  /* line 337, ../scss/index.scss */
   div#form2 label {
     padding-left: 10%;
     padding-right: 10%;
     min-width: 250px;
     padding-top: 10px;
   }
-  /* line 405, ../scss/index.scss */
+  /* line 343, ../scss/index.scss */
   div#form2 select {
     width: 86%;
     margin-left: -15px;
   }
 
-  /* line 413, ../scss/index.scss */
+  /* line 349, ../scss/index.scss */
   div#create {
     padding-top: 30px;
     padding-bottom: 20px;
   }
-  /* line 418, ../scss/index.scss */
+  /* line 352, ../scss/index.scss */
   div#create img {
     padding-top: 20px;
   }
 
-  /* line 426, ../scss/index.scss */
+  /* line 358, ../scss/index.scss */
   div#footer_1 h3 {
     padding-top: 10px;
   }
-  /* line 430, ../scss/index.scss */
+  /* line 361, ../scss/index.scss */
   div#footer_1 h5 {
     padding-top: 20px;
   }
 }
 /*///////my custom size/////////////////*/
 @media only screen and (min-width: 640px) and (max-width: 699px) {
-  /* line 445, ../scss/index.scss */
+  /* line 375, ../scss/index.scss */
   .custom-row-class {
     width: 100%;
     margin-left: auto;
@@ -8376,7 +8376,7 @@ div#footer_2 {
   .custom-row-class:after {
     clear: both;
   }
-  /* line 447, ../scss/index.scss */
+  /* line 377, ../scss/index.scss */
   .custom-row-class .custom-column-class {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -8384,18 +8384,18 @@ div#footer_2 {
     float: left;
   }
 
-  /* line 454, ../scss/index.scss */
+  /* line 383, ../scss/index.scss */
   div#form1 label {
     text-align: right;
     padding-right: 40px;
   }
 
-  /* line 464, ../scss/index.scss */
+  /* line 390, ../scss/index.scss */
   div#form2 label {
     text-align: right;
     min-width: 250px;
   }
-  /* line 470, ../scss/index.scss */
+  /* line 394, ../scss/index.scss */
   div#form2 select {
     width: 90%;
     padding-left: 20px;

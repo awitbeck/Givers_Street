@@ -18,30 +18,22 @@ div#charity{
   top: 0;          /* <-- Keep the overlay at the bottom of the box   */
   left: 0;            /* <-- Set left and right properties to 0          */
   right: 0;  
-          /*     In order to expand the overlay horizontally */
-
   padding: 0.4rem;
- 
 }
-
 
 #content h1 {
   font-size: 36px;
 }
 
-
-
 .social{
   height: 48px;
   width: 48px;
   margin-right: 1.9px;
-
 }
 
 div#socialicons{
   text-align: center;
   margin-top: 20px;
-
 
 .button {
 background: none;
@@ -50,12 +42,7 @@ background: none;
 h6 {
 margin-top: -10px;
 }
-
 }
-
-
-
-
 
 div#comments{
   padding-top: 80px;
@@ -63,16 +50,14 @@ div#comments{
 .tabs a{
   min-width: 198px;
   text-align: center;
-border-radius: 4px 4px 0 0;
-box-shadow:9px 0px 0px 0px #000000;
-overflow: hidden;
-
+  border-radius: 4px 4px 0 0;
+  box-shadow:9px 0px 0px 0px #000000;
+  overflow: hidden;
 }
 
-.tabs .tab-title.active{
+ .tabs .tab-title.active{
   z-index: 7;
 }
-
 
  .tabs a::before{
  z-index: 3;
@@ -90,39 +75,29 @@ min-height: 883px;
 padding-top: 50px;
 box-shadow:9px 0px 0px 0px #000000;
 }
-
 }
-
- 
-
-
-
-
 
  div#donors img{
   padding-right: 5px;
-padding-left: 40px;
-margin-top: -33px;
+  padding-left: 40px;
+  margin-top: -33px;
 }
   
-
  div#donors p{
   padding-left: 40px;
   font-weight: bold;
-  
-  }
+}
 
 div#comment_tab p {
-    padding-left: 40px;
+  padding-left: 40px;
+}
 
-  }
-
-  div#commenter p{
-    padding-right: 40px;
-    text-align: right;
-    font-weight: bold;
-    padding-bottom: 30px;
-  }
+div#commenter p{
+  padding-right: 40px;
+  text-align: right;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
 
 div#amount p{
  text-align: right;
@@ -130,9 +105,6 @@ div#amount p{
  font-weight: bold;
  margin-bottom:85px;
 }
-
-
-
 
 div#weekly {
   h3 {
@@ -161,23 +133,19 @@ canvas{
   width:145px;
   height:145px;
 }
-
-
-
 }
 
-
  div#content-right {
-text-align: right;
+  text-align: right;
 
  .button {
   width: 275px;
   font-size: 30px;
   color:#fff;
   border-radius: 4px;
-   line-height: 58px;
-box-shadow: 0 5px #404040;
- font-style: normal;
+  line-height: 58px;
+  box-shadow: 0 5px #404040;
+  font-style: normal;
 }
 
 .button:hover {
@@ -193,21 +161,14 @@ h6{
   padding-bottom: 10px;
 }
 
-
 div#donatebutton{
   padding-right: 30px;
 }
-
 }
-
-
-
-
 
 
 /* FAVORITE BUTTON*/
 div#favorite{
-
  .button:hover {
   background-color: #1a6868;
 }
@@ -219,11 +180,9 @@ div#favorite{
 
 
 div#test .button {
-border-radius:4px;
-background: #39c1c1;
-width:225px;
-
-
+  border-radius:4px;
+  background: #39c1c1;
+  width:225px;
 }
 
 .btn-img {
@@ -231,11 +190,11 @@ vertical-align: middle;
 }
 
 div#text{
-     font-size: 21px;
-  line-height: 22px;
-  margin-top: 7px;
-  text-align: center;
-padding-right: 20px;
+   font-size: 21px;
+   line-height: 22px;
+   margin-top: 7px;
+   text-align: center;
+   padding-right: 20px;
 }
 
 div#myModal{
@@ -246,19 +205,17 @@ div#myModal{
   }
 }
 
-
 div#signupbutton{
-  text-align: center;}
-
-
-div#myModal3{
- border-radius: 4px;
-  z-index: 100;
- min-height: 100px;
- h6{
   text-align: center;
 }
 
+div#myModal3{
+  border-radius: 4px;
+  z-index: 100;
+  min-height: 100px;
+ h6{
+  text-align: center;
+}
 }
 
 
@@ -267,14 +224,11 @@ div#myModal3{
 
 div#content-left{
   text-align: center;
-margin-right: 0px;
-
+  margin-right: 0px;
 
 .overlay-container {
-  
   position: relative;
   padding-right: 0px;
- /* <-- Set as the reference for the positioned overlay */
 }
 
 .overlay-container .overlay {
@@ -285,25 +239,17 @@ margin-right: 0px;
   right: 0px;            /*     In order to expand the overlay horizontally */
   padding: 0.4rem;
   width:50%;
-
- 
 }
 }
 
 
 div#pic2{
-text-align: center;
- padding-top: 20px;
+  text-align: center;
+  padding-top: 20px;
  img{
   width: 373px;
-
  }
-
 }
-
-
-
-
 
 div#weekly {
   h3 {
@@ -329,22 +275,15 @@ canvas {
 width: 100% !important;
 max-width: 100px;
 height:100% !important;
-
+}
 }
 
-}
-
-
- div#content-right {
-
-
+div#content-right {
  .button {
-  width: 100%;
-  font-size: 22px;
+   width: 100%;
+   font-size: 22px;
    line-height: 38px;
 }
-
-
 h6{
   text-align:center;
   min-width:100px;
@@ -353,11 +292,9 @@ h6{
   padding-bottom: 10px;
 }
 
-
 div#donatebutton{
   padding-right: 30px;
 }
-
 }
 
 div#womanpic{
@@ -366,14 +303,10 @@ div#womanpic{
 }
 
 
-
 /* FAVORITE BUTTON*/
-
-
 
 div#test{
   padding-top: 10px;
-
 }
 
 .btn-img {
@@ -396,42 +329,29 @@ div#myModal{
   min-height: 450px;
 }
 
-
-
-
-
 div#myModal3{
   padding-top: 30px;
-max-width: 60%;
-margin-left: 20%;
+  max-width: 60%;
+  margin-left: 20%;
 }
 
 
 /*DONATORS TAB SMALL***********/
-
-
-
  div#donors img{
-padding-left: 25px;
+  padding-left: 25px;
 }
   
-
- div#donors p{
+div#donors p{
   padding-left: 25px;  
-  }
+}
 
 div#comment_tab p {
-    padding-left: 25px;
-  }
-
+  padding-left: 25px;
+}
 
 div#amount p{
  padding-right: 25px;
 }
-
-
-
-
 }
 
 
@@ -440,12 +360,10 @@ div#amount p{
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
-
-
 .overlay-container {
-width: 93%;
-height: 93%;
-  }
+  width: 93%;
+  height: 93%;
+}
 
 div#pic2{
   text-align: center;
@@ -454,19 +372,16 @@ div#pic2{
     }
 }
 
-
-
- div#content-right {
-text-align: right;
+div#content-right {
+   text-align: right;
 
  .button {
- width:100%;
-  font-size: 30px;
-  color:#fff;
-  border-radius: 4px;
+   width:100%;
+   font-size: 30px;
+   color:#fff;
+   border-radius: 4px;
    line-height: 58px;
-box-shadow: 0 5px #404040;
- 
+   box-shadow: 0 5px #404040; 
 }
 
 .button:hover {
@@ -486,7 +401,6 @@ h6{
 div#donatebutton{
   padding-right: 0px;
 }
-
 }
 
 div#week {
@@ -494,8 +408,8 @@ div#week {
   font-size: 22px;
   text-align: right;
 }
-span{
-padding-right: 50px;
+ span{
+  padding-right: 50px;
 }
 }
 
@@ -511,17 +425,13 @@ div#favorite{
 }
 }
 
-
 div#test .button {
 border-radius:4px;
 background: #39c1c1;
-
-
 }
 
 .btn-img {
-vertical-align: middle;
-
+  vertical-align: middle;
   margin-top: -10px;
 }
 
@@ -532,10 +442,6 @@ div#text{
   margin-top: 4px;
   margin-bottom: 4px; 
 }
-
-
-
-
 
 div#myModal2{
  border-radius: 4px;

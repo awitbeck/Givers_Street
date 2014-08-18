@@ -4,12 +4,12 @@ div#girls {
   background-size: cover;
 }
 
-/* line 7, ../scss/about.scss */
+/* line 6, ../scss/about.scss */
 div#about {
   min-height: 900px;
   background-color: #fff8ba;
 }
-/* line 10, ../scss/about.scss */
+/* line 9, ../scss/about.scss */
 div#about h2 {
   padding-top: 50px;
   padding-bottom: 5px;
@@ -32,23 +32,23 @@ div#about2 img {
   padding-top: 40px;
 }
 
-/* line 33, ../scss/about.scss */
+/* line 32, ../scss/about.scss */
 div#about3 h5 {
   padding-top: 20px;
 }
 
 /*//////////////////////////small //////*/
 @media only screen and (max-width: 640px) {
-  /* line 46, ../scss/about.scss */
+  /* line 42, ../scss/about.scss */
   div#about p {
     font-size: 16px;
   }
 
-  /* line 58, ../scss/about.scss */
+  /* line 47, ../scss/about.scss */
   div#about2 {
     padding-top: 10px;
   }
-  /* line 65, ../scss/about.scss */
+  /* line 50, ../scss/about.scss */
   div#about2 img {
     padding-top: 0px;
     padding-bottom: 20px;

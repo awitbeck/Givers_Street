@@ -1,77 +1,56 @@
 div#girls {
-  background-image: url("../images/girls.png");
-    background-size:cover;
-
-    }
+   background-image: url("../images/girls.png");
+   background-size:cover;
+}
 
 div#about{
-  min-height: 900px;
-    background-color: #fff8ba;
-    h2{
-      padding-top: 50px;
-      padding-bottom: 5px;
+   min-height: 900px;
+   background-color: #fff8ba;
+h2{
+   padding-top: 50px;
+   padding-bottom: 5px;
     }
-  p{
-    font-size: 19px;
+
+p{
+   font-size: 19px;
   }
 }
 
 div#about2{
-padding-top:40px;
-
+  padding-top:40px;
+ 
 h5{
   padding-top: 20px;
 }
 
 img{
   padding-top: 40px;
-}
+ }
 }
 
 div#about3{
-
-h5{
+  h5{
   padding-top: 20px;
-}
-
+ }
 }
 
 
 /*//////////////////////////small //////*/
 @media only screen and (max-width: 640px) {
 
-
 div#about{
-
   p{
     font-size: 16px;
   }
 }
 
-
-
-
-
-
-
-
 div#about2{
 padding-top:10px;
-
-p{
-
-}
 
 img{
   padding-top: 0px;
   padding-bottom: 20px;
+  }
 }
-
-
-
-}
-
-
-
 
 }

@@ -7985,7 +7985,7 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 11, ../scss/search.scss */
+/* line 7, ../scss/search.scss */
 div#listitem {
   background: #fff;
   border-radius: 4px 4px 4px 4px;
@@ -7993,206 +7993,207 @@ div#listitem {
   margin-bottom: 7px;
   transition: background 0.5s linear;
 }
-/* line 19, ../scss/search.scss */
+/* line 13, ../scss/search.scss */
 div#listitem img {
   padding-top: 20px;
 }
 
-/* line 27, ../scss/search.scss */
+/* line 18, ../scss/search.scss */
 div#listitem:hover {
   background-color: #e4e4e4;
 }
 
-/* line 37, ../scss/search.scss */
+/* line 23, ../scss/search.scss */
 div#title h5 {
   font-size: 17px;
   padding-top: 5px;
 }
-/* line 41, ../scss/search.scss */
+/* line 28, ../scss/search.scss */
 div#title h6 {
   font-size: 20px;
   margin-top: -10px;
 }
-/* line 46, ../scss/search.scss */
+/* line 33, ../scss/search.scss */
 div#title p {
   font-size: 14px;
   color: #000000;
 }
 
-/* line 53, ../scss/search.scss */
+/* line 40, ../scss/search.scss */
 div#percent {
   padding-left: 50px;
 }
-/* line 58, ../scss/search.scss */
+/* line 42, ../scss/search.scss */
 div#percent h4 {
   font-size: 57px;
 }
-/* line 62, ../scss/search.scss */
+/* line 46, ../scss/search.scss */
 div#percent h5 {
   font-size: 15px;
   min-width: 150px;
 }
 
-/* line 70, ../scss/search.scss */
+/* line 52, ../scss/search.scss */
 div#goal {
   text-align: right;
   padding-top: 10px;
 }
-/* line 73, ../scss/search.scss */
+/* line 56, ../scss/search.scss */
 div#goal h6 {
   font-size: 14px;
 }
 
-/* line 81, ../scss/search.scss */
+/* line 61, ../scss/search.scss */
 div#results {
   padding-bottom: 60px;
 }
-/* line 84, ../scss/search.scss */
+/* line 64, ../scss/search.scss */
 div#results h6 {
   color: black;
   font-size: 15px;
   text-decoration: underline;
 }
-/* line 91, ../scss/search.scss */
+/* line 70, ../scss/search.scss */
 div#results h4 {
   font-size: 26px;
   text-align: center;
   padding-left: 60px;
   margin-top: -5px;
 }
-/* line 98, ../scss/search.scss */
+/* line 77, ../scss/search.scss */
 div#results select {
   min-width: 140px;
-  height: 30px;
+  height: 35px;
   font-size: 14px;
   padding-right: 20px;
+  margin-top: -5px;
 }
-/* line 105, ../scss/search.scss */
+/* line 85, ../scss/search.scss */
 div#results label {
   color: #000000;
   font-size: 15px;
   margin-right: -10px;
 }
-/* line 111, ../scss/search.scss */
+/* line 91, ../scss/search.scss */
 div#results a {
   color: black;
 }
 
-/* line 117, ../scss/search.scss */
+/* line 96, ../scss/search.scss */
 .custom_column2 {
   min-width: 200px;
 }
 
-/* line 121, ../scss/search.scss */
+/* line 100, ../scss/search.scss */
 .custom_column {
   min-width: 260px;
 }
 
-/*//////////////////////////smal///////*/
+/*//////////////////////////small///////*/
 @media only screen and (max-width: 640px) {
-  /* line 129, ../scss/search.scss */
+  /* line 108, ../scss/search.scss */
   div#title {
     padding-left: 20px;
   }
 
-  /* line 134, ../scss/search.scss */
+  /* line 112, ../scss/search.scss */
   div#percent {
     margin-top: -30px;
     padding-left: 0px;
     text-align: center;
   }
-  /* line 140, ../scss/search.scss */
+  /* line 117, ../scss/search.scss */
   div#percent h5 {
     margin-left: -10px;
   }
 
-  /* line 147, ../scss/search.scss */
+  /* line 122, ../scss/search.scss */
   div#goal {
     padding-top: 0px;
     padding-left: 30px;
     text-align: center;
   }
 
-  /* line 155, ../scss/search.scss */
+  /* line 128, ../scss/search.scss */
   div#results {
     padding-bottom: 30px;
   }
-  /* line 158, ../scss/search.scss */
+  /* line 131, ../scss/search.scss */
   div#results h6 {
     padding-bottom: 20px;
     min-width: 80px;
   }
-  /* line 163, ../scss/search.scss */
+  /* line 136, ../scss/search.scss */
   div#results h4 {
     padding-left: 0px;
     padding-bottom: 20px;
   }
-  /* line 169, ../scss/search.scss */
+  /* line 141, ../scss/search.scss */
   div#results select {
     min-width: 0px;
   }
-  /* line 172, ../scss/search.scss */
+  /* line 145, ../scss/search.scss */
   div#results label {
     padding-left: 10px;
   }
 
-  /* line 178, ../scss/search.scss */
+  /* line 150, ../scss/search.scss */
   .custom_column2 {
     min-width: 0px;
   }
 
-  /* line 182, ../scss/search.scss */
+  /* line 154, ../scss/search.scss */
   .custom_column {
     min-width: 0px;
   }
 }
 /*///////////////////////medium sizes///////*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 204, ../scss/search.scss */
+  /* line 165, ../scss/search.scss */
   div#title {
     padding-left: 15px;
   }
 
-  /* line 210, ../scss/search.scss */
+  /* line 169, ../scss/search.scss */
   div#percent {
     margin-top: -5px;
     margin-left: -40px;
     text-align: center;
   }
-  /* line 216, ../scss/search.scss */
+  /* line 174, ../scss/search.scss */
   div#percent h4 {
     font-size: 48px;
   }
-  /* line 221, ../scss/search.scss */
+  /* line 178, ../scss/search.scss */
   div#percent h5 {
     min-width: 70px;
   }
 
-  /* line 226, ../scss/search.scss */
+  /* line 183, ../scss/search.scss */
   div#results {
     padding-bottom: 20px;
   }
-  /* line 229, ../scss/search.scss */
+  /* line 186, ../scss/search.scss */
   div#results h4 {
     padding-left: 30px;
   }
-  /* line 234, ../scss/search.scss */
+  /* line 190, ../scss/search.scss */
   div#results select {
     min-width: 110px;
     padding-right: 0px;
   }
-  /* line 239, ../scss/search.scss */
+  /* line 194, ../scss/search.scss */
   div#results label {
     margin-right: -20px;
     margin-left: -30px;
   }
 
-  /* line 246, ../scss/search.scss */
+  /* line 200, ../scss/search.scss */
   .custom_column2 {
     max-width: 150px;
   }
 
-  /* line 250, ../scss/search.scss */
+  /* line 204, ../scss/search.scss */
   .custom_column {
     min-width: 250px;
   }

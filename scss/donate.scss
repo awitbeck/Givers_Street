@@ -4,18 +4,15 @@
 form{
    padding-top: 40px;
 
- label{
-  font-size:15px;
-  color:#000000;
+  label{
+    font-size:15px;
+    color:#000000;
    }
 
-    input{
+  input{
     max-width:300px;
   }
-
 }
-
-
 
 div#identity{
   padding-bottom: 20px;
@@ -24,10 +21,7 @@ div#identity{
     margin-left: -20px;
     margin-top: -3px;
   }
-
 }
-
-
 
 div#address{
   input{
@@ -35,40 +29,30 @@ div#address{
   }
 }
 
-
 div#state{
-  select{
+   select{
    width:180px;
    margin-top: -30px;
    }
-label{
+  label{
   margin-bottom: -5px;
+  }
 }
-
-
-}
-
 
 div#other{
   input{
-margin-left: -16px;
-}
+    margin-left: -16px;
+    }
 }
 
 
 div#inputbox{
-
-input{
-margin-left: -50px;
-margin-top: -10px;
-width: 167px;
+  input{
+    margin-left: -50px;
+    margin-top: -10px;
+    width: 167px;
+  }
 }
-}
-
-
-
-
-
 
 div#cvn{
   input{
@@ -76,50 +60,41 @@ div#cvn{
   }
 }
 
-
- 
 textarea{
   min-height: 125px;
 }
 
-
-
-
-
 div#submit{
   padding-left:8px;
-padding-bottom: 20px;
+  padding-bottom: 20px;
+
  .button {
   width: 224px;
   font-size: 30px;
   color:#fff;
   border-radius: 4px;
-   line-height: 58px;
-box-shadow: 0 5px #404040;
- font-style: normal;
+  line-height: 58px;
+  box-shadow: 0 5px #404040;
+  font-style: normal;
+  }
 
-}
-
-
-.button:hover {
+  .button:hover {
   background-color: #1a6868;
-}
+  }
 
-.button:focus {
+  .button:focus {
   background-color: #1a6868;
-}
-
+  }
 }
 
 div#right-column{
-  text-align: right;
+   text-align: right;
    padding-top: 20px;
 
 h5{
   padding-top: 5px;
   font-size: 14px;
   padding-bottom: 5px;
- 
 }
 
 h6{
@@ -128,29 +103,21 @@ h6{
 }
 
 h4{
- padding-top: 10px;
+  padding-top: 10px;
   font-size: 56px;
   margin-bottom: -10px;
 }
-
 }
 
 
 div#graph{
-h5{
-  margin-right: -15px;
-}
-
+  h5{
+   margin-right: -15px;
+  }
   canvas{
     margin-right: -15px;
   } 
 }
-
-
-
-
-
-
 
 
 /*//////////////////////////small //////*/
@@ -159,8 +126,6 @@ h5{
 form{
    padding-top: 10px;
  }
-
-
 
 div#identity{
   label{
@@ -173,13 +138,11 @@ div#identity{
    width:320px; 
   }
 
-
 div#inputbox{
   input{
     max-width: 100px;
   }
 }
-
 
 div#date{
   margin-left: -10px;
@@ -197,6 +160,7 @@ div#year{
    margin-left: 10px;
   }
 }
+
 .custom_row4{
   width: 300px;
    margin-left: -5px;
@@ -211,7 +175,6 @@ div#percent{
  text-align: center;
 }
 
-
 div#submit{
   text-align: center;
 }
@@ -224,21 +187,15 @@ div#submit{
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
 
-
-
 div#inputbox{
-
-input{
-margin-left: -15px;
-
-}
+ input{
+   margin-left: -15px;
+ }
 }
 
 .custom_row3{ 
    width:270px; 
   }
-
-
 
 div#month{
   select{
@@ -246,17 +203,11 @@ div#month{
   }
 }
 
-
-
 div#year{
   select{
     min-width: 80px;
   }
 }
-
-
-
-
 
 div#percent{
   h5, h4{
